@@ -31,6 +31,11 @@
 *.out
 *.app
 
+# Python related files to ignore
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Vscode
 .vscode
 
@@ -39,8 +44,4 @@ file_find.py
 file_count.py
 generate_voters.py
 voters.txt
-
-# Python related files to ignore
-__pycache__/
-*.py[cod]
-*$py.class
+dailyCodingProblem.cpp
