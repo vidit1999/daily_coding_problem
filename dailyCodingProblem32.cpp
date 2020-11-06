@@ -41,7 +41,7 @@ bool isPossibleArbitrage(int table[M][N]){
 		}
 	}
 	
-	return true;
+	return false;
 }
 
 // main function
