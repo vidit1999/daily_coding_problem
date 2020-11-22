@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define DIGIT_COUNT 6
+
 /*
 Mastermind is a two-player game in which the first player attempts to guess
 the secret code of the second. In this version,
@@ -21,27 +23,58 @@ However, it is impossible for any key to result in the following scores, so in t
 {123456: 4, 345678: 4, 567890: 4}
 */
 
-
-// generate all possible numbers of length 6 consisting of digits 0-9
-// 10P6 is the number of possible ways
-vector<int> genPermutation(){
-    string allDigits = "0123456789";
-	vector<int> selected;
-	for(int i=0;i<10;i++){
-		
+bool checkNumberMatchGuesses(vector<pair<string, int>>& guesses, string& number){
+	for(auto& p : guesses){
+		int similar_count = 0;
+		for(int i=0; i<DIGIT_COUNT; i++){
+			if(p.first[i] == number[i]){
+				similar_count++;
+			}
+		}
+		if(similar_count != p.second){
+			return false;
+		}
 	}
+	return true;
+}
+
+bool masterMindHelper(
+	vector<pair<string, int>>& guesses,
+	string& number
+){
+	if(number.length() == DIGIT_COUNT){
+		return checkNumberMatchGuesses(guesses, number);
+	}
+	
+	for(int i=(number.empty())? 1 : 0; i<=9; i++){
+		number.push_back(i + '0');
+		if(masterMindHelper(guesses, number)){
+			return true;
+		}
+		number.pop_back();
+	}
+	
+	return false;
 }
 
 
-bool masterMind(vector<pair<string, int>> guesses){
-    
-    vector<string> possibleComb;
-    for(int i=0;i<=9;i++){
-
-    }
+bool masterMind(vector<pair<string, int>>& guesses){
+	string number = "";
+	return masterMindHelper(guesses, number);
 }
 
 // main function
 int main(){
+	vector<pair<string, int>> guesses = {
+		// {"175286", 2},
+		// {"293416", 3},
+		// {"654321", 0}
+		{"123456", 4},
+		{"345678", 4},
+		{"567890", 4}
+	};
+	
+	cout << masterMind(guesses) << "\n";
+	
     return 0;
 }
