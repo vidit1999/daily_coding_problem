@@ -17,21 +17,19 @@ create a function that returns all valid step words.
 bool isValidStepWord(unordered_map<char, int> word1_map, string word2){
 	for(char c : word2) word1_map[c]--;
 	
-	bool one_letter_added = false;
+	int count_one = 0;
 	
 	for(auto it : word1_map){
-		if(it.second == -1 || it.first == 1){
-			// if only one letter is added then one_letter_added will be true
-			// if more than one letter is added then return false
-			if(!one_letter_added)
-				one_letter_added = true;
-			else
+		if(it.second > 0 || it.second < -1) return false;
+		if(it.second == -1){
+			if(++count_one > 1){
 				return false;
+			}
 		}
 	}
 	
 	// return true if only one letter is added
-	return (one_letter_added == true);
+	return (count_one == 1);
 }
 
 vector<string> validStepWords(string word, unordered_set<string> dictionary){
@@ -50,7 +48,7 @@ vector<string> validStepWords(string word, unordered_set<string> dictionary){
 // main function
 int main(){
 	string word = "APPLE";
-	unordered_set<string> dictionary = {"APPEAL", "APPLE", "APPPLE", "APPLME", "APLE"};
+	unordered_set<string> dictionary = {"APPEAL", "APPLE", "APPPLE", "APPLME", "APLE", "APPLICT"};
 	
 	for(string s : validStepWords(word, dictionary))
 		cout << s << "\n";
