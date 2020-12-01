@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/*
+Given the head of a singly linked list, reverse it in-place.
+*/
+
 struct node{
 	int data;
 	struct node* next;

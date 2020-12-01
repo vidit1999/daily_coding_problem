@@ -2,6 +2,23 @@
 #define N 3
 using namespace std;
 
+/*
+Given an N by N matrix, rotate it by 90 degrees clockwise.
+
+For example, given the following matrix:
+
+[[1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]]
+you should return:
+
+[[7, 4, 1],
+ [8, 5, 2],
+ [9, 6, 3]]
+
+Follow-up: What if you couldn't use any extra space?
+*/
+
 void rotateMatrix(int mat[][N]){
     for(int x=0;x<N/2;x++){
         for(int y=x;y<N-x-1;y++){

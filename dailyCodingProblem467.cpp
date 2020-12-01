@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+*/
+
 float squareRoot(int number, int precision){
     int start = 0, end = number;
     int mid;

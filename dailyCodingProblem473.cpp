@@ -1,7 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// reverse a directed graph
+/*
+Write an algorithm that computes the reversal of a directed graph.
+For example, if a graph consists of A -> B -> C,
+it should become A <- B <- C
+*/
 
 // add edge to a graph
 void addEdge(vector<int> adj[], int src, int dest){
