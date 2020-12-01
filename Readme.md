@@ -12311,26 +12311,21 @@ students = {
 ---
 
 
-#### Problem No. 999
+#### Problem No. 729
 
 ```
-Invert a binary tree.
+You have access to ranked lists of songs for various users.
+Each song is represented as an integer, and more preferred
+songs appear earlier in each list. For example, the list
+[4, 1, 7] indicates that a user likes song 4 the best,
+followed by songs 1 and 7.
 
-For example, given the following tree:
+Given a set of these ranked lists, interleave them to
+create a playlist that satisfies everyone's priorities.
 
-    a
-   / \
-  b   c
- / \  /
-d   e f
-should become:
-
-  a
- / \
- c  b
- \  / \
-  f e  d
+For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}.
+In this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
 ```
-[Solution](dailyCodingProblem999.cpp)
+[Solution](dailyCodingProblem729.cpp)
 
 ---
