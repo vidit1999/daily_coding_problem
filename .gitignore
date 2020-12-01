@@ -44,4 +44,6 @@ file_find.py
 file_count.py
 generate_voters.py
 voters.txt
-dailyCodingProblem.cpp
+Readme_gen.py
+Readme_add.py
+test.md
