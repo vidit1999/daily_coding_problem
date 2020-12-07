@@ -12437,3 +12437,18 @@ d.get(1, 0) # get key 1 at time 0 should be 2
 [Solution](dailyCodingProblem734.cpp)
 
 ---
+
+
+#### Problem No. 735
+
+```
+Given an unsorted array, in which all elements are distinct,
+find a "peak" element in O(log N) time.
+
+An element is considered a peak if it is greater than both
+its left and right neighbors. It is guaranteed that the
+first and last elements are lower than all others.
+```
+[Solution](dailyCodingProblem735.cpp)
+
+---
