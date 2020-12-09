@@ -12452,3 +12452,35 @@ first and last elements are lower than all others.
 [Solution](dailyCodingProblem735.cpp)
 
 ---
+
+
+#### Problem No. 736
+
+```
+Given a complete binary tree, count the number of nodes in
+faster than O(n) time. Recall that a complete binary tree
+has every level filled except the last, and the nodes in
+the last level are filled starting from the left.
+```
+[Solution](dailyCodingProblem736.cpp)
+
+---
+
+
+#### Problem No. 737
+
+```
+We're given a hashmap associating each courseId key with a
+list of courseIds values, which represents that the prerequisites
+of courseId are courseIds. Return a sorted ordering of courses
+such that we can finish all courses.
+
+Return null if there is no such ordering.
+
+For example, given
+{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []},
+should return ['CSC100', 'CSC200', 'CSCS300'].
+```
+[Solution](dailyCodingProblem737.cpp)
+
+---
