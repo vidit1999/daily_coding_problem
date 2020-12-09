@@ -6146,6 +6146,29 @@ The queue should support enqueue, dequeue, and get_size operations.
 ---
 
 
+#### Problem No. 357
+
+```
+You are given a binary tree in a peculiar string representation.
+Each node is written in the form (lr), where l corresponds to the
+left child and r corresponds to the right child.
+
+If either l or r is null, it will be represented as a zero.
+Otherwise, it will be represented by a new (lr) pair.
+
+Here are a few examples:
+
+A root node with no children: (00)
+A root node with two children: ((00)(00))
+An unbalanced tree with three consecutive left children: ((((00)0)0)0)
+
+Given this representation, determine the depth of the tree.
+```
+[Solution](dailyCodingProblem357.cpp)
+
+---
+
+
 #### Problem No. 358
 
 ```
@@ -7225,6 +7248,27 @@ path would be 0 -> 2 -> 4 -> 0,
 with a distance of 28.
 ```
 [Solution](dailyCodingProblem427.cpp)
+
+---
+
+
+#### Problem No. 428
+
+```
+You have N stones in a row, and would like to create from them a pyramid.
+This pyramid should be constructed such that the height of each stone
+increases by one until reaching the tallest stone, after which the
+heights decrease by one. In addition, the start and end stones of
+the pyramid should each be one stone high.
+
+You can change the height of any stone by paying a cost of 1 unit
+to lower its height by 1, as many times as necessary. Given this
+information, determine the lowest cost method to produce this pyramid.
+
+For example, given the stones [1, 1, 3, 3, 2, 1], the optimal
+solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
+```
+[Solution](dailyCodingProblem428.cpp)
 
 ---
 
@@ -11163,6 +11207,23 @@ Given n numbers, find the greatest common denominator between them.
 For example, given the numbers [42, 56, 14], return 14.
 ```
 [Solution](dailyCodingProblem662.cpp)
+
+---
+
+
+#### Problem No. 663
+
+```
+Design and implement a HitCounter class that keeps track of requests (or hits).
+It should support the following operations:
+
+record(timestamp): records a hit that happened at timestamp
+total(): returns the total number of hits recorded
+range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+
+Follow-up: What if our system has limited memory?
+```
+[Solution](dailyCodingProblem663.cpp)
 
 ---
 
