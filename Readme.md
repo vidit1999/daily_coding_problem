@@ -5585,6 +5585,24 @@ Given N, M, and B, determine the number of valid playlists.
 ---
 
 
+#### Problem No. 319
+
+```
+An 8-puzzle is a game played on a 3 x 3 board of tiles,
+with the ninth tile missing. The remaining tiles are
+labeled 1 through 8 but shuffled randomly. Tiles may
+slide horizontally or vertically into an empty space,
+but may not be removed from the board.
+
+Design a class to represent the board, and find a series
+of steps to bring the board to the state
+[[1, 2, 3], [4, 5, 6], [7, 8, None]].
+```
+[Solution](dailyCodingProblem319.cpp)
+
+---
+
+
 #### Problem No. 320
 
 ```
@@ -12543,5 +12561,24 @@ For example, given
 should return ['CSC100', 'CSC200', 'CSCS300'].
 ```
 [Solution](dailyCodingProblem737.cpp)
+
+---
+
+
+#### Problem No. 738
+
+```
+Given a string s and an integer k, break up the string into multiple texts
+such that each text has a length of k or less. You must break it up so that
+words don't break across lines. If there's no way to break the text up, then return null.
+
+You can assume that there are no spaces at the ends of the string and that
+there is exactly one space between each word.
+
+For example, given the string "the quick brown fox jumps over the lazy dog"
+and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"].
+No string in the list has a length of more than 10.
+```
+[Solution](dailyCodingProblem738.cpp)
 
 ---
