@@ -12721,3 +12721,14 @@ i.e. no clobbering will occur.
 [Solution](dailyCodingProblem742.cpp)
 
 ---
+
+
+#### Problem No. 743
+
+```
+A bridge in a connected (undirected) graph is an edge that, if removed,
+causes the graph to become disconnected. Find all the bridges in a graph.
+```
+[Solution](dailyCodingProblem743.cpp)
+
+---
