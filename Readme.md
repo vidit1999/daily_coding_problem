@@ -12688,3 +12688,36 @@ Given an integer N, write a program that returns, in order, the first N regular 
 [Solution](dailyCodingProblem740.cpp)
 
 ---
+
+
+#### Problem No. 742
+
+```
+Write a function to flatten a nested dictionary.
+Namespace the keys with a period.
+
+For example, given the following dictionary:
+
+{
+    "key": 3,
+    "foo": {
+        "a": 5,
+        "bar": {
+            "baz": 8
+        }
+    }
+}
+it should become:
+
+{
+    "key": 3,
+    "foo.a": 5,
+    "foo.bar.baz": 8
+}
+
+You can assume keys do not contain dots in them,
+i.e. no clobbering will occur.
+```
+[Solution](dailyCodingProblem742.cpp)
+
+---
