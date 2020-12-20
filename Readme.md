@@ -12794,3 +12794,17 @@ Each method should run in constant time.
 [Solution](dailyCodingProblem746.cpp)
 
 ---
+
+
+#### Problem No. 747
+
+```
+Given two strings A and B, return whether or not A
+can be shifted some number of times to get B.
+
+For example, if A is abcde and B is cdeab, return true.
+If A is abc and B is acb, return false.
+```
+[Solution](dailyCodingProblem747.cpp)
+
+---
