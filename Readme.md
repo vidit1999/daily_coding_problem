@@ -12829,3 +12829,17 @@ and once as the sum of 2 + 5 - 5.
 [Solution](dailyCodingProblem748.cpp)
 
 ---
+
+
+#### Problem No. 749
+
+```
+Given a string, find the longest palindromic contiguous substring.
+If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb".
+The longest palindromic substring of "bananas" is "anana".
+```
+[Solution](dailyCodingProblem749.cpp)
+
+---
