@@ -12868,3 +12868,20 @@ tree using O(1) space.
 [Solution](dailyCodingProblem751.cpp)
 
 ---
+
+
+#### Problem No. 752
+
+```
+Print the nodes in a binary tree level-wise.
+For example, the following should print 1, 2, 3, 4, 5.
+
+  1
+ / \
+2   3
+   / \
+  4   5
+```
+[Solution](dailyCodingProblem752.cpp)
+
+---
