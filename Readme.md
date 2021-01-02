@@ -13113,3 +13113,14 @@ you should return ['254.25.40.123', '254.254.0.123'].
 [Solution](dailyCodingProblem759.cpp)
 
 ---
+
+
+#### Problem No. 760
+
+```
+Given a linked list, uniformly shuffle the nodes.
+What if we want to prioritize space over time?
+```
+[Solution](dailyCodingProblem760.cpp)
+
+---
