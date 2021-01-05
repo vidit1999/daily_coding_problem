@@ -13176,3 +13176,15 @@ You can simply print them out as you compute them.
 [Solution](dailyCodingProblem763.cpp)
 
 ---
+
+
+#### Problem No. 764
+
+```
+Given a list of numbers, create an algorithm that arranges them in order
+to form the largest possible integer. For example, given [10, 7, 76, 415],
+you should return 77641510.
+```
+[Solution](dailyCodingProblem764.cpp)
+
+---
