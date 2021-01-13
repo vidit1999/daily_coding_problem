@@ -13221,3 +13221,29 @@ it suffices to flip the second and sixth characters, so you should return 2.
 [Solution](dailyCodingProblem766.cpp)
 
 ---
+
+
+#### Problem No. 767
+
+```
+Given a word W and a string S, find
+all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab",
+and S is "abxaba", return 0, 3, and 4.
+```
+[Solution](dailyCodingProblem767.cpp)
+
+---
+
+
+#### Problem No. 768
+
+```
+Given an array of numbers of length N,
+find both the minimum and maximum using
+less than 2 * (N - 2) comparisons.
+```
+[Solution](dailyCodingProblem768.cpp)
+
+---
