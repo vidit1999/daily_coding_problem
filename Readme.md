@@ -13354,3 +13354,17 @@ The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inver
 [Solution](dailyCodingProblem773.cpp)
 
 ---
+
+
+#### Problem No. 774
+
+```
+Using a read7() method that returns 7 characters from a file,
+implement readN(n) which reads n characters.
+
+For example, given a file with the content “Hello world”,
+three read7() returns “Hello w”, “orld” and then “”.
+```
+[Solution](dailyCodingProblem774.cpp)
+
+---
