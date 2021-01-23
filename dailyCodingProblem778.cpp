@@ -37,6 +37,9 @@ vector<int> playlistGen(vector<vector<int>> ranks){
     vector<int> ans;
 
     for(auto it : ranks){
+        if(!it.empty())
+            graph[it[0]] = {};
+
         for(int i=1; i<it.size(); i++){
             graph[it[i]].push_back(it[i-1]);
         }
