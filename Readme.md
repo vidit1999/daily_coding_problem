@@ -13583,3 +13583,14 @@ For example, pow(2, 10) should return 1024.
 [Solution](dailyCodingProblem786.cpp)
 
 ---
+
+
+#### Problem No. 787
+
+```
+Given an integer n, find the next biggest integer with the same number of 1-bits on.
+For example, given the number 6 (0110 in binary), return 9 (1001).
+```
+[Solution](dailyCodingProblem787.cpp)
+
+---
