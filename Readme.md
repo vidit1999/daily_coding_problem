@@ -13594,3 +13594,15 @@ For example, given the number 6 (0110 in binary), return 9 (1001).
 [Solution](dailyCodingProblem787.cpp)
 
 ---
+
+
+#### Problem No. 788
+
+```
+Write a program that checks whether an integer is a palindrome.
+For example, 121 is a palindrome, as well as 888. 678 is not a
+palindrome. Do not convert the integer into a string.
+```
+[Solution](dailyCodingProblem788.cpp)
+
+---
