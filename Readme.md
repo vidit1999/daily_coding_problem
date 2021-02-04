@@ -13623,3 +13623,18 @@ Can you perform the operation without allocating extra memory (disregarding the 
 [Solution](dailyCodingProblem789.cpp)
 
 ---
+
+
+#### Problem No. 790
+
+```
+A step word is formed by taking a given word, adding a letter,
+and anagramming the result. For example, starting with the
+word "APPLE", you can add an "A" and anagram to get "APPEAL".
+
+Given a dictionary of words and an input word, create a
+function that returns all valid step words.
+```
+[Solution](dailyCodingProblem790.cpp)
+
+---
