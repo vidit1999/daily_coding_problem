@@ -6643,6 +6643,19 @@ Bonus: Can you do it in O(log n) time?
 ---
 
 
+#### Problem No. 381
+
+```
+Implement a function that converts a hex string to base64.
+
+For example, the string: deadbeef
+should produce: 3q2+7w==
+```
+[Solution](dailyCodingProblem381.cpp)
+
+---
+
+
 #### Problem No. 383
 
 ```
