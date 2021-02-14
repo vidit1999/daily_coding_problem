@@ -13835,3 +13835,16 @@ assert mapsum.sum("col") == 5
 [Solution](dailyCodingProblem799.cpp)
 
 ---
+
+
+#### Problem No. 800
+
+```
+Given a linked list, rearrange the node values such
+that they appear in alternating low -> high -> low -> high ... form.
+For example, given 1 -> 2 -> 3 -> 4 -> 5,
+you should return 1 -> 3 -> 2 -> 5 -> 4.
+```
+[Solution](dailyCodingProblem800.cpp)
+
+---
