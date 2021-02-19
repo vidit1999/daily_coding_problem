@@ -13940,3 +13940,17 @@ would be JFK -> ATL -> ORD -> LAX, costing $440.
 [Solution](dailyCodingProblem804.cpp)
 
 ---
+
+
+#### Problem No. 805
+
+```
+Spreadsheets often use this alphabetical encoding for its columns:
+"A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id.
+For example, given 1, return "A". Given 27, return "AA".
+```
+[Solution](dailyCodingProblem805.cpp)
+
+---
