@@ -13978,3 +13978,17 @@ there are 15 numbers in the matrix smaller than 6 or greater than 23.
 [Solution](dailyCodingProblem806.cpp)
 
 ---
+
+
+#### Problem No. 807
+
+```
+Given an integer k and a string s, find the length
+of the longest substring that contains at most k distinct characters.
+
+For example, given s = "abcba" and k = 2, the longest
+substring with k distinct characters is "bcb".
+```
+[Solution](dailyCodingProblem807.cpp)
+
+---
