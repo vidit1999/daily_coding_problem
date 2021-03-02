@@ -14133,3 +14133,27 @@ return 124 (99 + 25) as:
 [Solution](dailyCodingProblem814.cpp)
 
 ---
+
+
+#### Problem No. 815
+
+```
+The area of a circle is defined as πr^2.
+Estimate π to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x2 + y2 = r2.
+```
+[Solution](dailyCodingProblem815.cpp)
+
+---
+
+
+#### Problem No. 816
+
+```
+Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0,
+using only mathematical or bit operations. You can assume b can only be 1 or 0.
+```
+[Solution](dailyCodingProblem816.cpp)
+
+---
