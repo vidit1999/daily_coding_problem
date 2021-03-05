@@ -14157,3 +14157,45 @@ using only mathematical or bit operations. You can assume b can only be 1 or 0.
 [Solution](dailyCodingProblem816.cpp)
 
 ---
+
+
+#### Problem No. 817
+
+```
+Given a dictionary of words and a string made up of those words (no spaces),
+return the original sentence in a list. If there is more than one possible
+reconstruction, return any of them. If there is no possible reconstruction,
+then return null.
+
+For example, given the set of words 'quick', 'brown', 'the', 'fox',
+and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
+
+Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond',
+and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond]
+or ['bedbath', 'and', 'beyond'].
+```
+[Solution](dailyCodingProblem817.cpp)
+
+---
+
+
+#### Problem No. 818
+
+```
+The Sieve of Eratosthenes is an algorithm used to generate
+all prime numbers smaller than N. The method is to take
+increasingly larger prime numbers, and mark their multiples as composite.
+
+For example, to find all primes less than 100, we would
+first mark [4, 6, 8, ...] (multiples of two), then [6, 9, 12, ...]
+(multiples of three), and so on. Once we have done this for all
+primes less than N, the unmarked numbers that remain will be prime.
+
+Implement this algorithm.
+
+Bonus: Create a generator that produces primes indefinitely
+(that is, without taking N as an input).
+```
+[Solution](dailyCodingProblem818.cpp)
+
+---
