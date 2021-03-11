@@ -14264,3 +14264,34 @@ you should return [(1, 3), (4, 10), (20, 25)].
 [Solution](dailyCodingProblem822.cpp)
 
 ---
+
+
+#### Problem No. 823
+
+```
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+
+init(size): initialize the array with size
+set(i, val): updates index at i with val where val is either 1 or 0.
+get(i): gets the value at index i.
+```
+[Solution](dailyCodingProblem823.cpp)
+
+---
+
+
+#### Problem No. 824
+
+```
+Write a program to merge two binary trees. Each node in
+the new tree should hold a value equal to the sum of the
+values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position,
+the corresponding node in the new tree should match that input node.
+```
+[Solution](dailyCodingProblem824.cpp)
+
+---
