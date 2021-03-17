@@ -14364,3 +14364,15 @@ get_min: Return a key with the lowest value.
 [Solution](dailyCodingProblem829.cpp)
 
 ---
+
+
+#### Problem No. 830
+
+```
+Given a list of numbers, create an algorithm that arranges
+them in order to form the largest possible integer.
+For example, given [10, 7, 76, 415], you should return 77641510.
+```
+[Solution](dailyCodingProblem830.cpp)
+
+---
