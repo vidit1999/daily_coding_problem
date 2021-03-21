@@ -14410,3 +14410,36 @@ return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 [Solution](dailyCodingProblem832.cpp)
 
 ---
+
+
+#### Problem No. 833
+
+```
+At a party, there is a single person who everyone knows,
+but who does not know anyone in return (the "celebrity").
+To help figure out who this is, you have access to an O(1)
+method called knows(a, b), which returns True if person a
+knows person b, else False.
+
+Given a list of N people and the above operation,
+find a way to identify the celebrity in O(N) time.
+```
+[Solution](dailyCodingProblem833.cpp)
+
+---
+
+
+#### Problem No. 834
+
+```
+There are N couples sitting in a row of length 2 * N.
+They are currently ordered randomly, but would like to
+rearrange themselves so that each couple's partners
+can sit side by side.
+
+What is the minimum number of swaps necessary
+for this to happen?
+```
+[Solution](dailyCodingProblem834.cpp)
+
+---
