@@ -14472,3 +14472,41 @@ of the deck is equally likely.
 [Solution](dailyCodingProblem836.cpp)
 
 ---
+
+
+#### Problem No. 837
+
+```
+Create a basic sentence checker that takes in a stream of characters
+and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
+
+We can consider a sentence valid if it conforms to the following rules:
+
+The sentence must start with a capital letter, followed by a lowercase letter or a space.
+All other characters must be lowercase letters, separators (,,;,:) or terminal marks (.,?,!,‽).
+There must be a single space between each word.
+The sentence must end with a terminal mark immediately following a word.
+```
+[Solution](dailyCodingProblem837.cpp)
+
+---
+
+
+#### Problem No. 838
+
+```
+You are given a 2-d matrix where each cell represents number of coins in that cell.
+Assuming we start at matrix[0][0], and can only move right or down, find the maximum
+number of coins you can collect by the bottom right corner.
+
+For example, in this matrix
+
+0 3 1 1
+2 0 0 4
+1 5 3 1
+
+The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+```
+[Solution](dailyCodingProblem838.cpp)
+
+---
