@@ -14544,3 +14544,28 @@ a XOR b = N
 [Solution](dailyCodingProblem841.cpp)
 
 ---
+
+
+#### Problem No. 842
+
+```
+Invert a binary tree.
+
+For example, given the following tree:
+
+    a
+   / \
+  b   c
+ / \  /
+d   e f
+should become:
+
+  a
+ / \
+ c  b
+ \  / \
+  f e  d
+```
+[Solution](dailyCodingProblem842.cpp)
+
+---
