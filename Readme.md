@@ -14529,3 +14529,18 @@ t     a     g
 [Solution](dailyCodingProblem840.cpp)
 
 ---
+
+
+#### Problem No. 841
+
+```
+Given integers M and N, write a program that counts
+how many positive integer pairs (a, b)
+satisfy the following conditions:
+
+a + b = M
+a XOR b = N
+```
+[Solution](dailyCodingProblem841.cpp)
+
+---
