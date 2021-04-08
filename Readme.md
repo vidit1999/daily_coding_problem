@@ -14638,3 +14638,68 @@ Implement car and cdr.
 [Solution](dailyCodingProblem846.py)
 
 ---
+
+
+#### Problem No. 847
+
+```
+Given an integer list where each number represents the number of hops you can make,
+determine whether you can reach to the last index starting at index 0.
+
+For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
+```
+[Solution](dailyCodingProblem847.cpp)
+
+---
+
+
+#### Problem No. 848
+
+```
+Implement an LRU (Least Recently Used) cache.
+It should be able to be initialized with a cache size n,
+and contain the following methods:
+
+set(key, value): sets key to value. If there are already n items
+in the cache and we are adding a new item, then it should also
+remove the least recently used item.
+
+get(key): gets the value at key. If no such key exists, return null.
+Each operation should run in O(1) time.
+```
+[Solution](dailyCodingProblem848.cpp)
+
+---
+
+
+#### Problem No. 849
+
+```
+A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
+
+if n is even, the next number in the sequence is n / 2
+if n is odd, the next number in the sequence is 3n + 1
+It is conjectured that every such sequence eventually reaches the number 1. Test this conjecture.
+
+Bonus: What input n <= 1000000 gives the longest sequence?
+```
+[Solution](dailyCodingProblem849.cpp)
+
+---
+
+
+#### Problem No. 850
+
+```
+Given a set of characters C and an integer k, a De Bruijn sequence is a cyclic
+sequence in which every possible k-length string of characters in C occurs exactly once.
+
+For example, suppose C = {0, 1} and k = 3. Then our sequence should contain
+the substrings {'000', '001', '010', '011', '100', '101', '110', '111'},
+and one possible solution would be 00010111.
+
+Create an algorithm that finds a De Bruijn sequence.
+```
+[Solution](dailyCodingProblem850.cpp)
+
+---
