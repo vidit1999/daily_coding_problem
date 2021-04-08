@@ -14569,3 +14569,41 @@ should become:
 [Solution](dailyCodingProblem842.cpp)
 
 ---
+
+
+#### Problem No. 843
+
+```
+Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string.
+For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
+```
+[Solution](dailyCodingProblem843.cpp)
+
+---
+
+
+#### Problem No. 844
+
+```
+A Boolean formula can be said to be satisfiable if there is a way to assign
+truth values to each variable such that the entire formula evaluates to true.
+
+For example, suppose we have the following formula,
+where the symbol ¬ is used to denote negation:
+
+(¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
+
+One way to satisfy this formula would be to
+let a = False, b = True, and c = True.
+
+This type of formula, with AND statements
+joining tuples containing exactly one OR,
+is known as 2-CNF.
+
+Given a 2-CNF formula, find a way to assign
+truth values to satisfy it, or return False
+if this is impossible.
+```
+[Solution](dailyCodingProblem844.cpp)
+
+---
