@@ -15,7 +15,7 @@ return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 ```
-[Solution](dailyCodingProblem1.cpp)
+[Solution](data/dailyCodingProblem1.cpp)
 
 ---
 
@@ -31,7 +31,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be
 
 Follow-up: what if you can't use division?
 ```
-[Solution](dailyCodingProblem2.cpp)
+[Solution](data/dailyCodingProblem2.cpp)
 
 ---
 
@@ -56,7 +56,7 @@ The following test should pass:
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
-[Solution](dailyCodingProblem3.py)
+[Solution](data/dailyCodingProblem3.py)
 
 ---
 
@@ -73,7 +73,7 @@ The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
 ```
-[Solution](dailyCodingProblem4.cpp)
+[Solution](data/dailyCodingProblem4.cpp)
 
 ---
 
@@ -94,7 +94,7 @@ def cons(a, b):
     return pair
 Implement car and cdr.
 ```
-[Solution](dailyCodingProblem5.py)
+[Solution](data/dailyCodingProblem5.py)
 
 ---
 
@@ -112,7 +112,7 @@ If using a language that has no pointers (such as Python), you can
 assume you have access to get_pointer and dereference_pointer
 functions that converts between nodes and memory addresses.
 ```
-[Solution](dailyCodingProblem6.c)
+[Solution](data/dailyCodingProblem6.c)
 
 ---
 
@@ -129,7 +129,7 @@ since it could be decoded as 'aaa', 'ka', and 'ak'.
 You can assume that the messages are decodable.
 For example, '001' is not allowed.
 ```
-[Solution](dailyCodingProblem7.cpp)
+[Solution](data/dailyCodingProblem7.cpp)
 
 ---
 
@@ -152,7 +152,7 @@ For example, the following tree has 5 unival subtrees:
   / \
  1   1
 ```
-[Solution](dailyCodingProblem8.cpp)
+[Solution](data/dailyCodingProblem8.cpp)
 
 ---
 
@@ -168,7 +168,7 @@ For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5.
 
 Follow-up: Can you do this in O(N) time and constant space?
 ```
-[Solution](dailyCodingProblem9.cpp)
+[Solution](data/dailyCodingProblem9.cpp)
 
 ---
 
@@ -179,7 +179,7 @@ Follow-up: Can you do this in O(N) time and constant space?
 Implement a job scheduler which takes in a function f and an integer n,
 and calls f after n milliseconds.
 ```
-[Solution](dailyCodingProblem10.cpp)
+[Solution](data/dailyCodingProblem10.cpp)
 
 ---
 
@@ -196,7 +196,7 @@ strings [dog, deer, deal], return [deer, deal].
 Hint: Try preprocessing the dictionary into a
 more efficient data structure to speed up queries.
 ```
-[Solution](dailyCodingProblem11.cpp)
+[Solution](data/dailyCodingProblem11.cpp)
 
 ---
 
@@ -220,7 +220,7 @@ What if, instead of being able to climb 1 or 2 steps at a time,
 you could climb any number from a set of positive integers X?
 For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 ```
-[Solution](dailyCodingProblem12.cpp)
+[Solution](data/dailyCodingProblem12.cpp)
 
 ---
 
@@ -234,7 +234,7 @@ longest substring that contains at most k distinct characters.
 For example, given s = "abcba" and k = 2,
 the longest substring with k distinct characters is "bcb".
 ```
-[Solution](dailyCodingProblem13.cpp)
+[Solution](data/dailyCodingProblem13.cpp)
 
 ---
 
@@ -246,7 +246,7 @@ The area of a circle is defined as πr^2. Estimate π to 3 decimal places using 
 
 Hint: The basic equation of a circle is x2 + y2 = r2.
 ```
-[Solution](dailyCodingProblem14.cpp)
+[Solution](data/dailyCodingProblem14.cpp)
 
 ---
 
@@ -257,7 +257,7 @@ Hint: The basic equation of a circle is x2 + y2 = r2.
 Given a stream of elements too large to store in memory,
 pick a random element from the stream with uniform probability.
 ```
-[Solution](dailyCodingProblem15.cpp)
+[Solution](data/dailyCodingProblem15.cpp)
 
 ---
 
@@ -273,7 +273,7 @@ get_last(i): gets the ith last element from the log. i is guaranteed to be small
 
 You should be as efficient with time and space as possible.
 ```
-[Solution](dailyCodingProblem16.cpp)
+[Solution](data/dailyCodingProblem16.cpp)
 
 ---
 
@@ -320,7 +320,7 @@ The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
 ```
-[Solution](dailyCodingProblem17.cpp)
+[Solution](data/dailyCodingProblem17.cpp)
 
 ---
 
@@ -342,7 +342,7 @@ we should get: [10, 7, 8, 8], since:
 Do this in O(n) time and O(k) space. You can modify the input array
 in-place and you do not need to store the results. You can simply print them out as you compute them.
 ```
-[Solution](dailyCodingProblem18.cpp)
+[Solution](data/dailyCodingProblem18.cpp)
 
 ---
 
@@ -357,7 +357,7 @@ Given an N by K matrix where the nth row and kth column represents
 the cost to build the nth house with kth color,
 return the minimum cost which achieves this goal.
 ```
-[Solution](dailyCodingProblem19.cpp)
+[Solution](data/dailyCodingProblem19.cpp)
 
 ---
 
@@ -378,7 +378,7 @@ value are the exact same node objects.
 Do this in O(M + N) time (where M and N are
 the lengths of the lists) and constant space.
 ```
-[Solution](dailyCodingProblem20.cpp)
+[Solution](data/dailyCodingProblem20.cpp)
 
 ---
 
@@ -391,7 +391,7 @@ Given an array of time intervals (start, end) for classroom lectures
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 ```
-[Solution](dailyCodingProblem21.cpp)
+[Solution](data/dailyCodingProblem21.cpp)
 
 ---
 
@@ -409,7 +409,7 @@ the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and
 the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 ```
-[Solution](dailyCodingProblem22.cpp)
+[Solution](data/dailyCodingProblem22.cpp)
 
 ---
 
@@ -438,7 +438,7 @@ the minimum number of steps required to reach the end is 7,
 since we would need to go through (1, 2) because there is
 a wall everywhere else on the second row.
 ```
-[Solution](dailyCodingProblem23.cpp)
+[Solution](data/dailyCodingProblem23.cpp)
 
 ---
 
@@ -457,7 +457,7 @@ You may augment the node to add parent pointers or any other property you would 
 You may assume the class is used in a single-threaded program,
 so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 ```
-[Solution](dailyCodingProblem24.cpp)
+[Solution](data/dailyCodingProblem24.cpp)
 
 ---
 
@@ -481,7 +481,7 @@ Given the regular expression ".*at" and the string "chat",
 your function should return true. The same regular expression
 on the string "chats" should return false.
 ```
-[Solution](dailyCodingProblem25.cpp)
+[Solution](data/dailyCodingProblem25.cpp)
 
 ---
 
@@ -498,7 +498,7 @@ one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 ```
-[Solution](dailyCodingProblem26.cpp)
+[Solution](data/dailyCodingProblem26.cpp)
 
 ---
 
@@ -513,7 +513,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 ```
-[Solution](dailyCodingProblem27.cpp)
+[Solution](data/dailyCodingProblem27.cpp)
 
 ---
 
@@ -542,7 +542,7 @@ and k = 16, you should return the following:
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 ```
-[Solution](dailyCodingProblem28.cpp)
+[Solution](data/dailyCodingProblem28.cpp)
 
 ---
 
@@ -558,7 +558,7 @@ Implement run-length encoding and decoding. You can assume the string to be
 encoded have no digits and consists solely of alphabetic characters.
 You can assume the string to be decoded is valid.
 ```
-[Solution](dailyCodingProblem29.cpp)
+[Solution](data/dailyCodingProblem29.cpp)
 
 ---
 
@@ -578,7 +578,7 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index,
 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would
 run off to the left), so we can trap 8 units of water.
 ```
-[Solution](dailyCodingProblem30.cpp)
+[Solution](data/dailyCodingProblem30.cpp)
 
 ---
 
@@ -594,7 +594,7 @@ substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
 ```
-[Solution](dailyCodingProblem31.cpp)
+[Solution](data/dailyCodingProblem31.cpp)
 
 ---
 
@@ -609,7 +609,7 @@ so that you can end up with some amount greater than A of that currency.
 
 There are no transaction costs and you can trade fractional quantities.
 ```
-[Solution](dailyCodingProblem32.cpp)
+[Solution](data/dailyCodingProblem32.cpp)
 
 ---
 
@@ -635,7 +635,7 @@ your algorithm should print out:
 2
 2
 ```
-[Solution](dailyCodingProblem33.cpp)
+[Solution](data/dailyCodingProblem33.cpp)
 
 ---
 
@@ -658,7 +658,7 @@ first alphabetically.
 As another example, given the string "google",
 you should return "elgoogle".
 ```
-[Solution](dailyCodingProblem34.cpp)
+[Solution](data/dailyCodingProblem34.cpp)
 
 ---
 
@@ -675,7 +675,7 @@ Do this in linear time and in-place.
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'],
 it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 ```
-[Solution](dailyCodingProblem35.cpp)
+[Solution](data/dailyCodingProblem35.cpp)
 
 ---
 
@@ -686,7 +686,7 @@ it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 Given the root to a binary search tree,
 find the second largest node in the tree.
 ```
-[Solution](dailyCodingProblem36.cpp)
+[Solution](data/dailyCodingProblem36.cpp)
 
 ---
 
@@ -702,7 +702,7 @@ return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
 
 You may also use a list or array to represent a set.
 ```
-[Solution](dailyCodingProblem37.cpp)
+[Solution](data/dailyCodingProblem37.cpp)
 
 ---
 
@@ -716,7 +716,7 @@ where N queens can be placed on the board without
 threatening each other, i.e. no two queens share
 the same row, column, or diagonal.
 ```
-[Solution](dailyCodingProblem38.cpp)
+[Solution](data/dailyCodingProblem38.cpp)
 
 ---
 
@@ -741,7 +741,7 @@ i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
 You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
 ```
-[Solution](dailyCodingProblem39.cpp)
+[Solution](data/dailyCodingProblem39.cpp)
 
 ---
 
@@ -758,7 +758,7 @@ Given [13, 19, 13, 13], return 19.
 
 Do this in O(N) time and O(1) space.
 ```
-[Solution](dailyCodingProblem40.cpp)
+[Solution](data/dailyCodingProblem40.cpp)
 
 ---
 
@@ -780,7 +780,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C']
 is also a valid itinerary. However, the first one is lexicographically smaller.
 ```
-[Solution](dailyCodingProblem41.cpp)
+[Solution](data/dailyCodingProblem41.cpp)
 
 ---
 
@@ -797,7 +797,7 @@ You may assume all numbers in the list are positive.
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24,
 return [12, 9, 2, 1] since it sums up to 24.
 ```
-[Solution](dailyCodingProblem42.cpp)
+[Solution](data/dailyCodingProblem42.cpp)
 
 ---
 
@@ -817,7 +817,7 @@ If there are no elements in the stack, then it should throw an error or return n
 
 Each method should run in constant time.
 ```
-[Solution](dailyCodingProblem43.cpp)
+[Solution](data/dailyCodingProblem43.cpp)
 
 ---
 
@@ -837,7 +837,7 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions:
 every distinct pair forms an inversion.
 ```
-[Solution](dailyCodingProblem44.cpp)
+[Solution](data/dailyCodingProblem44.cpp)
 
 ---
 
@@ -848,7 +848,7 @@ every distinct pair forms an inversion.
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability,
 implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 ```
-[Solution](dailyCodingProblem45.cpp)
+[Solution](data/dailyCodingProblem45.cpp)
 
 ---
 
@@ -862,7 +862,7 @@ If there are more than one with the maximum length, return any one.
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb".
 The longest palindromic substring of "bananas" is "anana".
 ```
-[Solution](dailyCodingProblem46.cpp)
+[Solution](data/dailyCodingProblem46.cpp)
 
 ---
 
@@ -877,7 +877,7 @@ from buying and selling that stock once. You must buy before you can sell it.
 For example, given [9, 11, 8, 5, 7, 10], you should return 5,
 since you could buy the stock at 5 dollars and sell it at 10 dollars.
 ```
-[Solution](dailyCodingProblem47.cpp)
+[Solution](data/dailyCodingProblem47.cpp)
 
 ---
 
@@ -904,7 +904,7 @@ You should return the following tree:
  / \ / \
 d  e f  g
 ```
-[Solution](dailyCodingProblem48.cpp)
+[Solution](data/dailyCodingProblem48.cpp)
 
 ---
 
@@ -924,7 +924,7 @@ since we would not take any elements.
 
 Do this in O(N) time.
 ```
-[Solution](dailyCodingProblem49.cpp)
+[Solution](data/dailyCodingProblem49.cpp)
 
 ---
 
@@ -947,7 +947,7 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 ```
-[Solution](dailyCodingProblem50.cpp)
+[Solution](data/dailyCodingProblem50.cpp)
 
 ---
 
@@ -962,7 +962,7 @@ It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 ```
-[Solution](dailyCodingProblem51.cpp)
+[Solution](data/dailyCodingProblem51.cpp)
 
 ---
 
@@ -981,7 +981,7 @@ remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 ```
-[Solution](dailyCodingProblem52.cpp)
+[Solution](data/dailyCodingProblem52.cpp)
 
 ---
 
@@ -993,7 +993,7 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 data structure with the following methods: enqueue, which inserts an element into the queue,
 and dequeue, which removes it.
 ```
-[Solution](dailyCodingProblem53.cpp)
+[Solution](data/dailyCodingProblem53.cpp)
 
 ---
 
@@ -1007,7 +1007,7 @@ and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 
 Implement an efficient sudoku solver.
 ```
-[Solution](dailyCodingProblem54.cpp)
+[Solution](data/dailyCodingProblem54.cpp)
 
 ---
 
@@ -1024,7 +1024,7 @@ If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
 ```
-[Solution](dailyCodingProblem55.cpp)
+[Solution](data/dailyCodingProblem55.cpp)
 
 ---
 
@@ -1036,7 +1036,7 @@ Given an undirected graph represented as an adjacency matrix and an integer k,
 write a function to determine whether each vertex in the graph can be colored
 such that no two adjacent vertices share the same color using at most k colors.
 ```
-[Solution](dailyCodingProblem56.cpp)
+[Solution](data/dailyCodingProblem56.cpp)
 
 ---
 
@@ -1055,7 +1055,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog"
 and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"].
 No string in the list has a length of more than 10.
 ```
-[Solution](dailyCodingProblem57.cpp)
+[Solution](data/dailyCodingProblem57.cpp)
 
 ---
 
@@ -1075,7 +1075,7 @@ return 4 (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
 ```
-[Solution](dailyCodingProblem58.cpp)
+[Solution](data/dailyCodingProblem58.cpp)
 
 ---
 
@@ -1093,7 +1093,7 @@ it would return true, since we can split it up into
 Given the multiset {15, 5, 20, 10, 35}, it would return false,
 since we can't split it up into two subsets that add up to the same sum.
 ```
-[Solution](dailyCodingProblem60.cpp)
+[Solution](data/dailyCodingProblem60.cpp)
 
 ---
 
@@ -1108,7 +1108,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 ```
-[Solution](dailyCodingProblem61.cpp)
+[Solution](data/dailyCodingProblem61.cpp)
 
 ---
 
@@ -1128,7 +1128,7 @@ Down, then right
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 ```
-[Solution](dailyCodingProblem62.cpp)
+[Solution](data/dailyCodingProblem62.cpp)
 
 ---
 
@@ -1152,7 +1152,7 @@ since it's the leftmost column. Similarly, given the
 target word 'MASS', you should return true,
 since it's the last row.
 ```
-[Solution](dailyCodingProblem63.cpp)
+[Solution](data/dailyCodingProblem63.cpp)
 
 ---
 
@@ -1166,7 +1166,7 @@ on a chessboard such that all squares are visited once.
 Given N, write a function to return the number
 of knight's tours on an N by N chessboard.
 ```
-[Solution](dailyCodingProblem64.cpp)
+[Solution](data/dailyCodingProblem64.cpp)
 
 ---
 
@@ -1205,7 +1205,7 @@ You should print out the following:
 13
 12
 ```
-[Solution](dailyCodingProblem65.cpp)
+[Solution](data/dailyCodingProblem65.cpp)
 
 ---
 
@@ -1220,7 +1220,7 @@ You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
 ```
-[Solution](dailyCodingProblem66.cpp)
+[Solution](data/dailyCodingProblem66.cpp)
 
 ---
 
@@ -1239,7 +1239,7 @@ remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 ```
-[Solution](dailyCodingProblem67.cpp)
+[Solution](data/dailyCodingProblem67.cpp)
 
 ---
 
@@ -1276,7 +1276,7 @@ The board would look like this:
 You should return 2, since bishops 1 and 3
 attack each other, as well as bishops 3 and 4.
 ```
-[Solution](dailyCodingProblem68.cpp)
+[Solution](data/dailyCodingProblem68.cpp)
 
 ---
 
@@ -1292,7 +1292,7 @@ we should return 500, since that's -10 * -10 * 5.
 
 You can assume the list has at least three integers.
 ```
-[Solution](dailyCodingProblem69.cpp)
+[Solution](data/dailyCodingProblem69.cpp)
 
 ---
 
@@ -1306,7 +1306,7 @@ Given a positive integer n, return the n-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 ```
-[Solution](dailyCodingProblem70.cpp)
+[Solution](data/dailyCodingProblem70.cpp)
 
 ---
 
@@ -1318,7 +1318,7 @@ Using a function rand7() that returns an integer from 1 to 7 (inclusive)
 with uniform probability, implement a function rand5() that
 returns an integer from 1 to 5 (inclusive).
 ```
-[Solution](dailyCodingProblem71.cpp)
+[Solution](data/dailyCodingProblem71.cpp)
 
 ---
 
@@ -1357,7 +1357,7 @@ A
 
 Should return null, since we have an infinite loop.
 ```
-[Solution](dailyCodingProblem72.cpp)
+[Solution](data/dailyCodingProblem72.cpp)
 
 ---
 
@@ -1367,7 +1367,7 @@ Should return null, since we have an infinite loop.
 ```
 Given the head of a singly linked list, reverse it in-place.
 ```
-[Solution](dailyCodingProblem73.cpp)
+[Solution](data/dailyCodingProblem73.cpp)
 
 ---
 
@@ -1400,7 +1400,7 @@ since the multiplication table looks like this:
 
 And there are 4 12's in the table.
 ```
-[Solution](dailyCodingProblem74.cpp)
+[Solution](data/dailyCodingProblem74.cpp)
 
 ---
 
@@ -1414,7 +1414,7 @@ subsequence in the array. The subsequence does not necessarily have to be contig
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15],
 the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 ```
-[Solution](dailyCodingProblem75.cpp)
+[Solution](data/dailyCodingProblem75.cpp)
 
 ---
 
@@ -1462,7 +1462,7 @@ tsr
 Your function should return 3,
 since we would need to remove all the columns to order it.
 ```
-[Solution](dailyCodingProblem76.cpp)
+[Solution](data/dailyCodingProblem76.cpp)
 
 ---
 
@@ -1479,7 +1479,7 @@ The input list is not necessarily ordered in any way.
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)],
 you should return [(1, 3), (4, 10), (20, 25)].
 ```
-[Solution](dailyCodingProblem77.cpp)
+[Solution](data/dailyCodingProblem77.cpp)
 
 ---
 
@@ -1490,7 +1490,7 @@ you should return [(1, 3), (4, 10), (20, 25)].
 Given k sorted singly linked lists, write a function
 to merge all the lists into one sorted singly linked list.
 ```
-[Solution](dailyCodingProblem78.cpp)
+[Solution](data/dailyCodingProblem78.cpp)
 
 ---
 
@@ -1507,7 +1507,7 @@ since we can modify the 10 into a 1 to make the array non-decreasing.
 Given the array [10, 5, 1], you should return false, since we
 can't modify any one element to get a non-decreasing array.
 ```
-[Solution](dailyCodingProblem79.cpp)
+[Solution](data/dailyCodingProblem79.cpp)
 
 ---
 
@@ -1524,7 +1524,7 @@ For example, in the following tree, return d.
  /
 d
 ```
-[Solution](dailyCodingProblem80.cpp)
+[Solution](data/dailyCodingProblem80.cpp)
 
 ---
 
@@ -1541,7 +1541,7 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 then “23” should return [“ad”, “ae”, “af”, “bd”, “be”,
 “bf”, “cd”, “ce”, “cf"].
 ```
-[Solution](dailyCodingProblem81.cpp)
+[Solution](data/dailyCodingProblem81.cpp)
 
 ---
 
@@ -1555,7 +1555,7 @@ implement readN(n) which reads n characters.
 For example, given a file with the content “Hello world”,
 three read7() returns “Hello w”, “orld” and then “”.
 ```
-[Solution](dailyCodingProblem82.cpp)
+[Solution](data/dailyCodingProblem82.cpp)
 
 ---
 
@@ -1580,7 +1580,7 @@ should become:
  \  / \
   f e  d
 ```
-[Solution](dailyCodingProblem83.cpp)
+[Solution](data/dailyCodingProblem83.cpp)
 
 ---
 
@@ -1601,7 +1601,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 1 1 0 0 1
 ```
-[Solution](dailyCodingProblem84.cpp)
+[Solution](data/dailyCodingProblem84.cpp)
 
 ---
 
@@ -1612,7 +1612,7 @@ For example, this matrix has 4 islands.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0,
 using only mathematical or bit operations. You can assume b can only be 1 or 0.
 ```
-[Solution](dailyCodingProblem85.cpp)
+[Solution](data/dailyCodingProblem85.cpp)
 
 ---
 
@@ -1628,7 +1628,7 @@ For example, given the string "()())()", you should return 1.
 Given the string ")(", you should return 2,
 since we must remove all of them.
 ```
-[Solution](dailyCodingProblem86.cpp)
+[Solution](data/dailyCodingProblem86.cpp)
 
 ---
 
@@ -1657,7 +1657,7 @@ A NW B
 A N B
 is considered valid.
 ```
-[Solution](dailyCodingProblem87.cpp)
+[Solution](data/dailyCodingProblem87.cpp)
 
 ---
 
@@ -1669,7 +1669,7 @@ Implement division of two positive integers without using the division,
 multiplication, or modulus operators. Return the quotient as an integer,
 ignoring the remainder.
 ```
-[Solution](dailyCodingProblem88.cpp)
+[Solution](data/dailyCodingProblem88.cpp)
 
 ---
 
@@ -1685,7 +1685,7 @@ left child must be less than or equal to the root
 and the key in the right child must be greater
 than or equal to the root.
 ```
-[Solution](dailyCodingProblem89.cpp)
+[Solution](data/dailyCodingProblem89.cpp)
 
 ---
 
@@ -1697,7 +1697,7 @@ Given an integer n and a list of integers l,
 write a function that randomly generates a
 number from 0 to n-1 that isn't in l (uniform).
 ```
-[Solution](dailyCodingProblem90.cpp)
+[Solution](data/dailyCodingProblem90.cpp)
 
 ---
 
@@ -1715,7 +1715,7 @@ for i in range(10):
 for f in functions:
     print(f())
 ```
-[Solution](dailyCodingProblem91.py)
+[Solution](data/dailyCodingProblem91.py)
 
 ---
 
@@ -1732,7 +1732,7 @@ Return null if there is no such ordering.
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []},
 should return ['CSC100', 'CSC200', 'CSCS300'].
 ```
-[Solution](dailyCodingProblem92.cpp)
+[Solution](data/dailyCodingProblem92.cpp)
 
 ---
 
@@ -1744,7 +1744,7 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 ```
-[Solution](dailyCodingProblem93.cpp)
+[Solution](data/dailyCodingProblem93.cpp)
 
 ---
 
@@ -1755,7 +1755,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 Given a binary tree of integers, find the maximum path sum between two nodes.
 The path must go through at least one node, and does not need to go through the root.
 ```
-[Solution](dailyCodingProblem94.cpp)
+[Solution](data/dailyCodingProblem94.cpp)
 
 ---
 
@@ -1771,7 +1771,7 @@ For example, the list [1,2,3] should return [1,3,2].
 The list [1,3,2] should return [2,1,3].
 The list [3,2,1] should return [1,2,3].
 ```
-[Solution](dailyCodingProblem95.cpp)
+[Solution](data/dailyCodingProblem95.cpp)
 
 ---
 
@@ -1785,7 +1785,7 @@ return all possible permutations.
 For example, given [1,2,3], return
 [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]].
 ```
-[Solution](dailyCodingProblem96.cpp)
+[Solution](data/dailyCodingProblem96.cpp)
 
 ---
 
@@ -1820,7 +1820,7 @@ d.set(1, 1, 0) # set key 1 to value 1 at time 0
 d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
-[Solution](dailyCodingProblem97.cpp)
+[Solution](data/dailyCodingProblem97.cpp)
 
 ---
 
@@ -1845,7 +1845,7 @@ For example, given the following board:
 exists(board, "ABCCED") returns true, exists(board, "SEE")
 returns true, exists(board, "ABCB") returns false.
 ```
-[Solution](dailyCodingProblem98.cpp)
+[Solution](data/dailyCodingProblem98.cpp)
 
 ---
 
@@ -1862,7 +1862,7 @@ is [1, 2, 3, 4]. Return its length: 4.
 
 Your algorithm should run in O(n) complexity.
 ```
-[Solution](dailyCodingProblem99.cpp)
+[Solution](data/dailyCodingProblem99.cpp)
 
 ---
 
@@ -1892,7 +1892,7 @@ Output: 2
 It takes 1 step to move from (0, 0) to (1, 1).
 It takes one more step to move from (1, 1) to (1, 2).
 ```
-[Solution](dailyCodingProblem100.cpp)
+[Solution](data/dailyCodingProblem100.cpp)
 
 ---
 
@@ -1916,7 +1916,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 [a, b] < [c, d]
 If a < c OR a==c AND b < d.
 ```
-[Solution](dailyCodingProblem101.cpp)
+[Solution](data/dailyCodingProblem101.cpp)
 
 ---
 
@@ -1930,7 +1930,7 @@ return which contiguous elements of the list sum to K.
 For example, if the list is [1, 2, 3, 4, 5]
 and K is 9, then it should return [2, 3, 4].
 ```
-[Solution](dailyCodingProblem102.cpp)
+[Solution](data/dailyCodingProblem102.cpp)
 
 ---
 
@@ -1942,7 +1942,7 @@ Given a string and a set of characters, return the shortest substring containing
 For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 If there is no substring containing all the characters in the set, return null.
 ```
-[Solution](dailyCodingProblem103.cpp)
+[Solution](data/dailyCodingProblem103.cpp)
 
 ---
 
@@ -1956,7 +1956,7 @@ What if it’s singly linked?
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns
 true while 1 -> 4 returns false.
 ```
-[Solution](dailyCodingProblem104.cpp)
+[Solution](data/dailyCodingProblem104.cpp)
 
 ---
 
@@ -1969,7 +1969,7 @@ determine whether you can reach to the last index starting at index 0.
 
 For example, [2, 0, 1, 0] returns true while [1, 1, 0, 1] returns false.
 ```
-[Solution](dailyCodingProblem106.cpp)
+[Solution](data/dailyCodingProblem106.cpp)
 
 ---
 
@@ -1985,7 +1985,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
    / \
   4   5
 ```
-[Solution](dailyCodingProblem107.cpp)
+[Solution](data/dailyCodingProblem107.cpp)
 
 ---
 
@@ -1999,7 +1999,7 @@ not A can be shifted some number of times to get B.
 For example, if A is abcde and B is cdeab, return true.
 If A is abc and B is acb, return false.
 ```
-[Solution](dailyCodingProblem108.cpp)
+[Solution](data/dailyCodingProblem108.cpp)
 
 ---
 
@@ -2014,7 +2014,7 @@ For example, 10101010 should be 01010101. 11100010 should be 11010001.
 
 Bonus: Can you do this in one line?
 ```
-[Solution](dailyCodingProblem109.cpp)
+[Solution](data/dailyCodingProblem109.cpp)
 
 ---
 
@@ -2034,7 +2034,7 @@ For example, given the tree
 
 it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
 ```
-[Solution](dailyCodingProblem110.cpp)
+[Solution](data/dailyCodingProblem110.cpp)
 
 ---
 
@@ -2048,7 +2048,7 @@ starting indices in S which are anagrams of W.
 For example, given that W is "ab",
 and S is "abxaba", return 0, 3, and 4.
 ```
-[Solution](dailyCodingProblem111.cpp)
+[Solution](data/dailyCodingProblem111.cpp)
 
 ---
 
@@ -2066,7 +2066,7 @@ two nodes v and w as the lowest node in T that
 has both v and w as descendants (where we allow
 a node to be a descendant of itself).”
 ```
-[Solution](dailyCodingProblem112.cpp)
+[Solution](data/dailyCodingProblem112.cpp)
 
 ---
 
@@ -2080,7 +2080,7 @@ For example, given "hello world here", return "here world hello"
 Follow-up: given a mutable string representation,
 can you perform this operation in-place?
 ```
-[Solution](dailyCodingProblem113.cpp)
+[Solution](data/dailyCodingProblem113.cpp)
 
 ---
 
@@ -2100,7 +2100,7 @@ Follow-up: Does your solution work for
 the following cases:
 "hello/world:here/", "hello//world:here"
 ```
-[Solution](dailyCodingProblem114.cpp)
+[Solution](data/dailyCodingProblem114.cpp)
 
 ---
 
@@ -2114,7 +2114,7 @@ A subtree of s is a tree consists of a node in s and all
 of this node's descendants. The tree s could also
 be considered as a subtree of itself.
 ```
-[Solution](dailyCodingProblem115.cpp)
+[Solution](data/dailyCodingProblem115.cpp)
 
 ---
 
@@ -2126,7 +2126,7 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, generate() should return a tree whose size is unbounded but finite.
 ```
-[Solution](dailyCodingProblem116.cpp)
+[Solution](data/dailyCodingProblem116.cpp)
 
 ---
 
@@ -2136,7 +2136,7 @@ That is, generate() should return a tree whose size is unbounded but finite.
 ```
 Given a binary tree, return the level of the tree with minimum sum.
 ```
-[Solution](dailyCodingProblem117.cpp)
+[Solution](data/dailyCodingProblem117.cpp)
 
 ---
 
@@ -2150,7 +2150,7 @@ elements and give the output in sorted order.
 For example, given [-9, -2, 0, 2, 3],
 return [0, 4, 4, 9, 81].
 ```
-[Solution](dailyCodingProblem118.cpp)
+[Solution](data/dailyCodingProblem118.cpp)
 
 ---
 
@@ -2164,7 +2164,7 @@ covers all the intervals. If there are multiple smallest sets, return any of the
 For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9],
 one set of numbers that covers all these intervals is {3, 6}.
 ```
-[Solution](dailyCodingProblem119.cpp)
+[Solution](data/dailyCodingProblem119.cpp)
 
 ---
 
@@ -2178,7 +2178,7 @@ return whether you can make a palindrome.
 For example, given 'waterrfetawx' and a k of 2,
 you could delete f and x to get 'waterretaw'.
 ```
-[Solution](dailyCodingProblem121.cpp)
+[Solution](data/dailyCodingProblem121.cpp)
 
 ---
 
@@ -2199,7 +2199,7 @@ For example, in this matrix
 The most we can collect is
 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 ```
-[Solution](dailyCodingProblem122.cpp)
+[Solution](data/dailyCodingProblem122.cpp)
 
 ---
 
@@ -2223,7 +2223,7 @@ And here are examples of non-numbers:
 "a -2"
 "-"
 ```
-[Solution](dailyCodingProblem123.cpp)
+[Solution](data/dailyCodingProblem123.cpp)
 
 ---
 
@@ -2238,7 +2238,7 @@ How many rounds do you expect to play before only one coin remains?
 Write a function that, given n, returns the number of
 rounds you'd expect to play until one coin remains.
 ```
-[Solution](dailyCodingProblem124.cpp)
+[Solution](data/dailyCodingProblem124.cpp)
 
 ---
 
@@ -2259,7 +2259,7 @@ For example, given the following tree and K of 20
 
 Return the nodes 5 and 15.
 ```
-[Solution](dailyCodingProblem125.cpp)
+[Solution](data/dailyCodingProblem125.cpp)
 
 ---
 
@@ -2271,7 +2271,7 @@ Write a function that rotates a list by k elements.
 For example, [1, 2, 3, 4, 5, 6] rotated by two becomes
 [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list.
 ```
-[Solution](dailyCodingProblem126.cpp)
+[Solution](data/dailyCodingProblem126.cpp)
 
 ---
 
@@ -2300,7 +2300,7 @@ return 124 (99 + 25) as:
 
 4 -> 2 -> 1
 ```
-[Solution](dailyCodingProblem127.cpp)
+[Solution](data/dailyCodingProblem127.cpp)
 
 ---
 
@@ -2332,7 +2332,7 @@ Move 2 to 1
 Move 2 to 3
 Move 1 to 3
 ```
-[Solution](dailyCodingProblem128.cpp)
+[Solution](data/dailyCodingProblem128.cpp)
 
 ---
 
@@ -2343,7 +2343,7 @@ Move 1 to 3
 Given a real number n, find the square root of n.
 For example, given n = 9, return 3.
 ```
-[Solution](dailyCodingProblem129.cpp)
+[Solution](data/dailyCodingProblem129.cpp)
 
 ---
 
@@ -2358,7 +2358,7 @@ and you must sell the stock before you can buy it again.
 
 For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 ```
-[Solution](dailyCodingProblem130.cpp)
+[Solution](data/dailyCodingProblem130.cpp)
 
 ---
 
@@ -2369,7 +2369,7 @@ For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 Given the head to a singly linked list, where each node also has a “random” pointer
 that points to anywhere in the linked list, deep clone the list.
 ```
-[Solution](dailyCodingProblem131.cpp)
+[Solution](data/dailyCodingProblem131.cpp)
 
 ---
 
@@ -2386,7 +2386,7 @@ range(lower, upper): returns the number of hits that occurred between timestamps
 
 Follow-up: What if our system has limited memory?
 ```
-[Solution](dailyCodingProblem132.cpp)
+[Solution](data/dailyCodingProblem132.cpp)
 
 ---
 
@@ -2407,7 +2407,7 @@ For example, the inorder successor of 22 is 30.
 
 You can assume each node has a parent pointer.
 ```
-[Solution](dailyCodingProblem133.cpp)
+[Solution](data/dailyCodingProblem133.cpp)
 
 ---
 
@@ -2421,7 +2421,7 @@ init(arr, size): initialize with the original large array and size.
 set(i, val): updates index at i with val.
 get(i): gets the value at index i
 ```
-[Solution](dailyCodingProblem134.cpp)
+[Solution](data/dailyCodingProblem134.cpp)
 
 ---
 
@@ -2440,7 +2440,7 @@ For example, the minimum path in this tree is
        /
      -1
 ```
-[Solution](dailyCodingProblem135.cpp)
+[Solution](data/dailyCodingProblem135.cpp)
 
 ---
 
@@ -2460,7 +2460,7 @@ For example, given the following matrix:
 
 Return 4.
 ```
-[Solution](dailyCodingProblem136.cpp)
+[Solution](data/dailyCodingProblem136.cpp)
 
 ---
 
@@ -2476,7 +2476,7 @@ init(size): initialize the array with size
 set(i, val): updates index at i with val where val is either 1 or 0.
 get(i): gets the value at index i.
 ```
-[Solution](dailyCodingProblem137.cpp)
+[Solution](data/dailyCodingProblem137.cpp)
 
 ---
 
@@ -2490,7 +2490,7 @@ You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
 ```
-[Solution](dailyCodingProblem138.cpp)
+[Solution](data/dailyCodingProblem138.cpp)
 
 ---
 
@@ -2517,7 +2517,7 @@ class PeekableInterface(object):
     def hasNext(self):
         pass
 ```
-[Solution](dailyCodingProblem139.cpp)
+[Solution](data/dailyCodingProblem139.cpp)
 
 ---
 
@@ -2529,7 +2529,7 @@ Given an array of integers in which two elements appear exactly
 once and all other elements appear exactly twice,
 find the two elements that appear only once.
 ```
-[Solution](dailyCodingProblem140.cpp)
+[Solution](data/dailyCodingProblem140.cpp)
 
 ---
 
@@ -2549,7 +2549,7 @@ class Stack:
     def push(self, item, stack_number):
         pass
 ```
-[Solution](dailyCodingProblem141.cpp)
+[Solution](data/dailyCodingProblem141.cpp)
 
 ---
 
@@ -2561,7 +2561,7 @@ You're given a string consisting solely of (, ), and *. * can represent either a
 Determine whether the parentheses are balanced.
 For example, (()* and (*) are balanced. )*( is not balanced.
 ```
-[Solution](dailyCodingProblem142.cpp)
+[Solution](data/dailyCodingProblem142.cpp)
 
 ---
 
@@ -2579,7 +2579,7 @@ Ordering within a part can be arbitrary.
 For example, given x = 10 and lst = [9, 12, 3, 5, 14, 10, 10],
 one partition may be [9, 3, 5, 10, 10, 12, 14].
 ```
-[Solution](dailyCodingProblem143.cpp)
+[Solution](data/dailyCodingProblem143.cpp)
 
 ---
 
@@ -2597,7 +2597,7 @@ any one of them. If the array at i doesn't have a nearest larger integer, then r
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
 ```
-[Solution](dailyCodingProblem144.cpp)
+[Solution](data/dailyCodingProblem144.cpp)
 
 ---
 
@@ -2609,7 +2609,7 @@ Given the head of a singly linked list, swap every two nodes and return its head
 
 For example, given 1 -> 2 -> 3 -> 4, return 2 -> 1 -> 4 -> 3.
 ```
-[Solution](dailyCodingProblem145.cpp)
+[Solution](data/dailyCodingProblem145.cpp)
 
 ---
 
@@ -2642,7 +2642,7 @@ should be pruned to:
 We do not remove the tree at the root or its left
 child because it still has a 1 as a descendant.
 ```
-[Solution](dailyCodingProblem146.cpp)
+[Solution](data/dailyCodingProblem146.cpp)
 
 ---
 
@@ -2652,7 +2652,7 @@ child because it still has a 1 as a descendant.
 ```
 Given a list, sort it using this method: reverse(lst, i, j), which sorts lst from i to j`.
 ```
-[Solution](dailyCodingProblem147.cpp)
+[Solution](data/dailyCodingProblem147.cpp)
 
 ---
 
@@ -2668,7 +2668,7 @@ Given a number of bits n, generate a possible gray code for it.
 
 For example, for n = 2, one gray code would be [00, 01, 11, 10].
 ```
-[Solution](dailyCodingProblem148.cpp)
+[Solution](data/dailyCodingProblem148.cpp)
 
 ---
 
@@ -2685,7 +2685,7 @@ should return sum([2, 3]), which is 5.
 You can assume that you can do some pre-processing.
 sum() should be optimized over the pre-processing step.
 ```
-[Solution](dailyCodingProblem149.cpp)
+[Solution](data/dailyCodingProblem149.cpp)
 
 ---
 
@@ -2699,7 +2699,7 @@ find the nearest k points from the central point.
 For example, given the list of points [(0, 0), (5, 4), (3, 1)],
 the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
 ```
-[Solution](dailyCodingProblem150.cpp)
+[Solution](data/dailyCodingProblem150.cpp)
 
 ---
 
@@ -2725,7 +2725,7 @@ G G G
 G G G
 B B B
 ```
-[Solution](dailyCodingProblem151.cpp)
+[Solution](data/dailyCodingProblem151.cpp)
 
 ---
 
@@ -2742,7 +2742,7 @@ For example, given the numbers [1, 2, 3, 4] and probabilities
 
 You can generate random numbers between 0 and 1 uniformly.
 ```
-[Solution](dailyCodingProblem152.cpp)
+[Solution](data/dailyCodingProblem152.cpp)
 
 ---
 
@@ -2757,7 +2757,7 @@ For example, given words "hello", and "world" and a text
 content of "dog cat hello cat dog dog hello cat world",
 return 1 because there's only one word "cat" in between the two words.
 ```
-[Solution](dailyCodingProblem153.cpp)
+[Solution](data/dailyCodingProblem153.cpp)
 
 ---
 
@@ -2776,7 +2776,7 @@ Recall that a heap has the following operations:
 push(item), which adds a new key to the heap
 pop(), which removes and returns the max value of the heap
 ```
-[Solution](dailyCodingProblem154.cpp)
+[Solution](data/dailyCodingProblem154.cpp)
 
 ---
 
@@ -2792,7 +2792,7 @@ You can assume that such element exists.
 For example, given [1, 2, 1, 1, 3, 4, 0],
 return 1.
 ```
-[Solution](dailyCodingProblem155.cpp)
+[Solution](data/dailyCodingProblem155.cpp)
 
 ---
 
@@ -2806,7 +2806,7 @@ For example, given n = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
 
 Given n = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
 ```
-[Solution](dailyCodingProblem156.cpp)
+[Solution](data/dailyCodingProblem156.cpp)
 
 ---
 
@@ -2819,7 +2819,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 For example, carrace should return true, since it can be rearranged to form racecar,
 which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
 ```
-[Solution](dailyCodingProblem157.cpp)
+[Solution](data/dailyCodingProblem157.cpp)
 
 ---
 
@@ -2845,7 +2845,7 @@ Down, right, down, right
 
 The top left corner and bottom right corner will always be 0.
 ```
-[Solution](dailyCodingProblem158.cpp)
+[Solution](data/dailyCodingProblem158.cpp)
 
 ---
 
@@ -2859,7 +2859,7 @@ or null if there is no recurring character.
 For example, given the string "acbbac", return "b".
 Given the string "abcdef", return null.
 ```
-[Solution](dailyCodingProblem159.cpp)
+[Solution](data/dailyCodingProblem159.cpp)
 
 ---
 
@@ -2882,7 +2882,7 @@ For example, given the following tree:
 and the weights: a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1,
 the longest path would be c -> a -> d -> f, with a length of 17.
 ```
-[Solution](dailyCodingProblem160.cpp)
+[Solution](data/dailyCodingProblem160.cpp)
 
 ---
 
@@ -2895,7 +2895,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000,
 return 0000 1111 0000 1111 0000 1111 0000 1111.
 ```
-[Solution](dailyCodingProblem161.cpp)
+[Solution](data/dailyCodingProblem161.cpp)
 
 ---
 
@@ -2920,7 +2920,7 @@ app
 apr
 f
 ```
-[Solution](dailyCodingProblem162.cpp)
+[Solution](data/dailyCodingProblem162.cpp)
 
 ---
 
@@ -2939,7 +2939,7 @@ should return 5, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 
 
 You can assume the given expression is always valid.
 ```
-[Solution](dailyCodingProblem163.cpp)
+[Solution](data/dailyCodingProblem163.cpp)
 
 ---
 
@@ -2950,7 +2950,7 @@ You can assume the given expression is always valid.
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}.
 By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 ```
-[Solution](dailyCodingProblem164.cpp)
+[Solution](data/dailyCodingProblem164.cpp)
 
 ---
 
@@ -2969,7 +2969,7 @@ There are 2 smaller elements to the right of 9
 There is 1 smaller element to the right of 6
 There are no smaller elements to the right of 1
 ```
-[Solution](dailyCodingProblem165.cpp)
+[Solution](data/dailyCodingProblem165.cpp)
 
 ---
 
@@ -2989,7 +2989,7 @@ calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
 Do not use flatten or otherwise clone the arrays.
 Some of the arrays can be empty.
 ```
-[Solution](dailyCodingProblem166.cpp)
+[Solution](data/dailyCodingProblem166.cpp)
 
 ---
 
@@ -3006,7 +3006,7 @@ return [(0, 1), (1, 0), (2, 3)].
 Given words = ["abcd", "dcba", "lls", "s", "sssll"]
 Return [[0, 1], [1, 0], [3, 2], [2, 4]]
 ```
-[Solution](dailyCodingProblem167.cpp)
+[Solution](data/dailyCodingProblem167.cpp)
 
 ---
 
@@ -3028,7 +3028,7 @@ you should return:
  [9, 6, 3]]
 Follow-up: What if you couldn't use any extra space?
 ```
-[Solution](dailyCodingProblem168.cpp)
+[Solution](data/dailyCodingProblem168.cpp)
 
 ---
 
@@ -3040,7 +3040,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99.
 ```
-[Solution](dailyCodingProblem169.cpp)
+[Solution](data/dailyCodingProblem169.cpp)
 
 ---
 
@@ -3064,7 +3064,7 @@ Given start = "dog", end = "cat", and dictionary
 = {"dot", "tod", "dat", "dar"}, return null as
 there is no possible transformation from dog to cat.
 ```
-[Solution](dailyCodingProblem170.cpp)
+[Solution](data/dailyCodingProblem170.cpp)
 
 ---
 
@@ -3087,7 +3087,7 @@ Find the busiest period in the building, that is, the time with
 the most people in the building. Return it as a pair of (start, end) timestamps.
 You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 ```
-[Solution](dailyCodingProblem171.cpp)
+[Solution](data/dailyCodingProblem171.cpp)
 
 ---
 
@@ -3106,7 +3106,7 @@ since there are no substrings composed of "dog" and "cat" in s.
 
 The order of the indices does not matter.
 ```
-[Solution](dailyCodingProblem172.cpp)
+[Solution](data/dailyCodingProblem172.cpp)
 
 ---
 
@@ -3139,7 +3139,7 @@ it should become:
 You can assume keys do not contain dots in them,
 i.e. no clobbering will occur.
 ```
-[Solution](dailyCodingProblem173.cpp)
+[Solution](data/dailyCodingProblem173.cpp)
 
 ---
 
@@ -3169,7 +3169,7 @@ and the following transition probabilities:
 One instance of running this Markov chain might produce
 { 'a': 3012, 'b': 1656, 'c': 332 }.
 ```
-[Solution](dailyCodingProblem175.cpp)
+[Solution](data/dailyCodingProblem175.cpp)
 
 ---
 
@@ -3183,7 +3183,7 @@ For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b
 
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 ```
-[Solution](dailyCodingProblem176.cpp)
+[Solution](data/dailyCodingProblem176.cpp)
 
 ---
 
@@ -3197,7 +3197,7 @@ For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 
 
 Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4 -> 5 -> 1 -> 2.
 ```
-[Solution](dailyCodingProblem177.cpp)
+[Solution](data/dailyCodingProblem177.cpp)
 
 ---
 
@@ -3216,7 +3216,7 @@ The second game: same, except that the stopping condition is a five followed by 
 Which of the two games should Alice elect to play? Does it even matter?
 Write a program to simulate the two games and calculate their expected value.
 ```
-[Solution](dailyCodingProblem178.cpp)
+[Solution](data/dailyCodingProblem178.cpp)
 
 ---
 
@@ -3236,7 +3236,7 @@ you should construct the following tree:
  / \   \
 2   4   8
 ```
-[Solution](dailyCodingProblem179.cpp)
+[Solution](data/dailyCodingProblem179.cpp)
 
 ---
 
@@ -3254,7 +3254,7 @@ If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
 
 Hint: Try working backwards from the end state.
 ```
-[Solution](dailyCodingProblem180.cpp)
+[Solution](data/dailyCodingProblem180.cpp)
 
 ---
 
@@ -3270,7 +3270,7 @@ return ["racecar", "anna", "kayak"].
 
 Given the input string abc, return ["a", "b", "c"].
 ```
-[Solution](dailyCodingProblem181.cpp)
+[Solution](data/dailyCodingProblem181.cpp)
 
 ---
 
@@ -3284,7 +3284,7 @@ removed while still leaving the graph connected. For example, any binary tree is
 Given an undirected graph, check if the graph is minimally-connected.
 You can choose to represent the graph as either an adjacency matrix or adjacency list.
 ```
-[Solution](dailyCodingProblem182.cpp)
+[Solution](data/dailyCodingProblem182.cpp)
 
 ---
 
@@ -3296,7 +3296,7 @@ Given n numbers, find the greatest common denominator between them.
 
 For example, given the numbers [42, 56, 14], return 14.
 ```
-[Solution](dailyCodingProblem184.cpp)
+[Solution](data/dailyCodingProblem184.cpp)
 
 ---
 
@@ -3322,7 +3322,7 @@ and
 
 return 6.
 ```
-[Solution](dailyCodingProblem185.cpp)
+[Solution](data/dailyCodingProblem185.cpp)
 
 ---
 
@@ -3336,7 +3336,7 @@ difference between the sum of the subsets is as small as possible.
 For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20},
 which has a difference of 5, which is the smallest possible difference.
 ```
-[Solution](dailyCodingProblem186.cpp)
+[Solution](data/dailyCodingProblem186.cpp)
 
 ---
 
@@ -3364,7 +3364,7 @@ For example, given the following rectangles:
 }
 return true as the first and third rectangle overlap each other.
 ```
-[Solution](dailyCodingProblem187.cpp)
+[Solution](data/dailyCodingProblem187.cpp)
 
 ---
 
@@ -3390,7 +3390,7 @@ for f in functions:
 
 How can we make it print out what we apparently want?
 ```
-[Solution](dailyCodingProblem188.py)
+[Solution](data/dailyCodingProblem188.py)
 
 ---
 
@@ -3404,7 +3404,7 @@ subarray where all its elements are distinct.
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1],
 return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 ```
-[Solution](dailyCodingProblem189.cpp)
+[Solution](data/dailyCodingProblem189.cpp)
 
 ---
 
@@ -3419,7 +3419,7 @@ For example, given [8, -1, 3, 4], return 15 as we choose the numbers
 
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 ```
-[Solution](dailyCodingProblem190.cpp)
+[Solution](data/dailyCodingProblem190.cpp)
 
 ---
 
@@ -3438,7 +3438,7 @@ return 1 as the last interval can be removed and the first two won't overlap.
 
 The intervals are not necessarily sorted in any order.
 ```
-[Solution](dailyCodingProblem191.cpp)
+[Solution](data/dailyCodingProblem191.cpp)
 
 ---
 
@@ -3457,7 +3457,7 @@ indices 0 -> 1 -> 3 -> 5, so return true.
 Given the array [1, 2, 1, 0, 0], we can't reach the end,
 so return false.
 ```
-[Solution](dailyCodingProblem192.cpp)
+[Solution](data/dailyCodingProblem192.cpp)
 
 ---
 
@@ -3475,7 +3475,7 @@ For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since y
 the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars.
 Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 ```
-[Solution](dailyCodingProblem193.cpp)
+[Solution](data/dailyCodingProblem193.cpp)
 
 ---
 
@@ -3488,7 +3488,7 @@ and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line se
 connecting each point pi to qi. Write an algorithm to determine how many pairs of the
 line segments intersect.
 ```
-[Solution](dailyCodingProblem194.cpp)
+[Solution](data/dailyCodingProblem194.cpp)
 
 ---
 
@@ -3510,7 +3510,7 @@ For example, given the following matrix:
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15
 numbers in the matrix smaller than 6 or greater than 23.
 ```
-[Solution](dailyCodingProblem195.cpp)
+[Solution](data/dailyCodingProblem195.cpp)
 
 ---
 
@@ -3531,7 +3531,7 @@ For example, given the following tree:
 Return 2 as it occurs twice: once as the left leaf,
 and once as the sum of 2 + 5 - 5.
 ```
-[Solution](dailyCodingProblem196.cpp)
+[Solution](data/dailyCodingProblem196.cpp)
 
 ---
 
@@ -3542,7 +3542,7 @@ and once as the sum of 2 + 5 - 5.
 Given an array and a number k that's smaller than the length of the array,
 rotate the array to the right k elements in-place.
 ```
-[Solution](dailyCodingProblem197.cpp)
+[Solution](data/dailyCodingProblem197.cpp)
 
 ---
 
@@ -3556,7 +3556,7 @@ of elements in the subset (i, j) satisfies either i % j = 0 or j % i = 0.
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20].
 Given [1, 3, 6, 24], return [1, 3, 6, 24].
 ```
-[Solution](dailyCodingProblem198.cpp)
+[Solution](data/dailyCodingProblem198.cpp)
 
 ---
 
@@ -3571,7 +3571,7 @@ If there are multiple solutions, return any of them.
 For example, given "(()", you could return "(())". Given "))()(",
 you could return "()()()()".
 ```
-[Solution](dailyCodingProblem199.cpp)
+[Solution](data/dailyCodingProblem199.cpp)
 
 ---
 
@@ -3588,7 +3588,7 @@ For example, given the intervals
 [(1, 4), (4, 5), (7, 9), (9, 12)],
 you should return [4, 9].
 ```
-[Solution](dailyCodingProblem200.cpp)
+[Solution](data/dailyCodingProblem200.cpp)
 
 ---
 
@@ -3611,7 +3611,7 @@ is the sum of the entries.
 
 Write a program that returns the weight of the maximum weight path.
 ```
-[Solution](dailyCodingProblem201.cpp)
+[Solution](data/dailyCodingProblem201.cpp)
 
 ---
 
@@ -3623,7 +3623,7 @@ Write a program that checks whether an integer is a palindrome.
 For example, 121 is a palindrome, as well as 888. 678 is not a palindrome.
 Do not convert the integer into a string.
 ```
-[Solution](dailyCodingProblem202.cpp)
+[Solution](data/dailyCodingProblem202.cpp)
 
 ---
 
@@ -3637,7 +3637,7 @@ You may assume the array does not contain duplicates.
 
 For example, given [5, 7, 10, 3, 4], return 3.
 ```
-[Solution](dailyCodingProblem203.cpp)
+[Solution](data/dailyCodingProblem203.cpp)
 
 ---
 
@@ -3658,7 +3658,7 @@ Input:
 
 Output: 6
 ```
-[Solution](dailyCodingProblem204.cpp)
+[Solution](data/dailyCodingProblem204.cpp)
 
 ---
 
@@ -3669,7 +3669,7 @@ Output: 6
 Given an integer, find the next permutation of it in absolute order.
 For example, given 48975, the next permutation would be 49578.
 ```
-[Solution](dailyCodingProblem205.cpp)
+[Solution](data/dailyCodingProblem205.cpp)
 
 ---
 
@@ -3686,7 +3686,7 @@ Given an array and a permutation, apply the permutation to the array.
 For example, given the array ["a", "b", "c"] and the permutation
 [2, 1, 0], return ["c", "b", "a"].
 ```
-[Solution](dailyCodingProblem206.cpp)
+[Solution](data/dailyCodingProblem206.cpp)
 
 ---
 
@@ -3699,7 +3699,7 @@ Recall that a graph is bipartite if its vertices can be
 divided into two independent sets, U and V, such that
 no edge connects vertices of the same set.
 ```
-[Solution](dailyCodingProblem207.cpp)
+[Solution](data/dailyCodingProblem207.cpp)
 
 ---
 
@@ -3713,7 +3713,7 @@ that all nodes less than k come before nodes greater than or equal to k.
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3,
 the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 ```
-[Solution](dailyCodingProblem208.cpp)
+[Solution](data/dailyCodingProblem208.cpp)
 
 ---
 
@@ -3725,7 +3725,7 @@ Write a program that computes the length of the longest common subsequence of th
 For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious",
 it should return 5, since the longest common subsequence is "eieio".
 ```
-[Solution](dailyCodingProblem209.cpp)
+[Solution](data/dailyCodingProblem209.cpp)
 
 ---
 
@@ -3744,7 +3744,7 @@ reaches the number 1. Test this conjecture.
 
 Bonus: What input n <= 1000000 gives the longest sequence?
 ```
-[Solution](dailyCodingProblem210.cpp)
+[Solution](data/dailyCodingProblem210.cpp)
 
 ---
 
@@ -3755,7 +3755,7 @@ Bonus: What input n <= 1000000 gives the longest sequence?
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string.
 For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
 ```
-[Solution](dailyCodingProblem211.cpp)
+[Solution](data/dailyCodingProblem211.cpp)
 
 ---
 
@@ -3769,7 +3769,7 @@ Spreadsheets often use this alphabetical encoding for its columns:
 Given a column number, return its alphabetical column id. For example,
 given 1, return "A". Given 27, return "AA".
 ```
-[Solution](dailyCodingProblem212.cpp)
+[Solution](data/dailyCodingProblem212.cpp)
 
 ---
 
@@ -3786,7 +3786,7 @@ except for 0 itself.
 For example, given "2542540123",
 you should return ['254.25.40.123', '254.254.0.123'].
 ```
-[Solution](dailyCodingProblem213.cpp)
+[Solution](data/dailyCodingProblem213.cpp)
 
 ---
 
@@ -3799,7 +3799,7 @@ consecutive run of 1s in its binary representation.
 
 For example, given 156, you should return 3.
 ```
-[Solution](dailyCodingProblem214.cpp)
+[Solution](data/dailyCodingProblem214.cpp)
 
 ---
 
@@ -3832,7 +3832,7 @@ For this tree, for example, the bottom view could be [0, 1, 3, 6, 8, 9].
 
 Given the root to a binary tree, return its bottom view.
 ```
-[Solution](dailyCodingProblem215.cpp)
+[Solution](data/dailyCodingProblem215.cpp)
 
 ---
 
@@ -3858,7 +3858,7 @@ uses subtractive notation for numbers such as IV and XL.
 
 For the input XIV, for instance, you should return 14.
 ```
-[Solution](dailyCodingProblem216.cpp)
+[Solution](data/dailyCodingProblem216.cpp)
 
 ---
 
@@ -3872,7 +3872,7 @@ find the smallest sparse number greater than or equal to N.
 
 Do this in faster than O(N log N) time.
 ```
-[Solution](dailyCodingProblem217.cpp)
+[Solution](data/dailyCodingProblem217.cpp)
 
 ---
 
@@ -3883,7 +3883,7 @@ Do this in faster than O(N log N) time.
 Write an algorithm that computes the reversal of a directed graph.
 For example, if a graph consists of A -> B -> C, it should become A <- B <- C.
 ```
-[Solution](dailyCodingProblem218.cpp)
+[Solution](data/dailyCodingProblem218.cpp)
 
 ---
 
@@ -3899,7 +3899,7 @@ or diagonally), or when there are no more spots left in the grid.
 
 Design and implement Connect 4.
 ```
-[Solution](dailyCodingProblem219.cpp)
+[Solution](data/dailyCodingProblem219.cpp)
 
 ---
 
@@ -3916,7 +3916,7 @@ it from the row, and receiving the value of the coin.
 Write a program that returns the maximum amount of money you can win
 with certainty, if you move first, assuming your opponent plays optimally.
 ```
-[Solution](dailyCodingProblem220.cpp)
+[Solution](data/dailyCodingProblem220.cpp)
 
 ---
 
@@ -3928,7 +3928,7 @@ Let's define a "sevenish" number to be one which is either a power of 7,
 or the sum of unique powers of 7. The first few sevenish numbers are
 1, 7, 8, 49, and so on. Create an algorithm to find the nth sevenish number.
 ```
-[Solution](dailyCodingProblem221.cpp)
+[Solution](data/dailyCodingProblem221.cpp)
 
 ---
 
@@ -3944,7 +3944,7 @@ For example,
 given "/usr/bin/../bin/./scripts/../",
 return "/usr/bin/".
 ```
-[Solution](dailyCodingProblem222.cpp)
+[Solution](data/dailyCodingProblem222.cpp)
 
 ---
 
@@ -3956,7 +3956,7 @@ Typically, an implementation of in-order traversal of a binary tree has O(h)
 space complexity, where h is the height of the tree. Write a program to
 compute the in-order traversal of a binary tree using O(1) space.
 ```
-[Solution](dailyCodingProblem223.cpp)
+[Solution](data/dailyCodingProblem223.cpp)
 
 ---
 
@@ -3972,7 +3972,7 @@ you should return 7.
 
 Do this in O(N) time.
 ```
-[Solution](dailyCodingProblem224.cpp)
+[Solution](data/dailyCodingProblem224.cpp)
 
 ---
 
@@ -3993,7 +3993,7 @@ would be [2, 4, 1, 5, 3], so you should return 3.
 
 Bonus: Find an O(log N) solution if k = 2.
 ```
-[Solution](dailyCodingProblem225.cpp)
+[Solution](data/dailyCodingProblem225.cpp)
 
 ---
 
@@ -4007,7 +4007,7 @@ Write a program that returns the correct order of letters in this language.
 For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'],
 you should return ['x', 'z', 'w', 'y'].
 ```
-[Solution](dailyCodingProblem226.cpp)
+[Solution](data/dailyCodingProblem226.cpp)
 
 ---
 
@@ -4021,7 +4021,7 @@ can be formed by a sequence of adjacent letters in
 the grid, using each cell at most once. Given a game
 board and a dictionary of valid words, implement a Boggle solver.
 ```
-[Solution](dailyCodingProblem227.cpp)
+[Solution](data/dailyCodingProblem227.cpp)
 
 ---
 
@@ -4033,7 +4033,7 @@ Given a list of numbers, create an algorithm that arranges them in order
 to form the largest possible integer. For example, given [10, 7, 76, 415],
 you should return 77641510.
 ```
-[Solution](dailyCodingProblem228.cpp)
+[Solution](data/dailyCodingProblem228.cpp)
 
 ---
 
@@ -4054,7 +4054,7 @@ For convenience, here are the squares representing snakes and ladders, and their
 snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
-[Solution](dailyCodingProblem229.cpp)
+[Solution](data/dailyCodingProblem229.cpp)
 
 ---
 
@@ -4074,7 +4074,7 @@ in the worst case, to identify this floor.
 For example, if N = 1 and k = 5, we will need to try dropping the egg at every floor,
 beginning with the first, until we reach the fifth floor, so our solution will be 5.
 ```
-[Solution](dailyCodingProblem230.cpp)
+[Solution](data/dailyCodingProblem230.cpp)
 
 ---
 
@@ -4087,7 +4087,7 @@ characters are the same. If this is not possible, return None.
 
 For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
 ```
-[Solution](dailyCodingProblem231.cpp)
+[Solution](data/dailyCodingProblem231.cpp)
 
 ---
 
@@ -4107,7 +4107,7 @@ assert mapsum.sum("col") == 3
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
-[Solution](dailyCodingProblem232.cpp)
+[Solution](data/dailyCodingProblem232.cpp)
 
 ---
 
@@ -4118,7 +4118,7 @@ assert mapsum.sum("col") == 5
 Implement the function fib(n), which returns the nth
 number in the Fibonacci sequence, using only O(1) space.
 ```
-[Solution](dailyCodingProblem233.cpp)
+[Solution](data/dailyCodingProblem233.cpp)
 
 ---
 
@@ -4130,7 +4130,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 all its vertices with the smallest possible total edge weight.
 Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 ```
-[Solution](dailyCodingProblem234.cpp)
+[Solution](data/dailyCodingProblem234.cpp)
 
 ---
 
@@ -4141,7 +4141,7 @@ Given an undirected graph with weighted edges, compute the maximum weight spanni
 Given an array of numbers of length N, find both
 the minimum and maximum using less than 2 * (N - 2) comparisons.
 ```
-[Solution](dailyCodingProblem235.cpp)
+[Solution](data/dailyCodingProblem235.cpp)
 
 ---
 
@@ -4160,7 +4160,7 @@ reflected about the root node. The following tree is an example:
 
 Given a k-ary tree, determine whether it is symmetric.
 ```
-[Solution](dailyCodingProblem237.cpp)
+[Solution](data/dailyCodingProblem237.cpp)
 
 ---
 
@@ -4178,7 +4178,7 @@ For example, 4 - 2 - 1 - 7 is a valid pattern, whereas 2 - 1 - 7 is not.
 
 Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 ```
-[Solution](dailyCodingProblem239.cpp)
+[Solution](data/dailyCodingProblem239.cpp)
 
 ---
 
@@ -4192,7 +4192,7 @@ themselves so that each couple's partners can sit side by side.
 
 What is the minimum number of swaps necessary for this to happen?
 ```
-[Solution](dailyCodingProblem240.cpp)
+[Solution](data/dailyCodingProblem240.cpp)
 
 ---
 
@@ -4212,7 +4212,7 @@ researcher has 3 papers with at least 3 citations.
 
 Given a list of paper citations of a researcher, calculate their h-index.
 ```
-[Solution](dailyCodingProblem241.cpp)
+[Solution](data/dailyCodingProblem241.cpp)
 
 ---
 
@@ -4231,7 +4231,7 @@ signed up between start and end (inclusive).
 You can assume that all values get cleared at the end of the day,
 and that you will not be asked for start and end values that wrap around midnight.
 ```
-[Solution](dailyCodingProblem242.cpp)
+[Solution](data/dailyCodingProblem242.cpp)
 
 ---
 
@@ -4246,7 +4246,7 @@ Return this sum.
 For example, given N = [5, 1, 2, 7, 3, 4] and k = 3, you should return 8,
 since the optimal partition is [5, 1, 2], [7], [3, 4].
 ```
-[Solution](dailyCodingProblem243.cpp)
+[Solution](data/dailyCodingProblem243.cpp)
 
 ---
 
@@ -4266,7 +4266,7 @@ Implement this algorithm.
 Bonus: Create a generator that produces primes indefinitely
 (that is, without taking N as an input).
 ```
-[Solution](dailyCodingProblem244.cpp)
+[Solution](data/dailyCodingProblem244.cpp)
 
 ---
 
@@ -4281,7 +4281,7 @@ the minimum number of jumps you must take in order to get from the start to the 
 For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2,
 as the optimal solution involves jumping from 6 to 5, and then from 5 to 9.
 ```
-[Solution](dailyCodingProblem245.cpp)
+[Solution](data/dailyCodingProblem245.cpp)
 
 ---
 
@@ -4296,7 +4296,7 @@ of X is same as the first character of Y.
 For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can
 form the following circle: chair --> racket --> touch --> height --> tunic --> chair.
 ```
-[Solution](dailyCodingProblem246.cpp)
+[Solution](data/dailyCodingProblem246.cpp)
 
 ---
 
@@ -4308,7 +4308,7 @@ Given a binary tree, determine whether or not it is height-balanced.
 A height-balanced binary tree can be defined as one in which the heights
 of the two subtrees of any node never differ by more than one.
 ```
-[Solution](dailyCodingProblem247.cpp)
+[Solution](data/dailyCodingProblem247.cpp)
 
 ---
 
@@ -4319,7 +4319,7 @@ of the two subtrees of any node never differ by more than one.
 Find the maximum of two numbers without using any
 if-else statements, branching, or direct comparisons.
 ```
-[Solution](dailyCodingProblem248.cpp)
+[Solution](data/dailyCodingProblem248.cpp)
 
 ---
 
@@ -4329,7 +4329,7 @@ if-else statements, branching, or direct comparisons.
 ```
 Given an array of integers, find the maximum XOR of any two elements.
 ```
-[Solution](dailyCodingProblem249.cpp)
+[Solution](data/dailyCodingProblem249.cpp)
 
 ---
 
@@ -4353,7 +4353,7 @@ may have the solution:
 Given a three-word puzzle like the one above,
 create an algorithm that finds a solution.
 ```
-[Solution](dailyCodingProblem250.cpp)
+[Solution](data/dailyCodingProblem250.cpp)
 
 ---
 
@@ -4369,7 +4369,7 @@ Create an algorithm to turn an ordinary
 fraction a / b, where a < b,
 into an Egyptian fraction.
 ```
-[Solution](dailyCodingProblem252.cpp)
+[Solution](data/dailyCodingProblem252.cpp)
 
 ---
 
@@ -4388,7 +4388,7 @@ t     a     g
   i i   i z
    s     g
 ```
-[Solution](dailyCodingProblem253.cpp)
+[Solution](data/dailyCodingProblem253.cpp)
 
 ---
 
@@ -4418,7 +4418,7 @@ You should convert it to:
         /   \
        6     7
 ```
-[Solution](dailyCodingProblem254.cpp)
+[Solution](data/dailyCodingProblem254.cpp)
 
 ---
 
@@ -4448,7 +4448,7 @@ The transitive closure of this graph would be:
 
 Given a graph, find its transitive closure.
 ```
-[Solution](dailyCodingProblem255.cpp)
+[Solution](data/dailyCodingProblem255.cpp)
 
 ---
 
@@ -4461,7 +4461,7 @@ they appear in alternating low -> high -> low -> high ... form.
 For example, given 1 -> 2 -> 3 -> 4 -> 5, you should
 return 1 -> 3 -> 2 -> 5 -> 4.
 ```
-[Solution](dailyCodingProblem256.cpp)
+[Solution](data/dailyCodingProblem256.cpp)
 
 ---
 
@@ -4473,7 +4473,7 @@ Given an array of integers out of order, determine the bounds of the smallest
 window that must be sorted in order for the entire array to be sorted.
 For example, given [3, 7, 5, 6, 9], you should return (1, 3).
 ```
-[Solution](dailyCodingProblem257.cpp)
+[Solution](data/dailyCodingProblem257.cpp)
 
 ---
 
@@ -4497,7 +4497,7 @@ For example, given the following tree:
 
 You should return [1, 3, 2, 4, 5, 6, 7].
 ```
-[Solution](dailyCodingProblem258.cpp)
+[Solution](data/dailyCodingProblem258.cpp)
 
 ---
 
@@ -4511,7 +4511,7 @@ than the last. Given this information, reconstruct an array that is
 consistent with it. For example, given [None, +, +, -, +],
 you could return [1, 2, 3, 0, 4].
 ```
-[Solution](dailyCodingProblem260.cpp)
+[Solution](data/dailyCodingProblem260.cpp)
 
 ---
 
@@ -4541,7 +4541,7 @@ With this encoding, cats would be represented as 0000110111.
 Given a dictionary of character frequencies, build a Huffman tree,
 and use it to determine a mapping between characters and their encoded binary strings.
 ```
-[Solution](dailyCodingProblem261.cpp)
+[Solution](data/dailyCodingProblem261.cpp)
 
 ---
 
@@ -4552,7 +4552,7 @@ and use it to determine a mapping between characters and their encoded binary st
 A bridge in a connected (undirected) graph is an edge that, if removed,
 causes the graph to become disconnected. Find all the bridges in a graph.
 ```
-[Solution](dailyCodingProblem262.cpp)
+[Solution](data/dailyCodingProblem262.cpp)
 
 ---
 
@@ -4569,7 +4569,7 @@ and one possible solution would be 00010111.
 
 Create an algorithm that finds a De Bruijn sequence.
 ```
-[Solution](dailyCodingProblem264.cpp)
+[Solution](data/dailyCodingProblem264.cpp)
 
 ---
 
@@ -4587,7 +4587,7 @@ determine how much each one should get paid.
 
 For example, given [10, 40, 200, 1000, 60, 30], you should return [1, 2, 3, 4, 2, 1].
 ```
-[Solution](dailyCodingProblem265.cpp)
+[Solution](data/dailyCodingProblem265.cpp)
 
 ---
 
@@ -4603,7 +4603,7 @@ you can add an "A" and anagram to get "APPEAL".
 Given a dictionary of words and an input word,
 create a function that returns all valid step words.
 ```
-[Solution](dailyCodingProblem266.cpp)
+[Solution](data/dailyCodingProblem266.cpp)
 
 ---
 
@@ -4630,7 +4630,7 @@ For example, given the following matrix:
 
 You should return True, since the bishop is attacking the king diagonally.
 ```
-[Solution](dailyCodingProblem267.cpp)
+[Solution](data/dailyCodingProblem267.cpp)
 
 ---
 
@@ -4641,7 +4641,7 @@ You should return True, since the bishop is attacking the king diagonally.
 Given a 32-bit positive integer N, determine whether it
 is a power of four in faster than O(log N) time.
 ```
-[Solution](dailyCodingProblem268.cpp)
+[Solution](data/dailyCodingProblem268.cpp)
 
 ---
 
@@ -4665,7 +4665,7 @@ For example, given the string .L.R....L, you should return LL.RRRLLL.
 
 Given the string ..R...L.L, you should return ..RR.LLLL.
 ```
-[Solution](dailyCodingProblem269.cpp)
+[Solution](data/dailyCodingProblem269.cpp)
 
 ---
 
@@ -4701,7 +4701,7 @@ You should return 9, because propagating
 the message from 0 -> 2 -> 3 -> 4
 will take that much time.
 ```
-[Solution](dailyCodingProblem270.cpp)
+[Solution](data/dailyCodingProblem270.cpp)
 
 ---
 
@@ -4714,7 +4714,7 @@ is in the list without performing any multiplication, division, or bit-shift ope
 
 Do this in O(log N) time.
 ```
-[Solution](dailyCodingProblem271.cpp)
+[Solution](data/dailyCodingProblem271.cpp)
 
 ---
 
@@ -4727,7 +4727,7 @@ to throw N dice with some number of faces each to get a specific total.
 
 For example, throw_dice(3, 6, 7) should equal 15.
 ```
-[Solution](dailyCodingProblem272.cpp)
+[Solution](data/dailyCodingProblem272.cpp)
 
 ---
 
@@ -4742,7 +4742,7 @@ Otherwise, return False.
 For example, given [-6, 0, 2, 40], you should return 2.
 Given [1, 5, 7, 8], you should return False.
 ```
-[Solution](dailyCodingProblem273.cpp)
+[Solution](data/dailyCodingProblem273.cpp)
 
 ---
 
@@ -4763,7 +4763,7 @@ As an example, the fourth term is 1211, since the third term consists of one 2 a
 
 Given an integer N, print the Nth term of this sequence.
 ```
-[Solution](dailyCodingProblem275.cpp)
+[Solution](data/dailyCodingProblem275.cpp)
 
 ---
 
@@ -4778,7 +4778,7 @@ with less than O(N * k) worst-case time complexity.
 If the pattern is found, return the start index
 of its location. If not, return False.
 ```
-[Solution](dailyCodingProblem276.cpp)
+[Solution](data/dailyCodingProblem276.cpp)
 
 ---
 
@@ -4809,7 +4809,7 @@ Visually, this can be represented as follows.
 Write a program that takes in an array of integers representing byte values,
 and returns whether it is a valid UTF-8 encoding.
 ```
-[Solution](dailyCodingProblem277.cpp)
+[Solution](data/dailyCodingProblem277.cpp)
 
 ---
 
@@ -4819,7 +4819,7 @@ and returns whether it is a valid UTF-8 encoding.
 ```
 Given an integer N, construct all possible binary search trees with N nodes.
 ```
-[Solution](dailyCodingProblem278.cpp)
+[Solution](data/dailyCodingProblem278.cpp)
 
 ---
 
@@ -4851,7 +4851,7 @@ would be {0, 1, 2, 5}, {3, 6}, {4}.
 Given a friendship list such as the one above,
 determine the number of friend groups in the class.
 ```
-[Solution](dailyCodingProblem279.cpp)
+[Solution](data/dailyCodingProblem279.cpp)
 
 ---
 
@@ -4861,7 +4861,7 @@ determine the number of friend groups in the class.
 ```
 Given an undirected graph, determine if it contains a cycle.
 ```
-[Solution](dailyCodingProblem280.cpp)
+[Solution](data/dailyCodingProblem280.cpp)
 
 ---
 
@@ -4889,7 +4889,7 @@ which will only require cutting through the bricks in the third and fifth row.
 Given an input consisting of brick lengths for each row such as the one above,
 return the fewest number of bricks that must be cut to create a vertical line.
 ```
-[Solution](dailyCodingProblem281.cpp)
+[Solution](data/dailyCodingProblem281.cpp)
 
 ---
 
@@ -4900,7 +4900,7 @@ return the fewest number of bricks that must be cut to create a vertical line.
 Given an array of integers, determine whether it contains a Pythagorean triplet.
 Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
 ```
-[Solution](dailyCodingProblem282.cpp)
+[Solution](data/dailyCodingProblem282.cpp)
 
 ---
 
@@ -4916,7 +4916,7 @@ Babylonians keep time to tuning instruments according to the diatonic scale.
 
 Given an integer N, write a program that returns, in order, the first N regular numbers.
 ```
-[Solution](dailyCodingProblem283.cpp)
+[Solution](data/dailyCodingProblem283.cpp)
 
 ---
 
@@ -4935,7 +4935,7 @@ in the following diagram 4 and 6 are cousins.
 4   5   6
 Given a binary tree and a particular node, find all cousins of that node.
 ```
-[Solution](dailyCodingProblem284.cpp)
+[Solution](data/dailyCodingProblem284.cpp)
 
 ---
 
@@ -4953,7 +4953,7 @@ and 1 all have an unobstructed view to the west.
 
 Can you do this using just one forward pass through the array?
 ```
-[Solution](dailyCodingProblem285.cpp)
+[Solution](data/dailyCodingProblem285.cpp)
 
 ---
 
@@ -4982,7 +4982,7 @@ In aggregate, these buildings would create a skyline that looks like the one bel
 ------------------------
 As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
 ```
-[Solution](dailyCodingProblem286.cpp)
+[Solution](data/dailyCodingProblem286.cpp)
 
 ---
 
@@ -5004,7 +5004,7 @@ For example, suppose k = 1, and the list of tuples is:
 Then a reasonable similarity metric would most likely conclude 
 that a and e are the most similar, so your program should return [('a', 'e')].
 ```
-[Solution](dailyCodingProblem287.cpp)
+[Solution](data/dailyCodingProblem287.cpp)
 
 ---
 
@@ -5030,7 +5030,7 @@ For example, this algorithm terminates in three steps when starting from 1234:
 Write a function that returns how
 many steps this will take for a given input N.
 ```
-[Solution](dailyCodingProblem288.cpp)
+[Solution](data/dailyCodingProblem288.cpp)
 
 ---
 
@@ -5059,7 +5059,7 @@ The game continues in this way until player one takes last stone and loses.
 Given a list of non-zero starting values [a, b, c], and assuming optimal play,
 determine whether the first player has a forced win
 ```
-[Solution](dailyCodingProblem289.cpp)
+[Solution](data/dailyCodingProblem289.cpp)
 
 ---
 
@@ -5086,7 +5086,7 @@ possible to end up with a single Qux through the following steps:
 ['B', 'G']                | (B, G) -> R
 ['R']                     |
 ```
-[Solution](dailyCodingProblem290.cpp)
+[Solution](data/dailyCodingProblem290.cpp)
 
 ---
 
@@ -5102,7 +5102,7 @@ determine how many boats will be needed to save everyone.
 For example, given a population with weights [100, 200, 150, 80]
 and a boat limit of 200, the smallest number of boats required will be three.
 ```
-[Solution](dailyCodingProblem291.cpp)
+[Solution](data/dailyCodingProblem291.cpp)
 
 ---
 
@@ -5142,7 +5142,7 @@ students = {
     5: [3]
 }
 ```
-[Solution](dailyCodingProblem292.cpp)
+[Solution](data/dailyCodingProblem292.cpp)
 
 ---
 
@@ -5163,7 +5163,7 @@ information, determine the lowest cost method to produce this pyramid.
 For example, given the stones [1, 1, 3, 3, 2, 1], the optimal
 solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
 ```
-[Solution](dailyCodingProblem293.cpp)
+[Solution](data/dailyCodingProblem293.cpp)
 
 ---
 
@@ -5195,7 +5195,7 @@ paths = {
 In this case, the shortest valid path would
 be 0 -> 2 -> 4 -> 0, with a distance of 28.
 ```
-[Solution](dailyCodingProblem294.cpp)
+[Solution](data/dailyCodingProblem294.cpp)
 
 ---
 
@@ -5218,7 +5218,7 @@ Given an input k, return the kth row of Pascal's triangle.
 
 Bonus: Can you do this using only O(k) space?
 ```
-[Solution](dailyCodingProblem295.cpp)
+[Solution](data/dailyCodingProblem295.cpp)
 
 ---
 
@@ -5228,7 +5228,7 @@ Bonus: Can you do this using only O(k) space?
 ```
 Given a sorted array, convert it into a height-balanced binary search tree.
 ```
-[Solution](dailyCodingProblem296.cpp)
+[Solution](data/dailyCodingProblem296.cpp)
 
 ---
 
@@ -5255,7 +5255,7 @@ return the fewest number of drinks he must learn in order to satisfy all custome
 
 For the input above, the answer would be 2, as drinks 1 and 5 will satisfy everyone.
 ```
-[Solution](dailyCodingProblem297.cpp)
+[Solution](data/dailyCodingProblem297.cpp)
 
 ---
 
@@ -5274,7 +5274,7 @@ her path that consists of just two types of apple trees.
 For example, given the input [2, 1, 2, 3, 3, 1, 3, 5],
 the longest portion will involve types 1 and 3, with a length of four.
 ```
-[Solution](dailyCodingProblem298.cpp)
+[Solution](data/dailyCodingProblem298.cpp)
 
 ---
 
@@ -5303,7 +5303,7 @@ pipes = {
     'C': {}
 }
 ```
-[Solution](dailyCodingProblem299.cpp)
+[Solution](data/dailyCodingProblem299.cpp)
 
 ---
 
@@ -5315,7 +5315,7 @@ On election day, a voting machine writes data in the form (voter_id, candidate_i
 Write a program that reads this file as a stream and returns the top 3 candidates at any given time.
 If you find a voter voting more than once, report this as fraud
 ```
-[Solution](dailyCodingProblem300.cpp)
+[Solution](data/dailyCodingProblem300.cpp)
 
 ---
 
@@ -5332,7 +5332,7 @@ The check method may return occasional false positives (in other words,
 incorrectly identifying an element as part of the set),
 but should always correctly identify a true element.
 ```
-[Solution](dailyCodingProblem301.cpp)
+[Solution](data/dailyCodingProblem301.cpp)
 
 ---
 
@@ -5352,7 +5352,7 @@ Considering the edges of the matrix as boundaries,
 this divides the grid into three triangles,
 so you should return 3.
 ```
-[Solution](dailyCodingProblem302.cpp)
+[Solution](data/dailyCodingProblem302.cpp)
 
 ---
 
@@ -5365,7 +5365,7 @@ the angle between the hour and the minute hands.
 
 Bonus: When, during the course of a day, will the angle be zero?
 ```
-[Solution](dailyCodingProblem303.cpp)
+[Solution](data/dailyCodingProblem303.cpp)
 
 ---
 
@@ -5379,7 +5379,7 @@ If the knight jumps off the board at any point, however, it is not allowed to ju
 
 After k moves, what is the probability that the knight remains on the board?
 ```
-[Solution](dailyCodingProblem304.cpp)
+[Solution](data/dailyCodingProblem304.cpp)
 
 ---
 
@@ -5406,7 +5406,7 @@ Example 3:
 Input: head = [1,2,3,-3,-2]
 Output: [1]
 ```
-[Solution](dailyCodingProblem305.cpp)
+[Solution](data/dailyCodingProblem305.cpp)
 
 ---
 
@@ -5420,7 +5420,7 @@ a given element at index 4 might end up at indices 3, 4, or 5.
 
 Come up with an algorithm that sorts this list in O(N log k) time.
 ```
-[Solution](dailyCodingProblem306.cpp)
+[Solution](data/dailyCodingProblem306.cpp)
 
 ---
 
@@ -5434,7 +5434,7 @@ while the ceiling is the lowest element in the tree greater than or equal to an 
 
 If either value does not exist, return None.
 ```
-[Solution](dailyCodingProblem307.cpp)
+[Solution](data/dailyCodingProblem307.cpp)
 
 ---
 
@@ -5452,7 +5452,7 @@ so that the entire expression evaluates to True.
 For example, suppose the input is ['F', '|', 'T', '&', 'T']. In this case,
 there are two acceptable groupings: (F | T) & T and F | (T & T).
 ```
-[Solution](dailyCodingProblem308.cpp)
+[Solution](data/dailyCodingProblem308.cpp)
 
 ---
 
@@ -5475,7 +5475,7 @@ person must move, so that the cost here would be five.
 Given an input such as the one above, return the lowest
 possible cost of moving people to remove all gaps.
 ```
-[Solution](dailyCodingProblem309.cpp)
+[Solution](data/dailyCodingProblem309.cpp)
 
 ---
 
@@ -5485,7 +5485,7 @@ possible cost of moving people to remove all gaps.
 ```
 Write an algorithm that finds the total number of set bits in all integers between 1 and N.
 ```
-[Solution](dailyCodingProblem310.cpp)
+[Solution](data/dailyCodingProblem310.cpp)
 
 ---
 
@@ -5498,7 +5498,7 @@ Given an unsorted array, in which all elements are distinct, find a "peak" eleme
 An element is considered a peak if it is greater than both its left and right neighbors.
 It is guaranteed that the first and last elements are lower than all others.
 ```
-[Solution](dailyCodingProblem311.cpp)
+[Solution](data/dailyCodingProblem311.cpp)
 
 ---
 
@@ -5516,7 +5516,7 @@ A B B C
 A B C C
 Given an integer N, determine in how many ways this task is possible.
 ```
-[Solution](dailyCodingProblem312.cpp)
+[Solution](data/dailyCodingProblem312.cpp)
 
 ---
 
@@ -5536,7 +5536,7 @@ Given a lock initially set to 000, a target combination, and a list of dead ends
 write a function that returns the minimum number of moves required to reach the target state,
 or None if this is impossible.
 ```
-[Solution](dailyCodingProblem313.cpp)
+[Solution](data/dailyCodingProblem313.cpp)
 
 ---
 
@@ -5558,7 +5558,7 @@ towers = [4, 8, 15]. In this case the minimum range
 would be 5, since that would be required for the tower
 at position 15 to reach the listener at position 20.
 ```
-[Solution](dailyCodingProblem314.cpp)
+[Solution](data/dailyCodingProblem314.cpp)
 
 ---
 
@@ -5579,7 +5579,7 @@ Here is an example:
 Write a program to determine whether a
 given input is a Toeplitz matrix.
 ```
-[Solution](dailyCodingProblem315.cpp)
+[Solution](data/dailyCodingProblem315.cpp)
 
 ---
 
@@ -5589,7 +5589,7 @@ given input is a Toeplitz matrix.
 ```
 Write a function that returns the bitwise AND of all integers between M and N, inclusive.
 ```
-[Solution](dailyCodingProblem317.cpp)
+[Solution](data/dailyCodingProblem317.cpp)
 
 ---
 
@@ -5603,7 +5603,7 @@ A valid playlist should select each song at least once, and guarantee a buffer o
 
 Given N, M, and B, determine the number of valid playlists.
 ```
-[Solution](dailyCodingProblem318.cpp)
+[Solution](data/dailyCodingProblem318.cpp)
 
 ---
 
@@ -5621,7 +5621,7 @@ Design a class to represent the board, and find a series
 of steps to bring the board to the state
 [[1, 2, 3], [4, 5, 6], [7, 8, None]].
 ```
-[Solution](dailyCodingProblem319.cpp)
+[Solution](data/dailyCodingProblem319.cpp)
 
 ---
 
@@ -5636,7 +5636,7 @@ Characters may appear more than once in the window.
 For example, given "jiujitsu", you should return 5,
 corresponding to the final five letters.
 ```
-[Solution](dailyCodingProblem320.cpp)
+[Solution](data/dailyCodingProblem320.cpp)
 
 ---
 
@@ -5654,7 +5654,7 @@ If a * b = N, you may decrement N to the larger of a and b.
 For example, given 100, you can reach 1 in five steps
 with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
 ```
-[Solution](dailyCodingProblem321.cpp)
+[Solution](data/dailyCodingProblem321.cpp)
 
 ---
 
@@ -5668,7 +5668,7 @@ On the ith jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
 ```
-[Solution](dailyCodingProblem322.cpp)
+[Solution](data/dailyCodingProblem322.cpp)
 
 ---
 
@@ -5681,7 +5681,7 @@ Create an algorithm to efficiently compute the approximate median of a list of n
 More precisely, given an unordered list of N numbers, find an element whose rank
 is between N / 4 and 3 * N / 4, with a high level of certainty, in less than O(N) time.
 ```
-[Solution](dailyCodingProblem323.cpp)
+[Solution](data/dailyCodingProblem323.cpp)
 
 ---
 
@@ -5701,7 +5701,7 @@ the holes are located at [10, -5, 0, 16]. In this case,
 the best pairing would require us to send the mouse at 1 to the hole at -5,
 so our function should return 6.
 ```
-[Solution](dailyCodingProblem324.cpp)
+[Solution](data/dailyCodingProblem324.cpp)
 
 ---
 
@@ -5718,7 +5718,7 @@ Create a data structure that can efficiently convert a certain quantity
 of one unit to the correct amount of any other unit. You should also allow
 for additional units to be added to the system.
 ```
-[Solution](dailyCodingProblem325.cpp)
+[Solution](data/dailyCodingProblem325.cpp)
 
 ---
 
@@ -5739,7 +5739,7 @@ For example, given the sequence [3, 2, 6, 1, 9], the resulting Cartesian tree wo
 3   6
 Given a sequence S, construct the corresponding Cartesian tree.
 ```
-[Solution](dailyCodingProblem326.cpp)
+[Solution](data/dailyCodingProblem326.cpp)
 
 ---
 
@@ -5768,7 +5768,7 @@ Output: Merged tree:
   / \   \ 
  5   2   7
 ```
-[Solution](dailyCodingProblem327.cpp)
+[Solution](data/dailyCodingProblem327.cpp)
 
 ---
 
@@ -5787,7 +5787,7 @@ points for beating a 2000-ranked player than for beating a 1300-ranked player.
 
 Implement this system.
 ```
-[Solution](dailyCodingProblem328.cpp)
+[Solution](data/dailyCodingProblem328.cpp)
 
 ---
 
@@ -5816,7 +5816,7 @@ Write an algorithm that pairs the men and women together in such a
 way that no two people of opposite sex would both rather be with each
 other than with their current partners.
 ```
-[Solution](dailyCodingProblem329.cpp)
+[Solution](data/dailyCodingProblem329.cpp)
 
 ---
 
@@ -5843,7 +5843,7 @@ Given a 2-CNF formula, find a way to assign
 truth values to satisfy it, or return False
 if this is impossible.
 ```
-[Solution](dailyCodingProblem330.cpp)
+[Solution](data/dailyCodingProblem330.cpp)
 
 ---
 
@@ -5858,7 +5858,7 @@ Determine how many times you would need to apply this operation to
 ensure that all x's come before all y's. In the preceding example,
 it suffices to flip the second and sixth characters, so you should return 2.
 ```
-[Solution](dailyCodingProblem331.cpp)
+[Solution](data/dailyCodingProblem331.cpp)
 
 ---
 
@@ -5872,7 +5872,7 @@ positive integer pairs (a, b) satisfy the following conditions:
 a + b = M
 a XOR b = N
 ```
-[Solution](dailyCodingProblem332.cpp)
+[Solution](data/dailyCodingProblem332.cpp)
 
 ---
 
@@ -5889,7 +5889,7 @@ if person a knows person b, else False.
 Given a list of N people and the above operation,
 find a way to identify the celebrity in O(N) time.
 ```
-[Solution](dailyCodingProblem333.cpp)
+[Solution](data/dailyCodingProblem333.cpp)
 
 ---
 
@@ -5908,7 +5908,7 @@ return True, since (5 * 2 - 7) * 8 = 24.
 
 Write a function that plays the 24 game.
 ```
-[Solution](dailyCodingProblem334.py)
+[Solution](data/dailyCodingProblem334.py)
 
 ---
 
@@ -5925,7 +5925,7 @@ For example, if N = 3, and our integers are [1, 2, 3], there are two ways, shown
  / \    / \
 1   2  2   1
 ```
-[Solution](dailyCodingProblem336.cpp)
+[Solution](data/dailyCodingProblem336.cpp)
 
 ---
 
@@ -5936,7 +5936,7 @@ For example, if N = 3, and our integers are [1, 2, 3], there are two ways, shown
 Given a linked list, uniformly shuffle the nodes.
 What if we want to prioritize space over time?
 ```
-[Solution](dailyCodingProblem337.cpp)
+[Solution](data/dailyCodingProblem337.cpp)
 
 ---
 
@@ -5947,7 +5947,7 @@ What if we want to prioritize space over time?
 Given an integer n, find the next biggest integer with the same number of 1-bits on.
 For example, given the number 6 (0110 in binary), return 9 (1001).
 ```
-[Solution](dailyCodingProblem338.cpp)
+[Solution](data/dailyCodingProblem338.cpp)
 
 ---
 
@@ -5959,7 +5959,7 @@ Given an array of numbers and a number k, determine if there are three entries i
 add up to the specified number k. For example, given [20, 303, 3, 4, 25] and k = 49,
 return true as 20 + 4 + 25 = 49.
 ```
-[Solution](dailyCodingProblem339.cpp)
+[Solution](data/dailyCodingProblem339.cpp)
 
 ---
 
@@ -5971,7 +5971,7 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)],
 return [(-1, -1), (1, 1)].
 ```
-[Solution](dailyCodingProblem340.cpp)
+[Solution](data/dailyCodingProblem340.cpp)
 
 ---
 
@@ -5994,7 +5994,7 @@ and so on until we reach the end, when we return the sum of the array.
 
 Implement your own version of reduce.
 ```
-[Solution](dailyCodingProblem342.py)
+[Solution](data/dailyCodingProblem342.py)
 
 ---
 
@@ -6014,7 +6014,7 @@ For example, given the following tree:
 2  4 6  10
 and the range [4, 9], return 23 (5 + 4 + 6 + 8).
 ```
-[Solution](dailyCodingProblem343.cpp)
+[Solution](data/dailyCodingProblem343.cpp)
 
 ---
 
@@ -6041,7 +6041,7 @@ In this case, removing the edge (3, 4) satisfies our requirement.
 Write a function that returns the maximum number of edges
 you can remove while still satisfying this requirement.
 ```
-[Solution](dailyCodingProblem344.cpp)
+[Solution](data/dailyCodingProblem344.cpp)
 
 ---
 
@@ -6061,7 +6061,7 @@ consider the case of (coach, bus) and (coach, teacher).
 
 Follow-up: what if we can assume that (a, b) and (a, c) do in fact imply (b, c)?
 ```
-[Solution](dailyCodingProblem345.cpp)
+[Solution](data/dailyCodingProblem345.cpp)
 
 ---
 
@@ -6094,7 +6094,7 @@ and our input flights are as follows:
 Due to some improbably low flight prices, the cheapest
 itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
 ```
-[Solution](dailyCodingProblem346.cpp)
+[Solution](data/dailyCodingProblem346.cpp)
 
 ---
 
@@ -6112,7 +6112,7 @@ smallest string that can be created after an unlimited number of moves.
 For example, suppose we are given the string daily and k = 1.
 The best we can create in this case is ailyd
 ```
-[Solution](dailyCodingProblem347.cpp)
+[Solution](data/dailyCodingProblem347.cpp)
 
 ---
 
@@ -6144,7 +6144,7 @@ left child extending from cod.
 
 Implement insertion and search functions for a ternary search tree.
 ```
-[Solution](dailyCodingProblem348.cpp)
+[Solution](data/dailyCodingProblem348.cpp)
 
 ---
 
@@ -6161,7 +6161,7 @@ Given N = 4, return 1 (4)
 Given N = 17, return 2 (16 + 1)
 Given N = 18, return 2 (9 + 9)
 ```
-[Solution](dailyCodingProblem350.cpp)
+[Solution](data/dailyCodingProblem350.cpp)
 
 ---
 
@@ -6183,7 +6183,7 @@ Determine the area of the largest rectangle that can be formed only
 from the bars of the histogram. For the diagram above, for example,
 this would be six, representing the 2 x 3 area at the bottom right.
 ```
-[Solution](dailyCodingProblem353.cpp)
+[Solution](data/dailyCodingProblem353.cpp)
 
 ---
 
@@ -6202,7 +6202,7 @@ In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possi
 For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5],
 which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
 ```
-[Solution](dailyCodingProblem355.cpp)
+[Solution](data/dailyCodingProblem355.cpp)
 
 ---
 
@@ -6214,7 +6214,7 @@ Implement a queue using a set of fixed-length arrays.
 
 The queue should support enqueue, dequeue, and get_size operations.
 ```
-[Solution](dailyCodingProblem356.cpp)
+[Solution](data/dailyCodingProblem356.cpp)
 
 ---
 
@@ -6237,7 +6237,7 @@ An unbalanced tree with three consecutive left children: ((((00)0)0)0)
 
 Given this representation, determine the depth of the tree.
 ```
-[Solution](dailyCodingProblem357.cpp)
+[Solution](data/dailyCodingProblem357.cpp)
 
 ---
 
@@ -6252,7 +6252,7 @@ minus: Decrement the value of a key. If the key's value is currently 1, remove i
 get_max: Return a key with the highest value.
 get_min: Return a key with the lowest value.
 ```
-[Solution](dailyCodingProblem358.cpp)
+[Solution](data/dailyCodingProblem358.cpp)
 
 ---
 
@@ -6270,7 +6270,7 @@ Note that there can be multiple instances of each integer.
 Given this string, return the original integers
 in sorted order. In the example above, this would be 357.
 ```
-[Solution](dailyCodingProblem359.cpp)
+[Solution](data/dailyCodingProblem359.cpp)
 
 ---
 
@@ -6290,7 +6290,7 @@ create a playlist that satisfies everyone's priorities.
 For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}.
 In this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
 ```
-[Solution](dailyCodingProblem360.cpp)
+[Solution](data/dailyCodingProblem360.cpp)
 
 ---
 
@@ -6316,7 +6316,7 @@ For example, for the following scores you should return True, since they corresp
 However, it is impossible for any key to result in the following scores, so in this case you should return False:
 {123456: 4, 345678: 4, 567890: 4}
 ```
-[Solution](dailyCodingProblem361.cpp)
+[Solution](data/dailyCodingProblem361.cpp)
 
 ---
 
@@ -6329,7 +6329,7 @@ For example, 16891 is strobogrammatic.
 
 Create a program that finds all strobogrammatic numbers with N digits.
 ```
-[Solution](dailyCodingProblem362.cpp)
+[Solution](data/dailyCodingProblem362.cpp)
 
 ---
 
@@ -6347,7 +6347,7 @@ pull(): remove the item on the right end of the list.
 Implement a quack using three stacks and O(1) additional memory,
 so that the amortized time for any push, pop, or pull operation is O(1).
 ```
-[Solution](dailyCodingProblem365.cpp)
+[Solution](data/dailyCodingProblem365.cpp)
 
 ---
 
@@ -6362,7 +6362,7 @@ If this is not possible, return null.
 For example, if s = yyz then return yzy.
 If s = yyy then return null.
 ```
-[Solution](dailyCodingProblem366.cpp)
+[Solution](data/dailyCodingProblem366.cpp)
 
 ---
 
@@ -6388,7 +6388,7 @@ for num in merge_iterators(foo, bar):
 15
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 ```
-[Solution](dailyCodingProblem367.py)
+[Solution](data/dailyCodingProblem367.py)
 
 ---
 
@@ -6409,7 +6409,7 @@ kv.update(2, 1)
 
 And then called kv.max_key(1), it should return 2, since it's the largest key with value 1.
 ```
-[Solution](dailyCodingProblem368.cpp)
+[Solution](data/dailyCodingProblem368.cpp)
 
 ---
 
@@ -6424,7 +6424,7 @@ The data is given as (timestamp, price), where timestamp is specified in unix ep
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
 ```
-[Solution](dailyCodingProblem369.cpp)
+[Solution](data/dailyCodingProblem369.cpp)
 
 ---
 
@@ -6453,7 +6453,7 @@ For example, if the input is the following:
 
 The total active time would be 1260 seconds.
 ```
-[Solution](dailyCodingProblem370.cpp)
+[Solution](data/dailyCodingProblem370.cpp)
 
 ---
 
@@ -6465,7 +6465,7 @@ Write a function that takes a natural number as input and returns the number of 
 
 Constraint: don't use any loops.
 ```
-[Solution](dailyCodingProblem372.cpp)
+[Solution](data/dailyCodingProblem372.cpp)
 
 ---
 
@@ -6479,7 +6479,7 @@ that can be formed using elements from L.
 For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequence
 [1, 2, 3, 4, 5] which has length 5.
 ```
-[Solution](dailyCodingProblem373.cpp)
+[Solution](data/dailyCodingProblem373.cpp)
 
 ---
 
@@ -6493,7 +6493,7 @@ Return null if there is no such index.
 For example, given the array [-5, -3, 2, 3], return 2 since arr[2] == 2.
 Even though arr[3] == 3, we return 2 since it's the lowest index.
 ```
-[Solution](dailyCodingProblem374.cpp)
+[Solution](data/dailyCodingProblem374.cpp)
 
 ---
 
@@ -6522,7 +6522,7 @@ citations respectively. The h-index for this researcher is 2,
 since they have 2 papers with at least 2 citations and the
 remaining 3 papers have no more than 2 citations.
 ```
-[Solution](dailyCodingProblem375.cpp)
+[Solution](data/dailyCodingProblem375.cpp)
 
 ---
 
@@ -6555,7 +6555,7 @@ return (0, 4), since that coin is closest. This map would be represented in our 
 Our position: (0, 2)
 Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
 ```
-[Solution](dailyCodingProblem376.cpp)
+[Solution](data/dailyCodingProblem376.cpp)
 
 ---
 
@@ -6581,7 +6581,7 @@ Your function should print out the following:
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
 ```
-[Solution](dailyCodingProblem377.cpp)
+[Solution](data/dailyCodingProblem377.cpp)
 
 ---
 
@@ -6599,7 +6599,7 @@ You should return the following, as a string:
 
 '[null, 123, ["a", "b"], {"c": "d"}]'
 ```
-[Solution](dailyCodingProblem378.py)
+[Solution](data/dailyCodingProblem378.py)
 
 ---
 
@@ -6621,7 +6621,7 @@ xyz
 
 Note that zx is not a valid subsequence since it is not in the order of the given string.
 ```
-[Solution](dailyCodingProblem379.cpp)
+[Solution](data/dailyCodingProblem379.cpp)
 
 ---
 
@@ -6638,7 +6638,7 @@ since the divisor is 3 and the remainder is 1.
 
 Bonus: Can you do it in O(log n) time?
 ```
-[Solution](dailyCodingProblem380.cpp)
+[Solution](data/dailyCodingProblem380.cpp)
 
 ---
 
@@ -6651,7 +6651,7 @@ Implement a function that converts a hex string to base64.
 For example, the string: deadbeef
 should produce: 3q2+7w==
 ```
-[Solution](dailyCodingProblem381.cpp)
+[Solution](data/dailyCodingProblem381.cpp)
 
 ---
 
@@ -6668,7 +6668,7 @@ For example, given s = abcdefg and lst = ["bc", "ef"], return the string a<b>bc<
 
 Given s = abcdefg and lst = ["bcd", "def"], return the string a<b>bcdef</b>g, since they overlap.
 ```
-[Solution](dailyCodingProblem383.cpp)
+[Solution](data/dailyCodingProblem383.cpp)
 
 ---
 
@@ -6685,7 +6685,7 @@ For example, given an array of [1, 5, 10] and an amount 56, return 7 since we ca
 
 Given an array of [5, 8] and an amount 15, return 3 since we can use 5 5-cent coins.
 ```
-[Solution](dailyCodingProblem384.cpp)
+[Solution](data/dailyCodingProblem384.cpp)
 
 ---
 
@@ -6698,7 +6698,7 @@ If there are multiple possible solutions, return any of them.
 
 For example, given the string tweet, return tteew. eettw would also be acceptable.
 ```
-[Solution](dailyCodingProblem386.cpp)
+[Solution](data/dailyCodingProblem386.cpp)
 
 ---
 
@@ -6721,7 +6721,7 @@ You should return the following:
 
 ['/login', '/user', '/one']
 ```
-[Solution](dailyCodingProblem391.cpp)
+[Solution](data/dailyCodingProblem391.cpp)
 
 ---
 
@@ -6750,7 +6750,7 @@ For example, given the following matrix:
 
 Return 14.
 ```
-[Solution](dailyCodingProblem392.cpp)
+[Solution](data/dailyCodingProblem392.cpp)
 
 ---
 
@@ -6762,7 +6762,7 @@ Given an array of integers, return the largest range, inclusive, of integers tha
 
 For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8, 9, 10, 11, and 12 are all in the array.
 ```
-[Solution](dailyCodingProblem393.cpp)
+[Solution](data/dailyCodingProblem393.cpp)
 
 ---
 
@@ -6782,7 +6782,7 @@ For example, given k = 18 and the following binary tree:
 
 Return True since the path 8 -> 4 -> 6 sums to 18.
 ```
-[Solution](dailyCodingProblem394.cpp)
+[Solution](data/dailyCodingProblem394.cpp)
 
 ---
 
@@ -6801,7 +6801,7 @@ Return:
  ['apt', 'pat'],
  ['now']]
 ```
-[Solution](dailyCodingProblem395.cpp)
+[Solution](data/dailyCodingProblem395.cpp)
 
 ---
 
@@ -6820,7 +6820,7 @@ Recall that a subsequence of a string does not have to be contiguous!
 
 Your algorithm should run in O(n^2) time and space.
 ```
-[Solution](dailyCodingProblem396.cpp)
+[Solution](data/dailyCodingProblem396.cpp)
 
 ---
 
@@ -6848,7 +6848,7 @@ Return:
 (4, 7),
 (8, 11)]
 ```
-[Solution](dailyCodingProblem397.cpp)
+[Solution](data/dailyCodingProblem397.cpp)
 
 ---
 
@@ -6863,7 +6863,7 @@ k is guaranteed to be smaller than the length of the list.
 
 Do this in one pass.
 ```
-[Solution](dailyCodingProblem398.cpp)
+[Solution](data/dailyCodingProblem398.cpp)
 
 ---
 
@@ -6886,7 +6886,7 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 ```
-[Solution](dailyCodingProblem399.cpp)
+[Solution](data/dailyCodingProblem399.cpp)
 
 ---
 
@@ -6901,7 +6901,7 @@ For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), whi
 
 You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step
 ```
-[Solution](dailyCodingProblem400.cpp)
+[Solution](data/dailyCodingProblem400.cpp)
 
 ---
 
@@ -6916,7 +6916,7 @@ and 2 are swapped.
 Given an array and a permutation, apply the permutation to the array. For example,
 given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
 ```
-[Solution](dailyCodingProblem401.cpp)
+[Solution](data/dailyCodingProblem401.cpp)
 
 ---
 
@@ -6929,7 +6929,7 @@ For example, 16891 is strobogrammatic.
 
 Create a program that finds all strobogrammatic numbers with N digits.
 ```
-[Solution](dailyCodingProblem402.cpp)
+[Solution](data/dailyCodingProblem402.cpp)
 
 ---
 
@@ -6940,7 +6940,7 @@ Create a program that finds all strobogrammatic numbers with N digits.
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability,
 implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 ```
-[Solution](dailyCodingProblem403.cpp)
+[Solution](data/dailyCodingProblem403.cpp)
 
 ---
 
@@ -6953,7 +6953,7 @@ find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 ```
-[Solution](dailyCodingProblem404.cpp)
+[Solution](data/dailyCodingProblem404.cpp)
 
 ---
 
@@ -6963,7 +6963,7 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 ```
 Given a tree, find the largest tree/subtree that is a BST.
 ```
-[Solution](dailyCodingProblem405.cpp)
+[Solution](data/dailyCodingProblem405.cpp)
 
 ---
 
@@ -6981,7 +6981,7 @@ so that the entire expression evaluates to True.
 For example, suppose the input is ['F', '|', 'T', '&', 'T']. In this case,
 there are two acceptable groupings: (F | T) & T and F | (T & T).
 ```
-[Solution](dailyCodingProblem406.cpp)
+[Solution](data/dailyCodingProblem406.cpp)
 
 ---
 
@@ -7010,7 +7010,7 @@ pipes = {
     'C': {}
 }
 ```
-[Solution](dailyCodingProblem407.cpp)
+[Solution](data/dailyCodingProblem407.cpp)
 
 ---
 
@@ -7024,7 +7024,7 @@ and you must sell the stock before you can buy it again.
 
 For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 ```
-[Solution](dailyCodingProblem408.cpp)
+[Solution](data/dailyCodingProblem408.cpp)
 
 ---
 
@@ -7043,7 +7043,7 @@ In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possi
 For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5],
 which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
 ```
-[Solution](dailyCodingProblem410.cpp)
+[Solution](data/dailyCodingProblem410.cpp)
 
 ---
 
@@ -7055,7 +7055,7 @@ Given a string which we can delete at most k, return whether you can make a pali
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 ```
-[Solution](dailyCodingProblem411.cpp)
+[Solution](data/dailyCodingProblem411.cpp)
 
 ---
 
@@ -7076,7 +7076,7 @@ As an example, the fourth term is 1211, since the third term consists of one 2 a
 
 Given an integer N, print the Nth term of this sequence.
 ```
-[Solution](dailyCodingProblem412.cpp)
+[Solution](data/dailyCodingProblem412.cpp)
 
 ---
 
@@ -7100,7 +7100,7 @@ What if, instead of being able to climb 1 or 2 steps at a time,
 you could climb any number from a set of positive integers X? For example,
 if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 ```
-[Solution](dailyCodingProblem413.cpp)
+[Solution](data/dailyCodingProblem413.cpp)
 
 ---
 
@@ -7112,7 +7112,7 @@ You have an N by N board. Write a function that, given N, returns the number of 
 of the board where N queens can be placed on the board without threatening each other,
 i.e. no two queens share the same row, column, or diagonal.
 ```
-[Solution](dailyCodingProblem414.cpp)
+[Solution](data/dailyCodingProblem414.cpp)
 
 ---
 
@@ -7130,7 +7130,7 @@ For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since y
 the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars.
 Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 ```
-[Solution](dailyCodingProblem415.cpp)
+[Solution](data/dailyCodingProblem415.cpp)
 
 ---
 
@@ -7158,7 +7158,7 @@ Input: [(0, 0), (1, 1), (1, 2)]
 Output: 2
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
 ```
-[Solution](dailyCodingProblem416.cpp)
+[Solution](data/dailyCodingProblem416.cpp)
 
 ---
 
@@ -7174,7 +7174,7 @@ For example, suppose you are given the input
 you should first remove 3 -> 4 -> -7,
 then -6 -> 6, leaving only 5.
 ```
-[Solution](dailyCodingProblem417.cpp)
+[Solution](data/dailyCodingProblem417.cpp)
 
 ---
 
@@ -7190,7 +7190,7 @@ Given an array representing a line of seats of employees at MegaCorp, determine 
 
 For example, given [10, 40, 200, 1000, 60, 30], you should return [1, 2, 3, 4, 2, 1].
 ```
-[Solution](dailyCodingProblem418.cpp)
+[Solution](data/dailyCodingProblem418.cpp)
 
 ---
 
@@ -7206,7 +7206,7 @@ You may decrement N to N - 1.
 If a * b = N, you may decrement N to the larger of a and b.
 For example, given 100, you can reach 1 in five steps with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
 ```
-[Solution](dailyCodingProblem419.cpp)
+[Solution](data/dailyCodingProblem419.cpp)
 
 ---
 
@@ -7220,7 +7220,7 @@ Given a positive integer n, return the n-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 ```
-[Solution](dailyCodingProblem420.cpp)
+[Solution](data/dailyCodingProblem420.cpp)
 
 ---
 
@@ -7246,7 +7246,7 @@ Output: Merged tree:
       / \   \ 
      5   2   7
 ```
-[Solution](dailyCodingProblem422.cpp)
+[Solution](data/dailyCodingProblem422.cpp)
 
 ---
 
@@ -7274,7 +7274,7 @@ The transitive closure of this graph would be:
 [0, 0, 0, 1]
 Given a graph, find its transitive closure.
 ```
-[Solution](dailyCodingProblem423.cpp)
+[Solution](data/dailyCodingProblem423.cpp)
 
 ---
 
@@ -7285,7 +7285,7 @@ Given a graph, find its transitive closure.
 Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice,
 find the two elements that appear only once.
 ```
-[Solution](dailyCodingProblem424.cpp)
+[Solution](data/dailyCodingProblem424.cpp)
 
 ---
 
@@ -7310,7 +7310,7 @@ For example, given the following matrix:
 
 You should return True, since the bishop is attacking the king diagonally.
 ```
-[Solution](dailyCodingProblem425.cpp)
+[Solution](data/dailyCodingProblem425.cpp)
 
 ---
 
@@ -7328,7 +7328,7 @@ Given a binary tree, return the level of the tree with minimum sum.
 
 answer = (-1 + 3 + -2 + 6) = 6
 ```
-[Solution](dailyCodingProblem426.cpp)
+[Solution](data/dailyCodingProblem426.cpp)
 
 ---
 
@@ -7362,7 +7362,7 @@ In this case, the shortest valid
 path would be 0 -> 2 -> 4 -> 0,
 with a distance of 28.
 ```
-[Solution](dailyCodingProblem427.cpp)
+[Solution](data/dailyCodingProblem427.cpp)
 
 ---
 
@@ -7383,7 +7383,7 @@ information, determine the lowest cost method to produce this pyramid.
 For example, given the stones [1, 1, 3, 3, 2, 1], the optimal
 solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
 ```
-[Solution](dailyCodingProblem428.cpp)
+[Solution](data/dailyCodingProblem428.cpp)
 
 ---
 
@@ -7406,7 +7406,7 @@ Given an input k, return the kth row of Pascal's triangle.
 
 Bonus: Can you do this using only O(k) space?
 ```
-[Solution](dailyCodingProblem429.cpp)
+[Solution](data/dailyCodingProblem429.cpp)
 
 ---
 
@@ -7419,7 +7419,7 @@ using the minimum number of insertions and deletions. If there are multiple solu
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 ```
-[Solution](dailyCodingProblem430.cpp)
+[Solution](data/dailyCodingProblem430.cpp)
 
 ---
 
@@ -7437,7 +7437,7 @@ All other characters must be lowercase letters, separators (,,;,:) or terminal m
 There must be a single space between each word.
 The sentence must end with a terminal mark immediately following a word.
 ```
-[Solution](dailyCodingProblem431.cpp)
+[Solution](data/dailyCodingProblem431.cpp)
 
 ---
 
@@ -7448,7 +7448,7 @@ The sentence must end with a terminal mark immediately following a word.
 Given an integer n, find the next biggest integer with the same number of 1-bits on.
 For example, given the number 6 (0110 in binary), return 9 (1001).
 ```
-[Solution](dailyCodingProblem433.cpp)
+[Solution](data/dailyCodingProblem433.cpp)
 
 ---
 
@@ -7474,7 +7474,7 @@ ceiling of 9 = 10
 floor of 14 = 12
 ceiling of 14 = does not exist
 ```
-[Solution](dailyCodingProblem434.cpp)
+[Solution](data/dailyCodingProblem434.cpp)
 
 ---
 
@@ -7500,7 +7500,7 @@ You should return the following tree:
  / \ / \
 d  e f  g
 ```
-[Solution](dailyCodingProblem435.cpp)
+[Solution](data/dailyCodingProblem435.cpp)
 
 ---
 
@@ -7520,7 +7520,7 @@ class Stack:
     def push(self, item, stack_number):
         pass
 ```
-[Solution](dailyCodingProblem436.cpp)
+[Solution](data/dailyCodingProblem436.cpp)
 
 ---
 
@@ -7532,7 +7532,7 @@ Given a string and a set of characters, return the shortest substring containing
 For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 If there is no substring containing all the characters in the set, return null.
 ```
-[Solution](dailyCodingProblem437.cpp)
+[Solution](data/dailyCodingProblem437.cpp)
 
 ---
 
@@ -7550,7 +7550,7 @@ Recall that a heap has the following operations:
 push(item), which adds a new key to the heap
 pop(), which removes and returns the max value of the heap
 ```
-[Solution](dailyCodingProblem438.cpp)
+[Solution](data/dailyCodingProblem438.cpp)
 
 ---
 
@@ -7572,7 +7572,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C']
 is also a valid itinerary. However, the first one is lexicographically smaller.
 ```
-[Solution](dailyCodingProblem439.cpp)
+[Solution](data/dailyCodingProblem439.cpp)
 
 ---
 
@@ -7590,7 +7590,7 @@ Ordering within a part can be arbitrary.
 For example, given x = 10 and lst = [9, 12, 3, 5, 14, 10, 10],
 one partition may be [9, 3, 5, 10, 10, 12, 14].
 ```
-[Solution](dailyCodingProblem441.cpp)
+[Solution](data/dailyCodingProblem441.cpp)
 
 ---
 
@@ -7612,7 +7612,7 @@ For example, given the sequence [3, 2, 6, 1, 9], the resulting Cartesian tree wo
 
 Given a sequence S, construct the corresponding Cartesian tree.
 ```
-[Solution](dailyCodingProblem442.cpp)
+[Solution](data/dailyCodingProblem442.cpp)
 
 ---
 
@@ -7622,7 +7622,7 @@ Given a sequence S, construct the corresponding Cartesian tree.
 ```
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 ```
-[Solution](dailyCodingProblem443.cpp)
+[Solution](data/dailyCodingProblem443.cpp)
 
 ---
 
@@ -7639,7 +7639,7 @@ with less than O(N * k) worst-case time complexity.
 If the pattern is found, return the start index
 of its location. If not, return False.
 ```
-[Solution](dailyCodingProblem444.cpp)
+[Solution](data/dailyCodingProblem444.cpp)
 
 ---
 
@@ -7667,7 +7667,7 @@ should be pruned to:
    1
 We do not remove the tree at the root or its left child because it still has a 1 as a descendant.
 ```
-[Solution](dailyCodingProblem445.cpp)
+[Solution](data/dailyCodingProblem445.cpp)
 
 ---
 
@@ -7677,7 +7677,7 @@ We do not remove the tree at the root or its left child because it still has a 1
 ```
 Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time.
 ```
-[Solution](dailyCodingProblem446.cpp)
+[Solution](data/dailyCodingProblem446.cpp)
 
 ---
 
@@ -7692,7 +7692,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 ```
-[Solution](dailyCodingProblem447.cpp)
+[Solution](data/dailyCodingProblem447.cpp)
 
 ---
 
@@ -7709,7 +7709,7 @@ Do this in linear time and in-place.
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become
 ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 ```
-[Solution](dailyCodingProblem448.cpp)
+[Solution](data/dailyCodingProblem448.cpp)
 
 ---
 
@@ -7732,7 +7732,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 [a, b] < [c, d]
 If a < c OR a==c AND b < d.
 ```
-[Solution](dailyCodingProblem449.cpp)
+[Solution](data/dailyCodingProblem449.cpp)
 
 ---
 
@@ -7744,7 +7744,7 @@ You're given a string consisting solely of (, ), and *. * can represent either a
 Determine whether the parentheses are balanced.
 For example, (()* and (*) are balanced. )*( is not balanced.
 ```
-[Solution](dailyCodingProblem450.cpp)
+[Solution](data/dailyCodingProblem450.cpp)
 
 ---
 
@@ -7754,7 +7754,7 @@ For example, (()* and (*) are balanced. )*( is not balanced.
 ```
 Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
 ```
-[Solution](dailyCodingProblem451.cpp)
+[Solution](data/dailyCodingProblem451.cpp)
 
 ---
 
@@ -7780,7 +7780,7 @@ return 124 (99 + 25) as:
 
 4 -> 2 -> 1
 ```
-[Solution](dailyCodingProblem452.cpp)
+[Solution](data/dailyCodingProblem452.cpp)
 
 ---
 
@@ -7799,7 +7799,7 @@ For example, given the following tree and K of 20
      11    15
 Return the nodes 5 and 15.
 ```
-[Solution](dailyCodingProblem453.cpp)
+[Solution](data/dailyCodingProblem453.cpp)
 
 ---
 
@@ -7810,7 +7810,7 @@ Return the nodes 5 and 15.
 Describe an algorithm to compute the longest
 increasing subsequence of an array of numbers in O(n log n) time.
 ```
-[Solution](dailyCodingProblem454.cpp)
+[Solution](data/dailyCodingProblem454.cpp)
 
 ---
 
@@ -7835,7 +7835,7 @@ i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
 You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
 ```
-[Solution](dailyCodingProblem455.cpp)
+[Solution](data/dailyCodingProblem455.cpp)
 
 ---
 
@@ -7858,7 +7858,7 @@ Find the busiest period in the building, that is, the time with
 the most people in the building. Return it as a pair of (start, end) timestamps.
 You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 ```
-[Solution](dailyCodingProblem456.cpp)
+[Solution](data/dailyCodingProblem456.cpp)
 
 ---
 
@@ -7869,7 +7869,7 @@ You can assume the building always starts off and ends up empty, i.e. with 0 peo
 Given a word W and a string S, find all starting indices in S which are anagrams of W.
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 ```
-[Solution](dailyCodingProblem457.cpp)
+[Solution](data/dailyCodingProblem457.cpp)
 
 ---
 
@@ -7898,7 +7898,7 @@ A NW B
 A N B
 is considered valid.
 ```
-[Solution](dailyCodingProblem458.cpp)
+[Solution](data/dailyCodingProblem458.cpp)
 
 ---
 
@@ -7914,7 +7914,7 @@ Given N = 4, return 1 (4)
 Given N = 17, return 2 (16 + 1)
 Given N = 18, return 2 (9 + 9)
 ```
-[Solution](dailyCodingProblem459.cpp)
+[Solution](data/dailyCodingProblem459.cpp)
 
 ---
 
@@ -7929,7 +7929,7 @@ Determine how many times you would need to apply this operation to ensure that
 all x's come before all y's. In the preceding example, it suffices to
 flip the second and sixth characters, so you should return 2
 ```
-[Solution](dailyCodingProblem460.cpp)
+[Solution](data/dailyCodingProblem460.cpp)
 
 ---
 
@@ -7950,7 +7950,7 @@ Down, then right
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 ```
-[Solution](dailyCodingProblem461.cpp)
+[Solution](data/dailyCodingProblem461.cpp)
 
 ---
 
@@ -7967,7 +7967,7 @@ greater than or equal to N.
 
 Do this in faster than O(N log N) time.
 ```
-[Solution](dailyCodingProblem462.cpp)
+[Solution](data/dailyCodingProblem462.cpp)
 
 ---
 
@@ -8008,7 +8008,7 @@ If all Quxes begin as the same color, return the length of the line.
 If the parities of each color are equal, return 2.
 If the parities of each color are split, return 1.
 ```
-[Solution](dailyCodingProblem463.cpp)
+[Solution](data/dailyCodingProblem463.cpp)
 
 ---
 
@@ -8022,7 +8022,7 @@ that every pair of elements in the subset (i, j) satisfies either i % j = 0 or j
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20].
 Given [1, 3, 6, 24], return [1, 3, 6, 24].
 ```
-[Solution](dailyCodingProblem464.cpp)
+[Solution](data/dailyCodingProblem464.cpp)
 
 ---
 
@@ -8032,7 +8032,7 @@ Given [1, 3, 6, 24], return [1, 3, 6, 24].
 ```
 Given the head of a singly linked list, reverse it in-place.
 ```
-[Solution](dailyCodingProblem465.cpp)
+[Solution](data/dailyCodingProblem465.cpp)
 
 ---
 
@@ -8046,7 +8046,7 @@ Given the head of a singly linked list, reverse it in-place.
   /           \
 9              9
 ```
-[Solution](dailyCodingProblem466.cpp)
+[Solution](data/dailyCodingProblem466.cpp)
 
 ---
 
@@ -8056,7 +8056,7 @@ Given the head of a singly linked list, reverse it in-place.
 ```
 Given a real number n, find the square root of n. For example, given n = 9, return 3.
 ```
-[Solution](dailyCodingProblem467.cpp)
+[Solution](data/dailyCodingProblem467.cpp)
 
 ---
 
@@ -8079,7 +8079,7 @@ you should return:
 
 Follow-up: What if you couldn't use any extra space?
 ```
-[Solution](dailyCodingProblem468.cpp)
+[Solution](data/dailyCodingProblem468.cpp)
 
 ---
 
@@ -8105,7 +8105,7 @@ For example, for the following scores you should return True, since they corresp
 However, it is impossible for any key to result in the following scores, so in this case you should return False:
 {123456: 4, 345678: 4, 567890: 4}
 ```
-[Solution](dailyCodingProblem469.cpp)
+[Solution](data/dailyCodingProblem469.cpp)
 
 ---
 
@@ -8127,7 +8127,7 @@ have a nearest larger integer, then return null.
 Follow-up: If you can preprocess the array,
 can you do this in constant time?
 ```
-[Solution](dailyCodingProblem470.cpp)
+[Solution](data/dailyCodingProblem470.cpp)
 
 ---
 
@@ -8138,7 +8138,7 @@ can you do this in constant time?
 Total number of possible Binary Search Trees with n different keys
 (countBST(n)) = Catalan number Cn = (2n)! / ((n + 1)! * n!)
 ```
-[Solution](dailyCodingProblem471.cpp)
+[Solution](data/dailyCodingProblem471.cpp)
 
 ---
 
@@ -8155,7 +8155,7 @@ decoded as 'aaa', 'ka', and 'ak'.
 You can assume that the messages are decodable.
 For example, '001' is not allowed.
 ```
-[Solution](dailyCodingProblem472.cpp)
+[Solution](data/dailyCodingProblem472.cpp)
 
 ---
 
@@ -8167,7 +8167,7 @@ Write an algorithm that computes the reversal of a directed graph.
 For example, if a graph consists of A -> B -> C,
 it should become A <- B <- C
 ```
-[Solution](dailyCodingProblem473.cpp)
+[Solution](data/dailyCodingProblem473.cpp)
 
 ---
 
@@ -8182,7 +8182,7 @@ minCoins(coins[0..m-1], V)
 where i varies from 0 to m-1 
 and coin[i] <= V
 ```
-[Solution](dailyCodingProblem474.cpp)
+[Solution](data/dailyCodingProblem474.cpp)
 
 ---
 
@@ -8201,7 +8201,7 @@ You may augment the node to add parent pointers or any other property you would 
 You may assume the class is used in a single-threaded program,
 so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 ```
-[Solution](dailyCodingProblem475.cpp)
+[Solution](data/dailyCodingProblem475.cpp)
 
 ---
 
@@ -8212,7 +8212,7 @@ so there is no need for actual locks or mutexes. Each method should run in O(h),
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}.
 By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 ```
-[Solution](dailyCodingProblem476.cpp)
+[Solution](data/dailyCodingProblem476.cpp)
 
 ---
 
@@ -8230,7 +8230,7 @@ for i in range(10):
 for f in functions:
     print(f())
 ```
-[Solution](dailyCodingProblem477.py)
+[Solution](data/dailyCodingProblem477.py)
 
 ---
 
@@ -8241,7 +8241,7 @@ for f in functions:
 Given a number in the form of a list of digits, return all possible permutations.
 For example, given [1,2,3], return [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]].
 ```
-[Solution](dailyCodingProblem479.cpp)
+[Solution](data/dailyCodingProblem479.cpp)
 
 ---
 
@@ -8259,7 +8259,7 @@ the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and
 the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 ```
-[Solution](dailyCodingProblem480.cpp)
+[Solution](data/dailyCodingProblem480.cpp)
 
 ---
 
@@ -8274,7 +8274,7 @@ The expression is given as a list of numbers and operands. For example: [5, 3, '
 For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should return 5,
 since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
 ```
-[Solution](dailyCodingProblem481.cpp)
+[Solution](data/dailyCodingProblem481.cpp)
 
 ---
 
@@ -8294,7 +8294,7 @@ For example, given the following tree:
 2  4 6  10
 and the range [4, 9], return 23 (5 + 4 + 6 + 8).
 ```
-[Solution](dailyCodingProblem482.cpp)
+[Solution](data/dailyCodingProblem482.cpp)
 
 ---
 
@@ -8312,7 +8312,7 @@ For example, if N = 5 and k = 2, the order of executions would be [2, 4, 1, 5, 3
 
 Bonus: Find an O(log N) solution if k = 2.
 ```
-[Solution](dailyCodingProblem483.cpp)
+[Solution](data/dailyCodingProblem483.cpp)
 
 ---
 
@@ -8322,7 +8322,7 @@ Bonus: Find an O(log N) solution if k = 2.
 ```
 Given the root to a binary search tree, find the second largest node in the tree.
 ```
-[Solution](dailyCodingProblem484.cpp)
+[Solution](data/dailyCodingProblem484.cpp)
 
 ---
 
@@ -8336,7 +8336,7 @@ find the length of the longest substring that contains at most k distinct charac
 For example, given s = "abcba" and k = 2,
 the longest substring with k distinct characters is "bcb"
 ```
-[Solution](dailyCodingProblem485.cpp)
+[Solution](data/dailyCodingProblem485.cpp)
 
 ---
 
@@ -8352,7 +8352,7 @@ which returns True if person a knows person b, else False.
 
 Given a list of N people and the above operation, find a way to identify the celebrity in O(N) time.
 ```
-[Solution](dailyCodingProblem486.cpp)
+[Solution](data/dailyCodingProblem486.cpp)
 
 ---
 
@@ -8373,7 +8373,7 @@ For example, in the following diagram 4 and 6 are cousins.
 
 Given a binary tree and a particular node, find all cousins of that node.
 ```
-[Solution](dailyCodingProblem487.cpp)
+[Solution](data/dailyCodingProblem487.cpp)
 
 ---
 
@@ -8384,7 +8384,7 @@ Given a binary tree and a particular node, find all cousins of that node.
 Implement a queue using a set of fixed-length arrays.
 The queue should support enqueue, dequeue, and get_size operations.
 ```
-[Solution](dailyCodingProblem488.cpp)
+[Solution](data/dailyCodingProblem488.cpp)
 
 ---
 
@@ -8398,7 +8398,7 @@ longest subarray where all its elements are distinct
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1],
 return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 ```
-[Solution](dailyCodingProblem489.cpp)
+[Solution](data/dailyCodingProblem489.cpp)
 
 ---
 
@@ -8430,7 +8430,7 @@ For this tree, for example, the bottom view could be [0, 1, 3, 6, 8, 9].
 
 Given the root to a binary tree, return its bottom view.
 ```
-[Solution](dailyCodingProblem490.cpp)
+[Solution](data/dailyCodingProblem490.cpp)
 
 ---
 
@@ -8442,7 +8442,7 @@ Write a program that checks whether an integer is a palindrome.
 For example, 121 is a palindrome, as well as 888. 678 is not a palindrome.
 Do not convert the integer into a string.
 ```
-[Solution](dailyCodingProblem491.cpp)
+[Solution](data/dailyCodingProblem491.cpp)
 
 ---
 
@@ -8454,7 +8454,7 @@ Given an undirected graph represented as an adjacency matrix and an integer k,
 write a function to determine whether each vertex in the graph can be colored
 such that no two adjacent vertices share the same color using at most k colors
 ```
-[Solution](dailyCodingProblem492.cpp)
+[Solution](data/dailyCodingProblem492.cpp)
 
 ---
 
@@ -8470,7 +8470,7 @@ your function should return 1 10% of the time, 2 50% of the time, and 3 and 4 20
 
 You can generate random numbers between 0 and 1 uniformly.
 ```
-[Solution](dailyCodingProblem493.cpp)
+[Solution](data/dailyCodingProblem493.cpp)
 
 ---
 
@@ -8485,7 +8485,7 @@ the numbers 3, 4, and 8 where the 8 is obtained from wrapping around.
 
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 ```
-[Solution](dailyCodingProblem494.cpp)
+[Solution](data/dailyCodingProblem494.cpp)
 
 ---
 
@@ -8496,7 +8496,7 @@ Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 Given a stream of elements too large to store in memory,
 pick a random element from the stream with uniform probability.
 ```
-[Solution](dailyCodingProblem495.cpp)
+[Solution](data/dailyCodingProblem495.cpp)
 
 ---
 
@@ -8506,7 +8506,7 @@ pick a random element from the stream with uniform probability.
 ```
 Write an algorithm that finds the total number of set bits in all integers between 1 and N
 ```
-[Solution](dailyCodingProblem496.cpp)
+[Solution](data/dailyCodingProblem496.cpp)
 
 ---
 
@@ -8535,7 +8535,7 @@ You should convert it to:
         /   \
        6     7
 ```
-[Solution](dailyCodingProblem497.cpp)
+[Solution](data/dailyCodingProblem497.cpp)
 
 ---
 
@@ -8547,7 +8547,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 that must be sorted in order for the entire array to be sorted.
 For example, given [3, 7, 5, 6, 9], you should return (1, 3)
 ```
-[Solution](dailyCodingProblem498.cpp)
+[Solution](data/dailyCodingProblem498.cpp)
 
 ---
 
@@ -8574,7 +8574,7 @@ and start = (3, 0) (bottom left) and end = (0, 0) (top left),
 the minimum number of steps required to reach the end is 7,
 since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 ```
-[Solution](dailyCodingProblem500.cpp)
+[Solution](data/dailyCodingProblem500.cpp)
 
 ---
 
@@ -8589,7 +8589,7 @@ It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 ```
-[Solution](dailyCodingProblem501.cpp)
+[Solution](data/dailyCodingProblem501.cpp)
 
 ---
 
@@ -8601,7 +8601,7 @@ Given a binary tree, determine whether or not it is height-balanced.
 A height-balanced binary tree can be defined as one in which the heights
 of the two subtrees of any node never differ by more than one.
 ```
-[Solution](dailyCodingProblem502.cpp)
+[Solution](data/dailyCodingProblem502.cpp)
 
 ---
 
@@ -8613,7 +8613,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99.
 ```
-[Solution](dailyCodingProblem503.cpp)
+[Solution](data/dailyCodingProblem503.cpp)
 
 ---
 
@@ -8629,7 +8629,7 @@ get_last(i): gets the ith last element from the log. i is guaranteed to be small
 
 You should be as efficient with time and space as possible.
 ```
-[Solution](dailyCodingProblem504.cpp)
+[Solution](data/dailyCodingProblem504.cpp)
 
 ---
 
@@ -8640,7 +8640,7 @@ You should be as efficient with time and space as possible.
 Given an array and a number k that's smaller than the length of the array,
 rotate the array to the right k elements in-place.
 ```
-[Solution](dailyCodingProblem505.cpp)
+[Solution](data/dailyCodingProblem505.cpp)
 
 ---
 
@@ -8652,7 +8652,7 @@ Given a linked list, rearrange the node values such that they appear
 in alternating low -> high -> low -> high ... form. For example,
 given 1 -> 2 -> 3 -> 4 -> 5, you should return 1 -> 3 -> 2 -> 5 -> 4.
 ```
-[Solution](dailyCodingProblem506.c)
+[Solution](data/dailyCodingProblem506.c)
 
 ---
 
@@ -8664,7 +8664,7 @@ On election day, a voting machine writes data in the form (voter_id, candidate_i
 Write a program that reads this file as a stream and returns the top 3 candidates at any given time.
 If you find a voter voting more than once, report this as fraud
 ```
-[Solution](dailyCodingProblem507.cpp)
+[Solution](data/dailyCodingProblem507.cpp)
 
 ---
 
@@ -8676,7 +8676,7 @@ Create an algorithm to efficiently compute the approximate median of a list of n
 More precisely, given an unordered list of N numbers, find an element whose rank is between N / 4 and 3 * N / 4,
 with a high level of certainty, in less than O(N) time.
 ```
-[Solution](dailyCodingProblem508.cpp)
+[Solution](data/dailyCodingProblem508.cpp)
 
 ---
 
@@ -8699,7 +8699,7 @@ first alphabetically.
 As another example, given the string "google",
 you should return "elgoogle".
 ```
-[Solution](dailyCodingProblem509.cpp)
+[Solution](data/dailyCodingProblem509.cpp)
 
 ---
 
@@ -8712,7 +8712,7 @@ the concatenation of the two words is a palindrome.
 
 For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
 ```
-[Solution](dailyCodingProblem510.cpp)
+[Solution](data/dailyCodingProblem510.cpp)
 
 ---
 
@@ -8728,7 +8728,7 @@ in order to get from the start to the end of the array.
 For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2,
 as the optimal solution involves jumping from 6 to 5, and then from 5 to 9.
 ```
-[Solution](dailyCodingProblem511.cpp)
+[Solution](data/dailyCodingProblem511.cpp)
 
 ---
 
@@ -8747,7 +8747,7 @@ we can go from indices 0 -> 1 -> 3 -> 5, so return true.
 Given the array [1, 2, 1, 0, 0],
 we can't reach the end, so return false.
 ```
-[Solution](dailyCodingProblem512.cpp)
+[Solution](data/dailyCodingProblem512.cpp)
 
 ---
 
@@ -8759,7 +8759,7 @@ Given a list of integers and a number K, return which contiguous elements of the
 For example, if the list is [1, 2, 3, 4, 5] and K is 9,
 then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 ```
-[Solution](dailyCodingProblem513.cpp)
+[Solution](data/dailyCodingProblem513.cpp)
 
 ---
 
@@ -8771,7 +8771,7 @@ Given an unsorted array of integers, find the length of the longest consecutive 
 For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element
 sequence is [1, 2, 3, 4]. Return its length: 4.
 ```
-[Solution](dailyCodingProblem514.cpp)
+[Solution](data/dailyCodingProblem514.cpp)
 
 ---
 
@@ -8785,7 +8785,7 @@ so that all nodes less than k come before nodes greater than or equal to k.
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3,
 the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 ```
-[Solution](dailyCodingProblem515.cpp)
+[Solution](data/dailyCodingProblem515.cpp)
 
 ---
 
@@ -8797,7 +8797,7 @@ Let's define a "sevenish" number to be one which is either a power of 7,
 or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on.
 Create an algorithm to find the nth sevenish number.
 ```
-[Solution](dailyCodingProblem516.cpp)
+[Solution](data/dailyCodingProblem516.cpp)
 
 ---
 
@@ -8814,7 +8814,7 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 ```
-[Solution](dailyCodingProblem517.cpp)
+[Solution](data/dailyCodingProblem517.cpp)
 
 ---
 
@@ -8826,7 +8826,7 @@ Given an array of numbers and a number k, determine if there are three entries i
 which add up to the specified number k. For example, given [20, 303, 3, 4, 25] and k = 49,
 return true as 20 + 4 + 25 = 49.
 ```
-[Solution](dailyCodingProblem518.cpp)
+[Solution](data/dailyCodingProblem518.cpp)
 
 ---
 
@@ -8837,7 +8837,7 @@ return true as 20 + 4 + 25 = 49.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0,
 using only mathematical or bit operations. You can assume b can only be 1 or 0.
 ```
-[Solution](dailyCodingProblem519.cpp)
+[Solution](data/dailyCodingProblem519.cpp)
 
 ---
 
@@ -8860,7 +8860,7 @@ An unbalanced tree with three consecutive left children: ((((00)0)0)0)
 
 Given this representation, determine the depth of the tree.
 ```
-[Solution](dailyCodingProblem520.cpp)
+[Solution](data/dailyCodingProblem520.cpp)
 
 ---
 
@@ -8879,7 +8879,7 @@ t     a     g
   i i   i z
    s     g
 ```
-[Solution](dailyCodingProblem521.cpp)
+[Solution](data/dailyCodingProblem521.cpp)
 
 ---
 
@@ -8890,7 +8890,7 @@ t     a     g
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string.
 For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
 ```
-[Solution](dailyCodingProblem522.cpp)
+[Solution](data/dailyCodingProblem522.cpp)
 
 ---
 
@@ -8904,7 +8904,7 @@ satisfy the following conditions:
 a + b = M
 a XOR b = N
 ```
-[Solution](dailyCodingProblem523.cpp)
+[Solution](data/dailyCodingProblem523.cpp)
 
 ---
 
@@ -8917,7 +8917,7 @@ since we would take elements 42, 14, -5, and 86.
 
 Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
 ```
-[Solution](dailyCodingProblem524.cpp)
+[Solution](data/dailyCodingProblem524.cpp)
 
 ---
 
@@ -8956,7 +8956,7 @@ You should print out the following:
 13
 12
 ```
-[Solution](dailyCodingProblem525.cpp)
+[Solution](data/dailyCodingProblem525.cpp)
 
 ---
 
@@ -8973,7 +8973,7 @@ after an unlimited number of moves.
 For example, suppose we are given the string daily and k = 1.
 The best we can create in this case is ailyd.
 ```
-[Solution](dailyCodingProblem526.cpp)
+[Solution](data/dailyCodingProblem526.cpp)
 
 ---
 
@@ -8990,7 +8990,7 @@ For example, if N = 3, and our integers are [1, 2, 3], there are two ways, shown
  / \    / \
 1   2  2   1
 ```
-[Solution](dailyCodingProblem527.cpp)
+[Solution](data/dailyCodingProblem527.cpp)
 
 ---
 
@@ -9020,7 +9020,7 @@ With this encoding, cats would be represented as 0000110111.
 Given a dictionary of character frequencies, build a Huffman tree,
 and use it to determine a mapping between characters and their encoded binary strings.
 ```
-[Solution](dailyCodingProblem528.cpp)
+[Solution](data/dailyCodingProblem528.cpp)
 
 ---
 
@@ -9036,7 +9036,7 @@ return ["racecar", "anna", "kayak"].
 
 Given the input string abc, return ["a", "b", "c"].
 ```
-[Solution](dailyCodingProblem529.cpp)
+[Solution](data/dailyCodingProblem529.cpp)
 
 ---
 
@@ -9051,7 +9051,7 @@ substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
 ```
-[Solution](dailyCodingProblem530.cpp)
+[Solution](data/dailyCodingProblem530.cpp)
 
 ---
 
@@ -9065,7 +9065,7 @@ implement readN(n) which reads n characters.
 For example, given a file with the content “Hello world”,
 three read7() returns “Hello w”, “orld” and then “”.
 ```
-[Solution](dailyCodingProblem531.cpp)
+[Solution](data/dailyCodingProblem531.cpp)
 
 ---
 
@@ -9095,7 +9095,7 @@ The board would look like this:
 [b 0 0 0 0]
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 ```
-[Solution](dailyCodingProblem532.cpp)
+[Solution](data/dailyCodingProblem532.cpp)
 
 ---
 
@@ -9109,7 +9109,7 @@ can be formed by a sequence of adjacent letters in
 the grid, using each cell at most once. Given a game
 board and a dictionary of valid words, implement a Boggle solver.
 ```
-[Solution](dailyCodingProblem533.cpp)
+[Solution](data/dailyCodingProblem533.cpp)
 
 ---
 
@@ -9122,7 +9122,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 For example, carrace should return true, since it can be rearranged to form racecar,
 which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
 ```
-[Solution](dailyCodingProblem534.cpp)
+[Solution](data/dailyCodingProblem534.cpp)
 
 ---
 
@@ -9141,7 +9141,7 @@ in the worst case, to identify this floor.
 For example, if N = 1 and k = 5, we will need to try dropping the egg at every floor,
 beginning with the first, until we reach the fifth floor, so our solution will be 5.
 ```
-[Solution](dailyCodingProblem535.cpp)
+[Solution](data/dailyCodingProblem535.cpp)
 
 ---
 
@@ -9159,7 +9159,7 @@ For example, given the sequence 2, 4, 3, 8, 7, 5, you should construct the follo
  / \   \
 2   4   8
 ```
-[Solution](dailyCodingProblem536.cpp)
+[Solution](data/dailyCodingProblem536.cpp)
 
 ---
 
@@ -9175,7 +9175,7 @@ It is conjectured that every such sequence eventually reaches the number 1. Test
 
 Bonus: What input n <= 1000000 gives the longest sequence?
 ```
-[Solution](dailyCodingProblem537.cpp)
+[Solution](data/dailyCodingProblem537.cpp)
 
 ---
 
@@ -9192,7 +9192,7 @@ and one possible solution would be 00010111.
 
 Create an algorithm that finds a De Bruijn sequence.
 ```
-[Solution](dailyCodingProblem538.cpp)
+[Solution](data/dailyCodingProblem538.cpp)
 
 ---
 
@@ -9202,7 +9202,7 @@ Create an algorithm that finds a De Bruijn sequence.
 ```
 Given an undirected graph, determine if it contains a cycle.
 ```
-[Solution](dailyCodingProblem539.cpp)
+[Solution](data/dailyCodingProblem539.cpp)
 
 ---
 
@@ -9223,7 +9223,7 @@ For example, given the following tree:
 4   5     6   7
 You should return [1, 3, 2, 4, 5, 6, 7].
 ```
-[Solution](dailyCodingProblem540.cpp)
+[Solution](data/dailyCodingProblem540.cpp)
 
 ---
 
@@ -9239,7 +9239,7 @@ Implement run-length encoding and decoding. You can assume the string to be
 encoded have no digits and consists solely of alphabetic characters.
 You can assume the string to be decoded is valid.
 ```
-[Solution](dailyCodingProblem541.cpp)
+[Solution](data/dailyCodingProblem541.cpp)
 
 ---
 
@@ -9251,7 +9251,7 @@ Given an undirected graph G, check whether it is bipartite. Recall that a graph
 is bipartite if its vertices can be divided into two independent sets, U and V,
 such that no edge connects vertices of the same set.
 ```
-[Solution](dailyCodingProblem542.cpp)
+[Solution](data/dailyCodingProblem542.cpp)
 
 ---
 
@@ -9265,7 +9265,7 @@ k is guaranteed to be smaller than the length of the list.
 The list is very long, so making more than one pass is prohibitively expensive.
 Do this in constant space and in one pass.
 ```
-[Solution](dailyCodingProblem543.cpp)
+[Solution](data/dailyCodingProblem543.cpp)
 
 ---
 
@@ -9280,7 +9280,7 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 ```
-[Solution](dailyCodingProblem544.cpp)
+[Solution](data/dailyCodingProblem544.cpp)
 
 ---
 
@@ -9295,7 +9295,7 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 between two nodes v and w as the lowest node in T that has both v and w as descendants
 (where we allow a node to be a descendant of itself).”
 ```
-[Solution](dailyCodingProblem545.cpp)
+[Solution](data/dailyCodingProblem545.cpp)
 
 ---
 
@@ -9314,7 +9314,7 @@ There are 2 smaller elements to the right of 9
 There is 1 smaller element to the right of 6
 There are no smaller elements to the right of 1
 ```
-[Solution](dailyCodingProblem546.cpp)
+[Solution](data/dailyCodingProblem546.cpp)
 
 ---
 
@@ -9324,7 +9324,7 @@ There are no smaller elements to the right of 1
 ```
 Given an array of integers, find the maximum XOR of any two elements.
 ```
-[Solution](dailyCodingProblem547.cpp)
+[Solution](data/dailyCodingProblem547.cpp)
 
 ---
 
@@ -9337,7 +9337,7 @@ the angle between the hour and the minute hands.
 
 Bonus: When, during the course of a day, will the angle be zero?
 ```
-[Solution](dailyCodingProblem548.cpp)
+[Solution](data/dailyCodingProblem548.cpp)
 
 ---
 
@@ -9354,7 +9354,7 @@ Given [13, 19, 13, 13], return 19.
 
 Do this in O(N) time and O(1) space.
 ```
-[Solution](dailyCodingProblem549.cpp)
+[Solution](data/dailyCodingProblem549.cpp)
 
 ---
 
@@ -9369,7 +9369,7 @@ so that you can end up with some amount greater than A of that currency.
 
 There are no transaction costs and you can trade fractional quantities.
 ```
-[Solution](dailyCodingProblem550.cpp)
+[Solution](data/dailyCodingProblem550.cpp)
 
 ---
 
@@ -9383,7 +9383,7 @@ You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
 ```
-[Solution](dailyCodingProblem551.cpp)
+[Solution](data/dailyCodingProblem551.cpp)
 
 ---
 
@@ -9401,7 +9401,7 @@ A B B C
 A B C C
 Given an integer N, determine in how many ways this task is possible.
 ```
-[Solution](dailyCodingProblem552.cpp)
+[Solution](data/dailyCodingProblem552.cpp)
 
 ---
 
@@ -9449,7 +9449,7 @@ tsr
 Your function should return 3,
 since we would need to remove all the columns to order it.
 ```
-[Solution](dailyCodingProblem553.cpp)
+[Solution](data/dailyCodingProblem553.cpp)
 
 ---
 
@@ -9462,7 +9462,7 @@ For example, 4 / 13 can be represented as 1 / 4 + 1 / 18 + 1 / 468.
 
 Create an algorithm to turn an ordinary fraction a / b, where a < b, into an Egyptian fraction.
 ```
-[Solution](dailyCodingProblem554.cpp)
+[Solution](data/dailyCodingProblem554.cpp)
 
 ---
 
@@ -9476,7 +9476,7 @@ If the element doesn't exist in the array, return null.
 For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 You can assume all the integers in the array are unique.
 ```
-[Solution](dailyCodingProblem555.cpp)
+[Solution](data/dailyCodingProblem555.cpp)
 
 ---
 
@@ -9491,7 +9491,7 @@ the 10 into a 1 to make the array non-decreasing.
 Given the array [10, 5, 1], you should return false, since we can't modify any one
 element to get a non-decreasing array.
 ```
-[Solution](dailyCodingProblem556.cpp)
+[Solution](data/dailyCodingProblem556.cpp)
 
 ---
 
@@ -9521,7 +9521,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table
 ```
-[Solution](dailyCodingProblem557.cpp)
+[Solution](data/dailyCodingProblem557.cpp)
 
 ---
 
@@ -9533,7 +9533,7 @@ The area of a circle is defined as πr^2. Estimate π to 3 decimal places using 
 
 Hint: The basic equation of a circle is x2 + y2 = r2.
 ```
-[Solution](dailyCodingProblem558.cpp)
+[Solution](data/dailyCodingProblem558.cpp)
 
 ---
 
@@ -9543,7 +9543,7 @@ Hint: The basic equation of a circle is x2 + y2 = r2.
 ```
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 ```
-[Solution](dailyCodingProblem559.cpp)
+[Solution](data/dailyCodingProblem559.cpp)
 
 ---
 
@@ -9557,7 +9557,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 ```
-[Solution](dailyCodingProblem560.cpp)
+[Solution](data/dailyCodingProblem560.cpp)
 
 ---
 
@@ -9567,7 +9567,7 @@ Bonus: Can you do this in one pass?
 ```
 Given a sorted array, convert it into a height-balanced binary search tree.
 ```
-[Solution](dailyCodingProblem561.cpp)
+[Solution](data/dailyCodingProblem561.cpp)
 
 ---
 
@@ -9583,7 +9583,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be
 
 Follow-up: what if you can't use division?
 ```
-[Solution](dailyCodingProblem562.cpp)
+[Solution](data/dailyCodingProblem562.cpp)
 
 ---
 
@@ -9593,7 +9593,7 @@ Follow-up: what if you can't use division?
 ```
 Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
 ```
-[Solution](dailyCodingProblem563.cpp)
+[Solution](data/dailyCodingProblem563.cpp)
 
 ---
 
@@ -9609,7 +9609,7 @@ since we pick 5 and 5.
 
 Follow-up: Can you do this in O(N) time and constant space?
 ```
-[Solution](dailyCodingProblem564.cpp)
+[Solution](data/dailyCodingProblem564.cpp)
 
 ---
 
@@ -9622,7 +9622,7 @@ determine whether you can reach to the last index starting at index 0.
 
 For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 ```
-[Solution](dailyCodingProblem565.cpp)
+[Solution](data/dailyCodingProblem565.cpp)
 
 ---
 
@@ -9636,7 +9636,7 @@ still leaving the graph connected. For example, any binary tree is minimally-con
 Given an undirected graph, check if the graph is minimally-connected.
 You can choose to represent the graph as either an adjacency matrix or adjacency list.
 ```
-[Solution](dailyCodingProblem566.cpp)
+[Solution](data/dailyCodingProblem566.cpp)
 
 ---
 
@@ -9656,7 +9656,7 @@ def cons(a, b):
     return pair
 Implement car and cdr.
 ```
-[Solution](dailyCodingProblem567.py)
+[Solution](data/dailyCodingProblem567.py)
 
 ---
 
@@ -9667,7 +9667,7 @@ Implement car and cdr.
 Given a sorted list of integers, square the elements and give the output in sorted order.
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 ```
-[Solution](dailyCodingProblem568.cpp)
+[Solution](data/dailyCodingProblem568.cpp)
 
 ---
 
@@ -9678,7 +9678,7 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 Given an array of numbers of length N,
 find both the minimum and maximum using less than 2 * (N - 2) comparisons.
 ```
-[Solution](dailyCodingProblem569.cpp)
+[Solution](data/dailyCodingProblem569.cpp)
 
 ---
 
@@ -9690,7 +9690,7 @@ Given two non-empty binary trees s and t, check whether tree t has exactly the s
 and node values with a subtree of s. A subtree of s is a tree consists of a node in s
 and all of this node's descendants. The tree s could also be considered as a subtree of itself.
 ```
-[Solution](dailyCodingProblem570.cpp)
+[Solution](data/dailyCodingProblem570.cpp)
 
 ---
 
@@ -9722,7 +9722,7 @@ Move 2 to 1
 Move 2 to 3
 Move 1 to 3
 ```
-[Solution](dailyCodingProblem571.cpp)
+[Solution](data/dailyCodingProblem571.cpp)
 
 ---
 
@@ -9751,7 +9751,7 @@ Output: "Not Possible"
 Input: n = "534976"
 Output: "536479"
 ```
-[Solution](dailyCodingProblem572.cpp)
+[Solution](data/dailyCodingProblem572.cpp)
 
 ---
 
@@ -9769,7 +9769,7 @@ If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
 
 Hint: Try working backwards from the end state.
 ```
-[Solution](dailyCodingProblem573.cpp)
+[Solution](data/dailyCodingProblem573.cpp)
 
 ---
 
@@ -9785,7 +9785,7 @@ init(size): initialize the array with size
 set(i, val): updates index at i with val where val is either 1 or 0.
 get(i): gets the value at index i.
 ```
-[Solution](dailyCodingProblem574.cpp)
+[Solution](data/dailyCodingProblem574.cpp)
 
 ---
 
@@ -9805,7 +9805,7 @@ calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
 Do not use flatten or otherwise clone the arrays.
 Some of the arrays can be empty.
 ```
-[Solution](dailyCodingProblem575.cpp)
+[Solution](data/dailyCodingProblem575.cpp)
 
 ---
 
@@ -9818,7 +9818,7 @@ it is possible to throw N dice with some number of faces each to get a specific 
 
 For example, throw_dice(3, 6, 7) should equal 15.
 ```
-[Solution](dailyCodingProblem576.cpp)
+[Solution](data/dailyCodingProblem576.cpp)
 
 ---
 
@@ -9833,7 +9833,7 @@ of X is same as the first character of Y.
 For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can
 form the following circle: chair --> racket --> touch --> height --> tunic --> chair.
 ```
-[Solution](dailyCodingProblem577.cpp)
+[Solution](data/dailyCodingProblem577.cpp)
 
 ---
 
@@ -9847,7 +9847,7 @@ For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b
 
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 ```
-[Solution](dailyCodingProblem578.cpp)
+[Solution](data/dailyCodingProblem578.cpp)
 
 ---
 
@@ -9861,7 +9861,7 @@ On the ith jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
 ```
-[Solution](dailyCodingProblem579.cpp)
+[Solution](data/dailyCodingProblem579.cpp)
 
 ---
 
@@ -9881,7 +9881,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
        /
      -1
 ```
-[Solution](dailyCodingProblem580.cpp)
+[Solution](data/dailyCodingProblem580.cpp)
 
 ---
 
@@ -9907,7 +9907,7 @@ and
 
 return 6.
 ```
-[Solution](dailyCodingProblem581.cpp)
+[Solution](data/dailyCodingProblem581.cpp)
 
 ---
 
@@ -9921,7 +9921,7 @@ in X contains at least one point in P. Compute the smallest set of points that s
 
 For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9].
 ```
-[Solution](dailyCodingProblem582.cpp)
+[Solution](data/dailyCodingProblem582.cpp)
 
 ---
 
@@ -9943,7 +9943,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 ```
-[Solution](dailyCodingProblem583.cpp)
+[Solution](data/dailyCodingProblem583.cpp)
 
 ---
 
@@ -9961,7 +9961,7 @@ you could return "ababac".
 
 Given "aaab", return None.
 ```
-[Solution](dailyCodingProblem584.cpp)
+[Solution](data/dailyCodingProblem584.cpp)
 
 ---
 
@@ -9980,7 +9980,7 @@ For example, given the following matrix:
  [0, 1, 0, 0]]
 Return 4.
 ```
-[Solution](dailyCodingProblem585.cpp)
+[Solution](data/dailyCodingProblem585.cpp)
 
 ---
 
@@ -10002,7 +10002,7 @@ For example, suppose k = 1, and the list of tuples is:
 Then a reasonable similarity metric would most likely conclude that a and e are the most similar,
 so your program should return [('a', 'e')].
 ```
-[Solution](dailyCodingProblem586.cpp)
+[Solution](data/dailyCodingProblem586.cpp)
 
 ---
 
@@ -10023,7 +10023,7 @@ For example, given the tree:
 
 Return [[1, 2], [1, 3, 4], [1, 3, 5]].
 ```
-[Solution](dailyCodingProblem587.cpp)
+[Solution](data/dailyCodingProblem587.cpp)
 
 ---
 
@@ -10039,7 +10039,7 @@ init(arr, size): initialize with the original large array and size.
 set(i, val): updates index at i with val.
 get(i): gets the value at index i.
 ```
-[Solution](dailyCodingProblem588.cpp)
+[Solution](data/dailyCodingProblem588.cpp)
 
 ---
 
@@ -10058,7 +10058,7 @@ The second game: same, except that the stopping condition is a five followed by 
 Which of the two games should Alice elect to play? Does it even matter?
 Write a program to simulate the two games and calculate their expected value.
 ```
-[Solution](dailyCodingProblem589.cpp)
+[Solution](data/dailyCodingProblem589.cpp)
 
 ---
 
@@ -10076,7 +10076,7 @@ If using a language that has no pointers (such as Python),
 you can assume you have access to get_pointer and dereference_pointer
 functions that converts between nodes and memory addresses.
 ```
-[Solution](dailyCodingProblem590.c)
+[Solution](data/dailyCodingProblem590.c)
 
 ---
 
@@ -10097,7 +10097,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 1 1 0 0 1
 ```
-[Solution](dailyCodingProblem592.cpp)
+[Solution](data/dailyCodingProblem592.cpp)
 
 ---
 
@@ -10115,7 +10115,7 @@ all have an unobstructed view to the west.
 
 Can you do this using just one forward pass through the array?
 ```
-[Solution](dailyCodingProblem593.cpp)
+[Solution](data/dailyCodingProblem593.cpp)
 
 ---
 
@@ -10143,7 +10143,7 @@ For example, this algorithm terminates in three steps when starting from 1234:
 Write a function that returns how
 many steps this will take for a given input N.
 ```
-[Solution](dailyCodingProblem595.cpp)
+[Solution](data/dailyCodingProblem595.cpp)
 
 ---
 
@@ -10168,7 +10168,7 @@ should become:
  \  / \
   f e  d
 ```
-[Solution](dailyCodingProblem596.cpp)
+[Solution](data/dailyCodingProblem596.cpp)
 
 ---
 
@@ -10179,7 +10179,7 @@ should become:
 Given an array of integers, determine whether it contains a Pythagorean triplet.
 Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
 ```
-[Solution](dailyCodingProblem597.cpp)
+[Solution](data/dailyCodingProblem597.cpp)
 
 ---
 
@@ -10192,7 +10192,7 @@ The ones that come up heads you flip again. How many rounds do you expect to pla
 
 Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
 ```
-[Solution](dailyCodingProblem598.cpp)
+[Solution](data/dailyCodingProblem598.cpp)
 
 ---
 
@@ -10218,7 +10218,7 @@ play they cannot lose.
 For example, if the dictionary is ["cat", "calf", "dog", "bear"],
 the only winning start letter would be b
 ```
-[Solution](dailyCodingProblem599.cpp)
+[Solution](data/dailyCodingProblem599.cpp)
 
 ---
 
@@ -10230,7 +10230,7 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)],
 return [(-1, -1), (1, 1)].
 ```
-[Solution](dailyCodingProblem600.cpp)
+[Solution](data/dailyCodingProblem600.cpp)
 
 ---
 
@@ -10243,7 +10243,7 @@ is an array representing whether each number is larger or smaller than the last.
 Given this information, reconstruct an array that is consistent with it.
 For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4]
 ```
-[Solution](dailyCodingProblem601.cpp)
+[Solution](data/dailyCodingProblem601.cpp)
 
 ---
 
@@ -10256,7 +10256,7 @@ and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line se
 connecting each point pi to qi. Write an algorithm to determine
 how many pairs of the line segments intersect.
 ```
-[Solution](dailyCodingProblem602.cpp)
+[Solution](data/dailyCodingProblem602.cpp)
 
 ---
 
@@ -10278,7 +10278,7 @@ For example, given the string .L.R....L, you should return LL.RRRLLL.
 
 Given the string ..R...L.L, you should return ..RR.LLLL
 ```
-[Solution](dailyCodingProblem603.cpp)
+[Solution](data/dailyCodingProblem603.cpp)
 
 ---
 
@@ -10298,7 +10298,7 @@ has 3 papers with at least 3 citations.
 
 Given a list of paper citations of a researcher, calculate their h-index.
 ```
-[Solution](dailyCodingProblem605.cpp)
+[Solution](data/dailyCodingProblem605.cpp)
 
 ---
 
@@ -10312,7 +10312,7 @@ chessboard such that all squares are visited once.
 Given N, write a function to return the number
 of knight's tours on an N by N chessboard.
 ```
-[Solution](dailyCodingProblem606.cpp)
+[Solution](data/dailyCodingProblem606.cpp)
 
 ---
 
@@ -10335,7 +10335,7 @@ person must move, so that the cost here would be five.
 Given an input such as the one above, return the lowest
 possible cost of moving people to remove all gaps.
 ```
-[Solution](dailyCodingProblem607.cpp)
+[Solution](data/dailyCodingProblem607.cpp)
 
 ---
 
@@ -10359,7 +10359,7 @@ Given start = "dog", end = "cat", and dictionary
 = {"dot", "tod", "dat", "dar"}, return null as
 there is no possible transformation from dog to cat.
 ```
-[Solution](dailyCodingProblem608.cpp)
+[Solution](data/dailyCodingProblem608.cpp)
 
 ---
 
@@ -10381,7 +10381,7 @@ For example, the inorder successor of 22 is 30.
 
 You can assume each node has a parent pointer.
 ```
-[Solution](dailyCodingProblem609.cpp)
+[Solution](data/dailyCodingProblem609.cpp)
 
 ---
 
@@ -10393,7 +10393,7 @@ Implement division of two positive integers without using the division,
 multiplication, or modulus operators. Return the quotient as an integer,
 ignoring the remainder.
 ```
-[Solution](dailyCodingProblem610.cpp)
+[Solution](data/dailyCodingProblem610.cpp)
 
 ---
 
@@ -10408,7 +10408,7 @@ minus: Decrement the value of a key. If the key's value is currently 1, remove i
 get_max: Return a key with the highest value.
 get_min: Return a key with the lowest value.
 ```
-[Solution](dailyCodingProblem611.cpp)
+[Solution](data/dailyCodingProblem611.cpp)
 
 ---
 
@@ -10428,7 +10428,7 @@ first two won't overlap.
 
 The intervals are not necessarily sorted in any order.
 ```
-[Solution](dailyCodingProblem612.cpp)
+[Solution](data/dailyCodingProblem612.cpp)
 
 ---
 
@@ -10451,7 +10451,7 @@ assert mapsum.sum("col") == 3
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
-[Solution](dailyCodingProblem613.cpp)
+[Solution](data/dailyCodingProblem613.cpp)
 
 ---
 
@@ -10487,7 +10487,7 @@ You should return 9, because propagating
 the message from 0 -> 2 -> 3 -> 4
 will take that much time.
 ```
-[Solution](dailyCodingProblem614.cpp)
+[Solution](data/dailyCodingProblem614.cpp)
 
 ---
 
@@ -10518,7 +10518,7 @@ Write an algorithm that pairs the men and women together in such
 a way that no two people of opposite sex would both rather be
 with each other than with their current partners.
 ```
-[Solution](dailyCodingProblem615.cpp)
+[Solution](data/dailyCodingProblem615.cpp)
 
 ---
 
@@ -10542,7 +10542,7 @@ may have the solution:
 Given a three-word puzzle like the one above,
 create an algorithm that finds a solution.
 ```
-[Solution](dailyCodingProblem616.cpp)
+[Solution](data/dailyCodingProblem616.cpp)
 
 ---
 
@@ -10567,7 +10567,7 @@ In addition, note that the Roman numeral system uses subtractive notation for nu
 
 For the input XIV, for instance, you should return 14.
 ```
-[Solution](dailyCodingProblem617.cpp)
+[Solution](data/dailyCodingProblem617.cpp)
 
 ---
 
@@ -10578,7 +10578,7 @@ For the input XIV, for instance, you should return 14.
 Given a list, sort it using this method: reverse(lst, i, j),
 which reverses lst from i to j.
 ```
-[Solution](dailyCodingProblem618.cpp)
+[Solution](data/dailyCodingProblem618.cpp)
 
 ---
 
@@ -10604,7 +10604,7 @@ exists(board, "ABCCED") returns true,
 exists(board, "SEE") returns true,
 exists(board, "ABCB") returns false.
 ```
-[Solution](dailyCodingProblem619.cpp)
+[Solution](data/dailyCodingProblem619.cpp)
 
 ---
 
@@ -10632,7 +10632,7 @@ which will only require cutting through the bricks in the third and fifth row.
 Given an input consisting of brick lengths for each row such as the one above,
 return the fewest number of bricks that must be cut to create a vertical line.
 ```
-[Solution](dailyCodingProblem620.cpp)
+[Solution](data/dailyCodingProblem620.cpp)
 
 ---
 
@@ -10658,7 +10658,7 @@ the longest path would be c -> a -> d -> f, with a length of 17.
 The path does not have to pass through the root,
 and each node can have any amount of children.
 ```
-[Solution](dailyCodingProblem621.cpp)
+[Solution](data/dailyCodingProblem621.cpp)
 
 ---
 
@@ -10675,7 +10675,7 @@ For example, in the following tree, return d.
  /
 d
 ```
-[Solution](dailyCodingProblem622.cpp)
+[Solution](data/dailyCodingProblem622.cpp)
 
 ---
 
@@ -10704,7 +10704,7 @@ and k = 16, you should return the following:
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 ```
-[Solution](dailyCodingProblem623.cpp)
+[Solution](data/dailyCodingProblem623.cpp)
 
 ---
 
@@ -10720,7 +10720,7 @@ For example, given the string "()())()", you should return 1.
 Given the string ")(", you should return 2,
 since we must remove all of them.
 ```
-[Solution](dailyCodingProblem624.cpp)
+[Solution](data/dailyCodingProblem624.cpp)
 
 ---
 
@@ -10733,7 +10733,7 @@ longest consecutive run of 1s in its binary representation.
 
 For example, given 156, you should return 3.
 ```
-[Solution](dailyCodingProblem625.cpp)
+[Solution](data/dailyCodingProblem625.cpp)
 
 ---
 
@@ -10749,7 +10749,7 @@ we should return 500, since that's -10 * -10 * 5.
 
 You can assume the list has at least three integers.
 ```
-[Solution](dailyCodingProblem626.cpp)
+[Solution](data/dailyCodingProblem626.cpp)
 
 ---
 
@@ -10777,7 +10777,7 @@ class PeekableInterface(object):
     def hasNext(self):
         pass
 ```
-[Solution](dailyCodingProblem627.py)
+[Solution](data/dailyCodingProblem627.py)
 
 ---
 
@@ -10799,7 +10799,7 @@ a target combination, and a list of dead ends, write a
 function that returns the minimum number of moves required
 to reach the target state, or None if this is impossible.
 ```
-[Solution](dailyCodingProblem628.cpp)
+[Solution](data/dailyCodingProblem628.cpp)
 
 ---
 
@@ -10814,7 +10814,7 @@ Return this sum.
 For example, given N = [5, 1, 2, 7, 3, 4] and k = 3, you should return 8,
 since the optimal partition is [5, 1, 2], [7], [3, 4].
 ```
-[Solution](dailyCodingProblem629.cpp)
+[Solution](data/dailyCodingProblem629.cpp)
 
 ---
 
@@ -10825,7 +10825,7 @@ since the optimal partition is [5, 1, 2], [7], [3, 4].
 Implement a job scheduler which takes in a function
 f and an integer n, and calls f after n milliseconds.
 ```
-[Solution](dailyCodingProblem630.cpp)
+[Solution](data/dailyCodingProblem630.cpp)
 
 ---
 
@@ -10854,7 +10854,7 @@ In aggregate, these buildings would create a skyline that looks like the one bel
 ------------------------
 As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
 ```
-[Solution](dailyCodingProblem631.cpp)
+[Solution](data/dailyCodingProblem631.cpp)
 
 ---
 
@@ -10868,7 +10868,7 @@ at index 4 might end up at indices 3, 4, or 5.
 
 Come up with an algorithm that sorts this list in O(N log k) time.
 ```
-[Solution](dailyCodingProblem633.cpp)
+[Solution](data/dailyCodingProblem633.cpp)
 
 ---
 
@@ -10890,7 +10890,7 @@ Determine the area of the largest rectangle that can be formed only
 from the bars of the histogram. For the diagram above, for example,
 this would be six, representing the 2 x 3 area at the bottom right.
 ```
-[Solution](dailyCodingProblem634.cpp)
+[Solution](data/dailyCodingProblem634.cpp)
 
 ---
 
@@ -10914,7 +10914,7 @@ Given the regular expression ".*at" and the string "chat",
 your function should return true. The same regular expression
 on the string "chats" should return false.
 ```
-[Solution](dailyCodingProblem635.c)
+[Solution](data/dailyCodingProblem635.c)
 
 ---
 
@@ -10928,7 +10928,7 @@ You may assume the array does not contain duplicates.
 
 For example, given [5, 7, 10, 3, 4], return 3.
 ```
-[Solution](dailyCodingProblem636.cpp)
+[Solution](data/dailyCodingProblem636.cpp)
 
 ---
 
@@ -10944,7 +10944,7 @@ The input list is not necessarily ordered in any way.
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)],
 you should return [(1, 3), (4, 10), (20, 25)].
 ```
-[Solution](dailyCodingProblem637.cpp)
+[Solution](data/dailyCodingProblem637.cpp)
 
 ---
 
@@ -10958,7 +10958,7 @@ For example, given "hello world here", return "here world hello"
 Follow-up: given a mutable string representation,
 can you perform this operation in-place?
 ```
-[Solution](dailyCodingProblem638.cpp)
+[Solution](data/dailyCodingProblem638.cpp)
 
 ---
 
@@ -10975,7 +10975,7 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 then “23” should return [“ad”, “ae”, “af”, “bd”, “be”,
 “bf”, “cd”, “ce”, “cf"].
 ```
-[Solution](dailyCodingProblem639.cpp)
+[Solution](data/dailyCodingProblem639.cpp)
 
 ---
 
@@ -11005,7 +11005,7 @@ and the following transition probabilities:
 One instance of running this Markov chain might
 produce { 'a': 3012, 'b': 1656, 'c': 332 }.
 ```
-[Solution](dailyCodingProblem640.cpp)
+[Solution](data/dailyCodingProblem640.cpp)
 
 ---
 
@@ -11021,7 +11021,7 @@ you should return 7.
 
 Do this in O(N) time.
 ```
-[Solution](dailyCodingProblem641.cpp)
+[Solution](data/dailyCodingProblem641.cpp)
 
 ---
 
@@ -11035,7 +11035,7 @@ For example, starting with the word "APPLE", you can add an "A" and anagram to g
 Given a dictionary of words and an input word,
 create a function that returns all valid step words.
 ```
-[Solution](dailyCodingProblem642.cpp)
+[Solution](data/dailyCodingProblem642.cpp)
 
 ---
 
@@ -11048,7 +11048,7 @@ of three given strings. For example, given "epidemiologist", "refrigeration",
 and "supercalifragilisticexpialodocious", it should return 5,
 since the longest common subsequence is "eieio".
 ```
-[Solution](dailyCodingProblem643.cpp)
+[Solution](data/dailyCodingProblem643.cpp)
 
 ---
 
@@ -11071,7 +11071,7 @@ For example, the following tree has 5 unival subtrees:
   / \
  1   1
 ```
-[Solution](dailyCodingProblem644.cpp)
+[Solution](data/dailyCodingProblem644.cpp)
 
 ---
 
@@ -11092,7 +11092,7 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column.
 Similarly, given the target word 'MASS', you should return true, since it's the last row.
 ```
-[Solution](dailyCodingProblem645.cpp)
+[Solution](data/dailyCodingProblem645.cpp)
 
 ---
 
@@ -11121,7 +11121,7 @@ groups would be {0, 1, 2, 5}, {3, 6}, {4}.
 Given a friendship list such as the one above,
 determine the number of friend groups in the class.
 ```
-[Solution](dailyCodingProblem646.cpp)
+[Solution](data/dailyCodingProblem646.cpp)
 
 ---
 
@@ -11139,7 +11139,7 @@ it would return true, since we can split it up into
 Given the multiset {15, 5, 20, 10, 35}, it would return false,
 since we can't split it up into two subsets that add up to the same sum.
 ```
-[Solution](dailyCodingProblem647.cpp)
+[Solution](data/dailyCodingProblem647.cpp)
 
 ---
 
@@ -11150,7 +11150,7 @@ since we can't split it up into two subsets that add up to the same sum.
 Given the head to a singly linked list, where each node also has a “random” pointer
 that points to anywhere in the linked list, deep clone the list.
 ```
-[Solution](dailyCodingProblem648.cpp)
+[Solution](data/dailyCodingProblem648.cpp)
 
 ---
 
@@ -11164,7 +11164,7 @@ or null if there is no recurring character.
 For example, given the string "acbbac", return "b".
 Given the string "abcdef", return null.
 ```
-[Solution](dailyCodingProblem649.cpp)
+[Solution](data/dailyCodingProblem649.cpp)
 
 ---
 
@@ -11188,7 +11188,7 @@ For example, given the following matrix:
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers
 in the matrix smaller than 6 or greater than 23.
 ```
-[Solution](dailyCodingProblem650.cpp)
+[Solution](data/dailyCodingProblem650.cpp)
 
 ---
 
@@ -11203,7 +11203,7 @@ and satisfies the constraint that the key in the left child must
 be less than or equal to the root and the key in the right child
 must be greater than or equal to the root.
 ```
-[Solution](dailyCodingProblem651.cpp)
+[Solution](data/dailyCodingProblem651.cpp)
 
 ---
 
@@ -11217,7 +11217,7 @@ A valid playlist should select each song at least once, and guarantee a buffer o
 
 Given N, M, and B, determine the number of valid playlists.
 ```
-[Solution](dailyCodingProblem652.cpp)
+[Solution](data/dailyCodingProblem652.cpp)
 
 ---
 
@@ -11245,7 +11245,7 @@ For example, given the following rectangles:
 }
 return true as the first and third rectangle overlap each other.
 ```
-[Solution](dailyCodingProblem653.cpp)
+[Solution](data/dailyCodingProblem653.cpp)
 
 ---
 
@@ -11260,7 +11260,7 @@ Characters may appear more than once in the window.
 For example, given "jiujitsu", you should return 5,
 corresponding to the final five letters.
 ```
-[Solution](dailyCodingProblem654.cpp)
+[Solution](data/dailyCodingProblem654.cpp)
 
 ---
 
@@ -11273,7 +11273,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000,
 return 0000 1111 0000 1111 0000 1111 0000 1111.
 ```
-[Solution](dailyCodingProblem655.cpp)
+[Solution](data/dailyCodingProblem655.cpp)
 
 ---
 
@@ -11297,7 +11297,7 @@ G G G
 G G G
 B B B
 ```
-[Solution](dailyCodingProblem656.cpp)
+[Solution](data/dailyCodingProblem656.cpp)
 
 ---
 
@@ -11314,7 +11314,7 @@ For example, given the set {1, 2, 3}, it should return
 
 You may also use a list or array to represent a set.
 ```
-[Solution](dailyCodingProblem657.cpp)
+[Solution](data/dailyCodingProblem657.cpp)
 
 ---
 
@@ -11361,7 +11361,7 @@ The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
 ```
-[Solution](dailyCodingProblem658.cpp)
+[Solution](data/dailyCodingProblem658.cpp)
 
 ---
 
@@ -11375,7 +11375,7 @@ Write a program that returns the correct order of letters in this language.
 For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'],
 you should return ['x', 'z', 'w', 'y'].
 ```
-[Solution](dailyCodingProblem660.cpp)
+[Solution](data/dailyCodingProblem660.cpp)
 
 ---
 
@@ -11388,7 +11388,7 @@ without performing any multiplication, division, or bit-shift operations.
 
 Do this in O(log N) time.
 ```
-[Solution](dailyCodingProblem661.cpp)
+[Solution](data/dailyCodingProblem661.cpp)
 
 ---
 
@@ -11400,7 +11400,7 @@ Given n numbers, find the greatest common denominator between them.
 
 For example, given the numbers [42, 56, 14], return 14.
 ```
-[Solution](dailyCodingProblem662.cpp)
+[Solution](data/dailyCodingProblem662.cpp)
 
 ---
 
@@ -11417,7 +11417,7 @@ range(lower, upper): returns the number of hits that occurred between timestamps
 
 Follow-up: What if our system has limited memory?
 ```
-[Solution](dailyCodingProblem663.cpp)
+[Solution](data/dailyCodingProblem663.cpp)
 
 ---
 
@@ -11428,7 +11428,7 @@ Follow-up: What if our system has limited memory?
 Given a binary tree of integers, find the maximum path sum between two nodes.
 The path must go through at least one node, and does not need to go through the root.
 ```
-[Solution](dailyCodingProblem664.cpp)
+[Solution](data/dailyCodingProblem664.cpp)
 
 ---
 
@@ -11446,7 +11446,7 @@ If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
 ```
-[Solution](dailyCodingProblem665.cpp)
+[Solution](data/dailyCodingProblem665.cpp)
 
 ---
 
@@ -11460,7 +11460,7 @@ that the difference between the sum of the subsets is as small as possible.
 For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20},
 which has a difference of 5, which is the smallest possible difference.
 ```
-[Solution](dailyCodingProblem666.cpp)
+[Solution](data/dailyCodingProblem666.cpp)
 
 ---
 
@@ -11479,7 +11479,7 @@ points for beating a 2000-ranked player than for beating a 1300-ranked player.
 
 Implement this system.
 ```
-[Solution](dailyCodingProblem667.cpp)
+[Solution](data/dailyCodingProblem667.cpp)
 
 ---
 
@@ -11499,7 +11499,7 @@ Here is an example:
 
 Write a program to determine whether a given input is a Toeplitz matrix.
 ```
-[Solution](dailyCodingProblem668.cpp)
+[Solution](data/dailyCodingProblem668.cpp)
 
 ---
 
@@ -11528,7 +11528,7 @@ The game continues in this way until player one takes last stone and loses.
 Given a list of non-zero starting values [a, b, c], and assuming optimal play,
 determine whether the first player has a forced win.
 ```
-[Solution](dailyCodingProblem669.cpp)
+[Solution](data/dailyCodingProblem669.cpp)
 
 ---
 
@@ -11543,7 +11543,7 @@ For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4.
 
 Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 ```
-[Solution](dailyCodingProblem670.cpp)
+[Solution](data/dailyCodingProblem670.cpp)
 
 ---
 
@@ -11567,7 +11567,7 @@ The weight of the path is the sum of the entries.
 
 Write a program that returns the weight of the maximum weight path.
 ```
-[Solution](dailyCodingProblem672.cpp)
+[Solution](data/dailyCodingProblem672.cpp)
 
 ---
 
@@ -11581,7 +11581,7 @@ find the nearest k points from the central point.
 For example, given the list of points [(0, 0), (5, 4), (3, 1)],
 the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
 ```
-[Solution](dailyCodingProblem673.cpp)
+[Solution](data/dailyCodingProblem673.cpp)
 
 ---
 
@@ -11600,7 +11600,7 @@ her path that consists of just two types of apple trees.
 For example, given the input [2, 1, 2, 3, 3, 1, 3, 5],
 the longest portion will involve types 1 and 3, with a length of four.
 ```
-[Solution](dailyCodingProblem674.cpp)
+[Solution](data/dailyCodingProblem674.cpp)
 
 ---
 
@@ -11621,7 +11621,7 @@ consider the case of (coach, bus) and (coach, teacher).
 
 Follow-up: what if we can assume that (a, b) and (a, c) do in fact imply (b, c)?
 ```
-[Solution](dailyCodingProblem675.cpp)
+[Solution](data/dailyCodingProblem675.cpp)
 
 ---
 
@@ -11644,7 +11644,7 @@ And here are examples of non-numbers:
 "a -2"
 "-"
 ```
-[Solution](dailyCodingProblem676.cpp)
+[Solution](data/dailyCodingProblem676.cpp)
 
 ---
 
@@ -11665,7 +11665,7 @@ Implement this algorithm.
 Bonus: Create a generator that produces primes indefinitely
 (that is, without taking N as an input).
 ```
-[Solution](dailyCodingProblem677.cpp)
+[Solution](data/dailyCodingProblem677.cpp)
 
 ---
 
@@ -11676,7 +11676,7 @@ Bonus: Create a generator that produces primes indefinitely
 Given an integer, find the next permutation of it in absolute order.
 For example, given 48975, the next permutation would be 49578.
 ```
-[Solution](dailyCodingProblem678.cpp)
+[Solution](data/dailyCodingProblem678.cpp)
 
 ---
 
@@ -11697,7 +11697,7 @@ For example, a sorted list has zero inversions.
 The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3).
 The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 ```
-[Solution](dailyCodingProblem679.cpp)
+[Solution](data/dailyCodingProblem679.cpp)
 
 ---
 
@@ -11723,7 +11723,7 @@ app
 apr
 f
 ```
-[Solution](dailyCodingProblem680.cpp)
+[Solution](data/dailyCodingProblem680.cpp)
 
 ---
 
@@ -11743,7 +11743,7 @@ For convenience, here are the squares representing snakes and ladders, and their
 snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
-[Solution](dailyCodingProblem681.cpp)
+[Solution](data/dailyCodingProblem681.cpp)
 
 ---
 
@@ -11758,7 +11758,7 @@ You can assume that such element exists.
 
 For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 ```
-[Solution](dailyCodingProblem683.cpp)
+[Solution](data/dailyCodingProblem683.cpp)
 
 ---
 
@@ -11783,7 +11783,7 @@ and so on until we reach the end, when we return the sum of the array.
 
 Implement your own version of reduce.
 ```
-[Solution](dailyCodingProblem684.cpp)
+[Solution](data/dailyCodingProblem684.cpp)
 
 ---
 
@@ -11799,7 +11799,7 @@ Follow-up: Does your solution work for the following cases:
 "hello/world:here/",
 "hello//world:here"
 ```
-[Solution](dailyCodingProblem685.cpp)
+[Solution](data/dailyCodingProblem685.cpp)
 
 ---
 
@@ -11827,7 +11827,7 @@ In this case, removing the edge (3, 4) satisfies our requirement.
 Write a function that returns the maximum number of edges
 you can remove while still satisfying this requirement.
 ```
-[Solution](dailyCodingProblem686.cpp)
+[Solution](data/dailyCodingProblem686.cpp)
 
 ---
 
@@ -11843,7 +11843,7 @@ but may not be removed from the board.
 Design a class to represent the board, and find a series of
 steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
 ```
-[Solution](dailyCodingProblem687.cpp)
+[Solution](data/dailyCodingProblem687.cpp)
 
 ---
 
@@ -11870,7 +11870,7 @@ Given a 2-CNF formula, find a way to assign
 truth values to satisfy it, or return False
 if this is impossible.
 ```
-[Solution](dailyCodingProblem688.cpp)
+[Solution](data/dailyCodingProblem688.cpp)
 
 ---
 
@@ -11887,7 +11887,7 @@ Create a data structure that can efficiently convert a certain quantity
 of one unit to the correct amount of any other unit. You should also allow
 for additional units to be added to the system.
 ```
-[Solution](dailyCodingProblem689.cpp)
+[Solution](data/dailyCodingProblem689.cpp)
 
 ---
 
@@ -11901,7 +11901,7 @@ The subsequence does not necessarily have to be contiguous.
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15],
 the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 ```
-[Solution](dailyCodingProblem690.cpp)
+[Solution](data/dailyCodingProblem690.cpp)
 
 ---
 
@@ -11911,7 +11911,7 @@ the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 ```
 Write a function that returns the bitwise AND of all integers between M and N, inclusive.
 ```
-[Solution](dailyCodingProblem691.cpp)
+[Solution](data/dailyCodingProblem691.cpp)
 
 ---
 
@@ -11927,7 +11927,7 @@ For example, given the query string de and the set of strings
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 ```
-[Solution](dailyCodingProblem692.cpp)
+[Solution](data/dailyCodingProblem692.cpp)
 
 ---
 
@@ -11944,7 +11944,7 @@ For example, 10101010 should be 01010101.
 
 Bonus: Can you do this in one line?
 ```
-[Solution](dailyCodingProblem693.cpp)
+[Solution](data/dailyCodingProblem693.cpp)
 
 ---
 
@@ -11962,7 +11962,7 @@ The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
 ```
-[Solution](dailyCodingProblem694.cpp)
+[Solution](data/dailyCodingProblem694.cpp)
 
 ---
 
@@ -11974,7 +11974,7 @@ Given an integer n and a list of integers l,
 write a function that randomly generates a
 number from 0 to n-1 that isn't in l (uniform).
 ```
-[Solution](dailyCodingProblem695.cpp)
+[Solution](data/dailyCodingProblem695.cpp)
 
 ---
 
@@ -11993,7 +11993,7 @@ have signed up between start and end (inclusive).
 You can assume that all values get cleared at the end of the day,
 and that you will not be asked for start and end values that wrap around midnight.
 ```
-[Solution](dailyCodingProblem696.cpp)
+[Solution](data/dailyCodingProblem696.cpp)
 
 ---
 
@@ -12012,7 +12012,7 @@ remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 ```
-[Solution](dailyCodingProblem697.cpp)
+[Solution](data/dailyCodingProblem697.cpp)
 
 ---
 
@@ -12031,7 +12031,7 @@ For example, suppose the input for a three-by-six grid is the following:
 Considering the edges of the matrix as boundaries, this divides the grid
 into three triangles, so you should return 3.
 ```
-[Solution](dailyCodingProblem698.cpp)
+[Solution](data/dailyCodingProblem698.cpp)
 
 ---
 
@@ -12050,7 +12050,7 @@ Given the linked list
 1 -> 2 -> 3 -> 4 -> 5 and k = 3,
 it should become 3 -> 4 -> 5 -> 1 -> 2.
 ```
-[Solution](dailyCodingProblem699.cpp)
+[Solution](data/dailyCodingProblem699.cpp)
 
 ---
 
@@ -12083,7 +12083,7 @@ and our input flights are as follows:
 Due to some improbably low flight prices, the cheapest
 itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
 ```
-[Solution](dailyCodingProblem700.cpp)
+[Solution](data/dailyCodingProblem700.cpp)
 
 ---
 
@@ -12110,7 +12110,7 @@ return the fewest number of drinks he must learn in order to satisfy all custome
 
 For the input above, the answer would be 2, as drinks 1 and 5 will satisfy everyone.
 ```
-[Solution](dailyCodingProblem701.cpp)
+[Solution](data/dailyCodingProblem701.cpp)
 
 ---
 
@@ -12134,7 +12134,7 @@ The following test should pass:
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
-[Solution](dailyCodingProblem702.cpp)
+[Solution](data/dailyCodingProblem702.cpp)
 
 ---
 
@@ -12149,7 +12149,7 @@ at any point, however, it is not allowed to jump back on.
 
 After k moves, what is the probability that the knight remains on the board?
 ```
-[Solution](dailyCodingProblem703.cpp)
+[Solution](data/dailyCodingProblem703.cpp)
 
 ---
 
@@ -12167,7 +12167,7 @@ For example, 4 - 2 - 1 - 7 is a valid pattern, whereas 2 - 1 - 7 is not.
 
 Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 ```
-[Solution](dailyCodingProblem704.cpp)
+[Solution](data/dailyCodingProblem704.cpp)
 
 ---
 
@@ -12187,7 +12187,7 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index,
 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would
 run off to the left), so we can trap 8 units of water.
 ```
-[Solution](dailyCodingProblem705.cpp)
+[Solution](data/dailyCodingProblem705.cpp)
 
 ---
 
@@ -12205,7 +12205,7 @@ since (5 * 2 - 7) * 8 = 24.
 
 Write a function that plays the 24 game.
 ```
-[Solution](dailyCodingProblem706.cpp)
+[Solution](data/dailyCodingProblem706.cpp)
 
 ---
 
@@ -12227,7 +12227,7 @@ towers = [4, 8, 15]. In this case the minimum range
 would be 5, since that would be required for the tower
 at position 15 to reach the listener at position 20.
 ```
-[Solution](dailyCodingProblem707.cpp)
+[Solution](data/dailyCodingProblem707.cpp)
 
 ---
 
@@ -12242,7 +12242,7 @@ Otherwise, return False.
 For example, given [-6, 0, 2, 40], you should return 2.
 Given [1, 5, 7, 8], you should return False.
 ```
-[Solution](dailyCodingProblem708.cpp)
+[Solution](data/dailyCodingProblem708.cpp)
 
 ---
 
@@ -12273,7 +12273,7 @@ Down, right, down, right
 The top left corner and bottom right
 corner will always be 0.
 ```
-[Solution](dailyCodingProblem709.cpp)
+[Solution](data/dailyCodingProblem709.cpp)
 
 ---
 
@@ -12294,7 +12294,7 @@ return [] since there are no substrings composed of
 
 The order of the indices does not matter.
 ```
-[Solution](dailyCodingProblem710.cpp)
+[Solution](data/dailyCodingProblem710.cpp)
 
 ---
 
@@ -12309,7 +12309,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 ```
-[Solution](dailyCodingProblem712.cpp)
+[Solution](data/dailyCodingProblem712.cpp)
 
 ---
 
@@ -12322,7 +12322,7 @@ return the shortest standardized path.
 
 For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 ```
-[Solution](dailyCodingProblem713.cpp)
+[Solution](data/dailyCodingProblem713.cpp)
 
 ---
 
@@ -12336,7 +12336,7 @@ swap every two nodes and return its head.
 For example, given 1 -> 2 -> 3 -> 4,
 return 2 -> 1 -> 4 -> 3.
 ```
-[Solution](dailyCodingProblem714.cpp)
+[Solution](data/dailyCodingProblem714.cpp)
 
 ---
 
@@ -12350,7 +12350,7 @@ What if it’s singly linked?
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True
 while 1 -> 4 returns False.
 ```
-[Solution](dailyCodingProblem715.cpp)
+[Solution](data/dailyCodingProblem715.cpp)
 
 ---
 
@@ -12364,7 +12364,7 @@ He has a goal of minimizing cost while ensuring that no two neighboring houses a
 Given an N by K matrix where the nth row and kth column represents the cost to
 build the nth house with kth color, return the minimum cost which achieves this goal.
 ```
-[Solution](dailyCodingProblem717.cpp)
+[Solution](data/dailyCodingProblem717.cpp)
 
 ---
 
@@ -12380,7 +12380,7 @@ Given a number of bits n, generate a possible gray code for it.
 
 For example, for n = 2, one gray code would be [00, 01, 11, 10].
 ```
-[Solution](dailyCodingProblem718.cpp)
+[Solution](data/dailyCodingProblem718.cpp)
 
 ---
 
@@ -12394,7 +12394,7 @@ Spreadsheets often use this alphabetical encoding for its columns:
 Given a column number, return its alphabetical column id.
 For example, given 1, return "A". Given 27, return "AA".
 ```
-[Solution](dailyCodingProblem719.cpp)
+[Solution](data/dailyCodingProblem719.cpp)
 
 ---
 
@@ -12408,7 +12408,7 @@ and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 
 Implement an efficient sudoku solver.
 ```
-[Solution](dailyCodingProblem720.cpp)
+[Solution](data/dailyCodingProblem720.cpp)
 
 ---
 
@@ -12420,7 +12420,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that
 connect all its vertices with the smallest possible total edge weight.
 Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 ```
-[Solution](dailyCodingProblem721.cpp)
+[Solution](data/dailyCodingProblem721.cpp)
 
 ---
 
@@ -12436,7 +12436,7 @@ can sit side by side.
 What is the minimum number of swaps necessary
 for this to happen?
 ```
-[Solution](dailyCodingProblem722.cpp)
+[Solution](data/dailyCodingProblem722.cpp)
 
 ---
 
@@ -12450,7 +12450,7 @@ covers all the intervals. If there are multiple smallest sets, return any of the
 For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9],
 one set of numbers that covers all these intervals is {3, 6}.
 ```
-[Solution](dailyCodingProblem723.cpp)
+[Solution](data/dailyCodingProblem723.cpp)
 
 ---
 
@@ -12473,7 +12473,7 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 ```
-[Solution](dailyCodingProblem724.cpp)
+[Solution](data/dailyCodingProblem724.cpp)
 
 ---
 
@@ -12494,7 +12494,7 @@ and the holes are located at [10, -5, 0, 16]. In this case,
 the best pairing would require us to send the mouse at 1 to
 the hole at -5, so our function should return 6.
 ```
-[Solution](dailyCodingProblem725.cpp)
+[Solution](data/dailyCodingProblem725.cpp)
 
 ---
 
@@ -12521,7 +12521,7 @@ your algorithm should print out:
 2
 2
 ```
-[Solution](dailyCodingProblem727.cpp)
+[Solution](data/dailyCodingProblem727.cpp)
 
 ---
 
@@ -12561,7 +12561,7 @@ students = {
     5: [3]
 }
 ```
-[Solution](dailyCodingProblem728.cpp)
+[Solution](data/dailyCodingProblem728.cpp)
 
 ---
 
@@ -12581,7 +12581,7 @@ create a playlist that satisfies everyone's priorities.
 For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}.
 In this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
 ```
-[Solution](dailyCodingProblem729.cpp)
+[Solution](data/dailyCodingProblem729.cpp)
 
 ---
 
@@ -12606,7 +12606,7 @@ for f in functions:
     f()
 How can we make it print out what we apparently want?
 ```
-[Solution](dailyCodingProblem730.py)
+[Solution](data/dailyCodingProblem730.py)
 
 ---
 
@@ -12622,7 +12622,7 @@ buying and selling that stock once. You must buy before you can sell it.
 For example, given [9, 11, 8, 5, 7, 10], you should return 5,
 since you could buy the stock at 5 dollars and sell it at 10 dollars.
 ```
-[Solution](dailyCodingProblem731.cpp)
+[Solution](data/dailyCodingProblem731.cpp)
 
 ---
 
@@ -12638,7 +12638,7 @@ determine how many boats will be needed to save everyone.
 For example, given a population with weights [100, 200, 150, 80]
 and a boat limit of 200, the smallest number of boats required will be three.
 ```
-[Solution](dailyCodingProblem732.cpp)
+[Solution](data/dailyCodingProblem732.cpp)
 
 ---
 
@@ -12654,7 +12654,7 @@ or diagonally), or when there are no more spots left in the grid.
 
 Design and implement Connect 4.
 ```
-[Solution](dailyCodingProblem733.cpp)
+[Solution](data/dailyCodingProblem733.cpp)
 
 ---
 
@@ -12689,7 +12689,7 @@ d.set(1, 1, 0) # set key 1 to value 1 at time 0
 d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
-[Solution](dailyCodingProblem734.cpp)
+[Solution](data/dailyCodingProblem734.cpp)
 
 ---
 
@@ -12704,7 +12704,7 @@ An element is considered a peak if it is greater than both
 its left and right neighbors. It is guaranteed that the
 first and last elements are lower than all others.
 ```
-[Solution](dailyCodingProblem735.cpp)
+[Solution](data/dailyCodingProblem735.cpp)
 
 ---
 
@@ -12717,7 +12717,7 @@ faster than O(n) time. Recall that a complete binary tree
 has every level filled except the last, and the nodes in
 the last level are filled starting from the left.
 ```
-[Solution](dailyCodingProblem736.cpp)
+[Solution](data/dailyCodingProblem736.cpp)
 
 ---
 
@@ -12736,7 +12736,7 @@ For example, given
 {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []},
 should return ['CSC100', 'CSC200', 'CSCS300'].
 ```
-[Solution](dailyCodingProblem737.cpp)
+[Solution](data/dailyCodingProblem737.cpp)
 
 ---
 
@@ -12755,7 +12755,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog"
 and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"].
 No string in the list has a length of more than 10.
 ```
-[Solution](dailyCodingProblem738.cpp)
+[Solution](data/dailyCodingProblem738.cpp)
 
 ---
 
@@ -12773,7 +12773,7 @@ pull(): remove the item on the right end of the list.
 Implement a quack using three stacks and O(1) additional memory,
 so that the amortized time for any push, pop, or pull operation is O(1).
 ```
-[Solution](dailyCodingProblem739.cpp)
+[Solution](data/dailyCodingProblem739.cpp)
 
 ---
 
@@ -12789,7 +12789,7 @@ Babylonians keep time to tuning instruments according to the diatonic scale.
 
 Given an integer N, write a program that returns, in order, the first N regular numbers.
 ```
-[Solution](dailyCodingProblem740.cpp)
+[Solution](data/dailyCodingProblem740.cpp)
 
 ---
 
@@ -12822,7 +12822,7 @@ it should become:
 You can assume keys do not contain dots in them,
 i.e. no clobbering will occur.
 ```
-[Solution](dailyCodingProblem742.cpp)
+[Solution](data/dailyCodingProblem742.cpp)
 
 ---
 
@@ -12833,7 +12833,7 @@ i.e. no clobbering will occur.
 A bridge in a connected (undirected) graph is an edge that, if removed,
 causes the graph to become disconnected. Find all the bridges in a graph.
 ```
-[Solution](dailyCodingProblem743.cpp)
+[Solution](data/dailyCodingProblem743.cpp)
 
 ---
 
@@ -12855,7 +12855,7 @@ If no such key exists, return null.
 
 Each operation should run in O(1) time.
 ```
-[Solution](dailyCodingProblem744.cpp)
+[Solution](data/dailyCodingProblem744.cpp)
 
 ---
 
@@ -12875,7 +12875,7 @@ The check method may return occasional false positives
 part of the set), but should always correctly identify
 a true element.
 ```
-[Solution](dailyCodingProblem745.cpp)
+[Solution](data/dailyCodingProblem745.cpp)
 
 ---
 
@@ -12895,7 +12895,7 @@ If there are no elements in the stack, then it should throw an error or return n
 
 Each method should run in constant time.
 ```
-[Solution](dailyCodingProblem746.cpp)
+[Solution](data/dailyCodingProblem746.cpp)
 
 ---
 
@@ -12909,7 +12909,7 @@ can be shifted some number of times to get B.
 For example, if A is abcde and B is cdeab, return true.
 If A is abc and B is acb, return false.
 ```
-[Solution](dailyCodingProblem747.cpp)
+[Solution](data/dailyCodingProblem747.cpp)
 
 ---
 
@@ -12930,7 +12930,7 @@ For example, given the following tree:
 Return 2 as it occurs twice: once as the left leaf,
 and once as the sum of 2 + 5 - 5.
 ```
-[Solution](dailyCodingProblem748.cpp)
+[Solution](data/dailyCodingProblem748.cpp)
 
 ---
 
@@ -12944,7 +12944,7 @@ If there are more than one with the maximum length, return any one.
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb".
 The longest palindromic substring of "bananas" is "anana".
 ```
-[Solution](dailyCodingProblem749.cpp)
+[Solution](data/dailyCodingProblem749.cpp)
 
 ---
 
@@ -12956,7 +12956,7 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, generate() should return a tree whose size is unbounded but finite.
 ```
-[Solution](dailyCodingProblem750.cpp)
+[Solution](data/dailyCodingProblem750.cpp)
 
 ---
 
@@ -12969,7 +12969,7 @@ tree has O(h) space complexity, where h is the height of the tree.
 Write a program to compute the in-order traversal of a binary
 tree using O(1) space.
 ```
-[Solution](dailyCodingProblem751.cpp)
+[Solution](data/dailyCodingProblem751.cpp)
 
 ---
 
@@ -12986,7 +12986,7 @@ For example, the following should print 1, 2, 3, 4, 5.
    / \
   4   5
 ```
-[Solution](dailyCodingProblem752.cpp)
+[Solution](data/dailyCodingProblem752.cpp)
 
 ---
 
@@ -13018,7 +13018,7 @@ left child extending from cod.
 
 Implement insertion and search functions for a ternary search tree.
 ```
-[Solution](dailyCodingProblem753.cpp)
+[Solution](data/dailyCodingProblem753.cpp)
 
 ---
 
@@ -13035,7 +13035,7 @@ it from the row, and receiving the value of the coin.
 Write a program that returns the maximum amount of money you can
 win with certainty, if you move first, assuming your opponent plays optimally.
 ```
-[Solution](dailyCodingProblem754.cpp)
+[Solution](data/dailyCodingProblem754.cpp)
 
 ---
 
@@ -13076,7 +13076,7 @@ A
 
 Should return null, since we have an infinite loop.
 ```
-[Solution](dailyCodingProblem755.cpp)
+[Solution](data/dailyCodingProblem755.cpp)
 
 ---
 
@@ -13094,7 +13094,7 @@ Note that there can be multiple instances of each integer.
 Given this string, return the original integers
 in sorted order. In the example above, this would be 357.
 ```
-[Solution](dailyCodingProblem756.cpp)
+[Solution](data/dailyCodingProblem756.cpp)
 
 ---
 
@@ -13106,7 +13106,7 @@ Write a function that rotates a list by k elements.
 For example, [1, 2, 3, 4, 5, 6] rotated by two becomes
 [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list.
 ```
-[Solution](dailyCodingProblem758.cpp)
+[Solution](data/dailyCodingProblem758.cpp)
 
 ---
 
@@ -13123,7 +13123,7 @@ except for 0 itself.
 For example, given "2542540123",
 you should return ['254.25.40.123', '254.254.0.123'].
 ```
-[Solution](dailyCodingProblem759.cpp)
+[Solution](data/dailyCodingProblem759.cpp)
 
 ---
 
@@ -13134,7 +13134,7 @@ you should return ['254.25.40.123', '254.254.0.123'].
 Given a linked list, uniformly shuffle the nodes.
 What if we want to prioritize space over time?
 ```
-[Solution](dailyCodingProblem760.cpp)
+[Solution](data/dailyCodingProblem760.cpp)
 
 ---
 
@@ -13146,7 +13146,7 @@ Using a function rand7() that returns an integer from 1 to 7 (inclusive)
 with uniform probability, implement a function rand5() that returns an
 integer from 1 to 5 (inclusive).
 ```
-[Solution](dailyCodingProblem761.cpp)
+[Solution](data/dailyCodingProblem761.cpp)
 
 ---
 
@@ -13161,7 +13161,7 @@ For example, given words "hello", and "world" and a text
 content of "dog cat hello cat dog dog hello cat world",
 return 1 because there's only one word "cat" in between the two words.
 ```
-[Solution](dailyCodingProblem762.cpp)
+[Solution](data/dailyCodingProblem762.cpp)
 
 ---
 
@@ -13186,7 +13186,7 @@ in-place and you do not need to store the results.
 
 You can simply print them out as you compute them.
 ```
-[Solution](dailyCodingProblem763.cpp)
+[Solution](data/dailyCodingProblem763.cpp)
 
 ---
 
@@ -13198,7 +13198,7 @@ Given a list of numbers, create an algorithm that arranges them in order
 to form the largest possible integer. For example, given [10, 7, 76, 415],
 you should return 77641510.
 ```
-[Solution](dailyCodingProblem764.cpp)
+[Solution](data/dailyCodingProblem764.cpp)
 
 ---
 
@@ -13215,7 +13215,7 @@ one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 ```
-[Solution](dailyCodingProblem765.cpp)
+[Solution](data/dailyCodingProblem765.cpp)
 
 ---
 
@@ -13231,7 +13231,7 @@ Determine how many times you would need to apply this operation
 to ensure that all x's come before all y's. In the preceding example,
 it suffices to flip the second and sixth characters, so you should return 2.
 ```
-[Solution](dailyCodingProblem766.cpp)
+[Solution](data/dailyCodingProblem766.cpp)
 
 ---
 
@@ -13245,7 +13245,7 @@ all starting indices in S which are anagrams of W.
 For example, given that W is "ab",
 and S is "abxaba", return 0, 3, and 4.
 ```
-[Solution](dailyCodingProblem767.cpp)
+[Solution](data/dailyCodingProblem767.cpp)
 
 ---
 
@@ -13257,7 +13257,7 @@ Given an array of numbers of length N,
 find both the minimum and maximum using
 less than 2 * (N - 2) comparisons.
 ```
-[Solution](dailyCodingProblem768.cpp)
+[Solution](data/dailyCodingProblem768.cpp)
 
 ---
 
@@ -13276,7 +13276,7 @@ The second game: same, except that the stopping condition is a five followed by 
 Which of the two games should Alice elect to play? Does it even matter?
 Write a program to simulate the two games and calculate their expected value.
 ```
-[Solution](dailyCodingProblem769.cpp)
+[Solution](data/dailyCodingProblem769.cpp)
 
 ---
 
@@ -13311,7 +13311,7 @@ Given a list of non-zero starting values
 [a, b, c], and assuming optimal play,
 determine whether the first player has a forced win.
 ```
-[Solution](dailyCodingProblem770.cpp)
+[Solution](data/dailyCodingProblem770.cpp)
 
 ---
 
@@ -13328,7 +13328,7 @@ since we can map a to b, b to c, and c to d.
 Given s1 = foo and s2 = bar, return false since
 the o cannot map to two characters.
 ```
-[Solution](dailyCodingProblem771.cpp)
+[Solution](data/dailyCodingProblem771.cpp)
 
 ---
 
@@ -13342,7 +13342,7 @@ can be formed by a sequence of adjacent letters in
 the grid, using each cell at most once. Given a game
 board and a dictionary of valid words, implement a Boggle solver.
 ```
-[Solution](dailyCodingProblem772.cpp)
+[Solution](data/dailyCodingProblem772.cpp)
 
 ---
 
@@ -13364,7 +13364,7 @@ For example, a sorted list has zero inversions.
 The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3).
 The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 ```
-[Solution](dailyCodingProblem773.cpp)
+[Solution](data/dailyCodingProblem773.cpp)
 
 ---
 
@@ -13378,7 +13378,7 @@ implement readN(n) which reads n characters.
 For example, given a file with the content “Hello world”,
 three read7() returns “Hello w”, “orld” and then “”.
 ```
-[Solution](dailyCodingProblem774.cpp)
+[Solution](data/dailyCodingProblem774.cpp)
 
 ---
 
@@ -13391,7 +13391,7 @@ lectures (possibly overlapping), find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 ```
-[Solution](dailyCodingProblem775.cpp)
+[Solution](data/dailyCodingProblem775.cpp)
 
 ---
 
@@ -13412,7 +13412,7 @@ would be [2, 4, 1, 5, 3], so you should return 3.
 
 Bonus: Find an O(log N) solution if k = 2.
 ```
-[Solution](dailyCodingProblem776.cpp)
+[Solution](data/dailyCodingProblem776.cpp)
 
 ---
 
@@ -13444,7 +13444,7 @@ left child extending from cod.
 
 Implement insertion and search functions for a ternary search tree.
 ```
-[Solution](dailyCodingProblem777.cpp)
+[Solution](data/dailyCodingProblem777.cpp)
 
 ---
 
@@ -13464,7 +13464,7 @@ create a playlist that satisfies everyone's priorities.
 For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}.
 In this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
 ```
-[Solution](dailyCodingProblem778.cpp)
+[Solution](data/dailyCodingProblem778.cpp)
 
 ---
 
@@ -13485,7 +13485,7 @@ For example, if N = 1 and k = 5, we will need to try dropping
 the egg at every floor, beginning with the first, until we reach
 the fifth floor, so our solution will be 5.
 ```
-[Solution](dailyCodingProblem779.cpp)
+[Solution](data/dailyCodingProblem779.cpp)
 
 ---
 
@@ -13503,7 +13503,7 @@ For example, given
 {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []},
 should return ['CSC100', 'CSC200', 'CSCS300'].
 ```
-[Solution](dailyCodingProblem780.cpp)
+[Solution](data/dailyCodingProblem780.cpp)
 
 ---
 
@@ -13525,7 +13525,7 @@ Determine the area of the largest rectangle that can be formed only
 from the bars of the histogram. For the diagram above, for example,
 this would be six, representing the 2 x 3 area at the bottom right.
 ```
-[Solution](dailyCodingProblem781.cpp)
+[Solution](data/dailyCodingProblem781.cpp)
 
 ---
 
@@ -13545,7 +13545,7 @@ has 3 papers with at least 3 citations.
 
 Given a list of paper citations of a researcher, calculate their h-index.
 ```
-[Solution](dailyCodingProblem782.cpp)
+[Solution](data/dailyCodingProblem782.cpp)
 
 ---
 
@@ -13559,7 +13559,7 @@ subsequence in the array. The subsequence does not necessarily have to be contig
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15],
 the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 ```
-[Solution](dailyCodingProblem783.cpp)
+[Solution](data/dailyCodingProblem783.cpp)
 
 ---
 
@@ -13580,7 +13580,7 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column.
 Similarly, given the target word 'MASS', you should return true, since it's the last row.
 ```
-[Solution](dailyCodingProblem784.cpp)
+[Solution](data/dailyCodingProblem784.cpp)
 
 ---
 
@@ -13596,7 +13596,7 @@ we should return 500, since that's -10 * -10 * 5.
 
 You can assume the list has at least three integers.
 ```
-[Solution](dailyCodingProblem785.cpp)
+[Solution](data/dailyCodingProblem785.cpp)
 
 ---
 
@@ -13613,7 +13613,7 @@ of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 ```
-[Solution](dailyCodingProblem786.cpp)
+[Solution](data/dailyCodingProblem786.cpp)
 
 ---
 
@@ -13624,7 +13624,7 @@ For example, pow(2, 10) should return 1024.
 Given an integer n, find the next biggest integer with the same number of 1-bits on.
 For example, given the number 6 (0110 in binary), return 9 (1001).
 ```
-[Solution](dailyCodingProblem787.cpp)
+[Solution](data/dailyCodingProblem787.cpp)
 
 ---
 
@@ -13636,7 +13636,7 @@ Write a program that checks whether an integer is a palindrome.
 For example, 121 is a palindrome, as well as 888. 678 is not a
 palindrome. Do not convert the integer into a string.
 ```
-[Solution](dailyCodingProblem788.cpp)
+[Solution](data/dailyCodingProblem788.cpp)
 
 ---
 
@@ -13653,7 +13653,7 @@ The list [3,2,1] should return [1,2,3].
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 ```
-[Solution](dailyCodingProblem789.cpp)
+[Solution](data/dailyCodingProblem789.cpp)
 
 ---
 
@@ -13668,7 +13668,7 @@ word "APPLE", you can add an "A" and anagram to get "APPEAL".
 Given a dictionary of words and an input word, create a
 function that returns all valid step words.
 ```
-[Solution](dailyCodingProblem790.cpp)
+[Solution](data/dailyCodingProblem790.cpp)
 
 ---
 
@@ -13682,7 +13682,7 @@ throw N dice with some number of faces each to get a specific total.
 
 For example, throw_dice(3, 6, 7) should equal 15.
 ```
-[Solution](dailyCodingProblem791.cpp)
+[Solution](data/dailyCodingProblem791.cpp)
 
 ---
 
@@ -13703,7 +13703,7 @@ information, determine the lowest cost method to produce this pyramid.
 For example, given the stones [1, 1, 3, 3, 2, 1], the optimal
 solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
 ```
-[Solution](dailyCodingProblem792.cpp)
+[Solution](data/dailyCodingProblem792.cpp)
 
 ---
 
@@ -13732,7 +13732,7 @@ You should convert it to:
         /   \
        6     7
 ```
-[Solution](dailyCodingProblem793.cpp)
+[Solution](data/dailyCodingProblem793.cpp)
 
 ---
 
@@ -13750,7 +13750,7 @@ If there are no elements in the stack, then it should throw an error or return n
 
 Each method should run in constant time.
 ```
-[Solution](dailyCodingProblem794.cpp)
+[Solution](data/dailyCodingProblem794.cpp)
 
 ---
 
@@ -13764,7 +13764,7 @@ returns 0 or 1 with a probability that's not 50-50
 
 Write a function to simulate an unbiased coin toss.
 ```
-[Solution](dailyCodingProblem795.cpp)
+[Solution](data/dailyCodingProblem795.cpp)
 
 ---
 
@@ -13790,7 +13790,7 @@ and [c, d] is another solution with c <= d, then
 [a, b] < [c, d]
 If a < c OR a==c AND b < d.
 ```
-[Solution](dailyCodingProblem797.cpp)
+[Solution](data/dailyCodingProblem797.cpp)
 
 ---
 
@@ -13810,7 +13810,7 @@ consider the case of (coach, bus) and (coach, teacher).
 
 Follow-up: what if we can assume that (a, b) and (a, c) do in fact imply (b, c)?
 ```
-[Solution](dailyCodingProblem798.cpp)
+[Solution](data/dailyCodingProblem798.cpp)
 
 ---
 
@@ -13832,7 +13832,7 @@ assert mapsum.sum("col") == 3
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
-[Solution](dailyCodingProblem799.cpp)
+[Solution](data/dailyCodingProblem799.cpp)
 
 ---
 
@@ -13845,7 +13845,7 @@ that they appear in alternating low -> high -> low -> high ... form.
 For example, given 1 -> 2 -> 3 -> 4 -> 5,
 you should return 1 -> 3 -> 2 -> 5 -> 4.
 ```
-[Solution](dailyCodingProblem800.cpp)
+[Solution](data/dailyCodingProblem800.cpp)
 
 ---
 
@@ -13857,7 +13857,7 @@ Let's define a "sevenish" number to be one which is either a power of 7,
 or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on.
 Create an algorithm to find the nth sevenish number.
 ```
-[Solution](dailyCodingProblem801.cpp)
+[Solution](data/dailyCodingProblem801.cpp)
 
 ---
 
@@ -13874,7 +13874,7 @@ For example, given the numbers [1, 2, 3, 4] and probabilities
 
 You can generate random numbers between 0 and 1 uniformly.
 ```
-[Solution](dailyCodingProblem802.cpp)
+[Solution](data/dailyCodingProblem802.cpp)
 
 ---
 
@@ -13904,7 +13904,7 @@ so in this case you should return False:
 
 {123456: 4, 345678: 4, 567890: 4}
 ```
-[Solution](dailyCodingProblem803.cpp)
+[Solution](data/dailyCodingProblem803.cpp)
 
 ---
 
@@ -13937,7 +13937,7 @@ and our input flights are as follows:
 Due to some improbably low flight prices, the cheapest itinerary
 would be JFK -> ATL -> ORD -> LAX, costing $440.
 ```
-[Solution](dailyCodingProblem804.cpp)
+[Solution](data/dailyCodingProblem804.cpp)
 
 ---
 
@@ -13951,7 +13951,7 @@ Spreadsheets often use this alphabetical encoding for its columns:
 Given a column number, return its alphabetical column id.
 For example, given 1, return "A". Given 27, return "AA".
 ```
-[Solution](dailyCodingProblem805.cpp)
+[Solution](data/dailyCodingProblem805.cpp)
 
 ---
 
@@ -13975,7 +13975,7 @@ For example, given the following matrix:
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as
 there are 15 numbers in the matrix smaller than 6 or greater than 23.
 ```
-[Solution](dailyCodingProblem806.cpp)
+[Solution](data/dailyCodingProblem806.cpp)
 
 ---
 
@@ -13989,7 +13989,7 @@ of the longest substring that contains at most k distinct characters.
 For example, given s = "abcba" and k = 2, the longest
 substring with k distinct characters is "bcb".
 ```
-[Solution](dailyCodingProblem807.cpp)
+[Solution](data/dailyCodingProblem807.cpp)
 
 ---
 
@@ -14002,7 +14002,7 @@ of a binary tree has O(h) space complexity, where h
 is the height of the tree. Write a program to compute
 the in-order traversal of a binary tree using O(1) space.
 ```
-[Solution](dailyCodingProblem808.cpp)
+[Solution](data/dailyCodingProblem808.cpp)
 
 ---
 
@@ -14017,7 +14017,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 ```
-[Solution](dailyCodingProblem809.cpp)
+[Solution](data/dailyCodingProblem809.cpp)
 
 ---
 
@@ -14043,7 +14043,7 @@ For example, given the following tree:
 
 You should return [1, 3, 2, 4, 5, 6, 7].
 ```
-[Solution](dailyCodingProblem810.cpp)
+[Solution](data/dailyCodingProblem810.cpp)
 
 ---
 
@@ -14068,7 +14068,7 @@ app
 apr
 f
 ```
-[Solution](dailyCodingProblem811.cpp)
+[Solution](data/dailyCodingProblem811.cpp)
 
 ---
 
@@ -14087,7 +14087,7 @@ for beating a 2000-ranked player than for beating a 1300-ranked player.
 
 Implement this system.
 ```
-[Solution](dailyCodingProblem812.cpp)
+[Solution](data/dailyCodingProblem812.cpp)
 
 ---
 
@@ -14102,7 +14102,7 @@ the 10 into a 1 to make the array non-decreasing.
 Given the array [10, 5, 1], you should return false, since we can't modify any one
 element to get a non-decreasing array.
 ```
-[Solution](dailyCodingProblem813.cpp)
+[Solution](data/dailyCodingProblem813.cpp)
 
 ---
 
@@ -14130,7 +14130,7 @@ return 124 (99 + 25) as:
 
 4 -> 2 -> 1
 ```
-[Solution](dailyCodingProblem814.cpp)
+[Solution](data/dailyCodingProblem814.cpp)
 
 ---
 
@@ -14143,7 +14143,7 @@ Estimate π to 3 decimal places using a Monte Carlo method.
 
 Hint: The basic equation of a circle is x2 + y2 = r2.
 ```
-[Solution](dailyCodingProblem815.cpp)
+[Solution](data/dailyCodingProblem815.cpp)
 
 ---
 
@@ -14154,7 +14154,7 @@ Hint: The basic equation of a circle is x2 + y2 = r2.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0,
 using only mathematical or bit operations. You can assume b can only be 1 or 0.
 ```
-[Solution](dailyCodingProblem816.cpp)
+[Solution](data/dailyCodingProblem816.cpp)
 
 ---
 
@@ -14174,7 +14174,7 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond',
 and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond]
 or ['bedbath', 'and', 'beyond'].
 ```
-[Solution](dailyCodingProblem817.cpp)
+[Solution](data/dailyCodingProblem817.cpp)
 
 ---
 
@@ -14196,7 +14196,7 @@ Implement this algorithm.
 Bonus: Create a generator that produces primes indefinitely
 (that is, without taking N as an input).
 ```
-[Solution](dailyCodingProblem818.cpp)
+[Solution](data/dailyCodingProblem818.cpp)
 
 ---
 
@@ -14212,7 +14212,7 @@ You must buy before you can sell it.
 For example, given [9, 11, 8, 5, 7, 10], you should return 5,
 since you could buy the stock at 5 dollars and sell it at 10 dollars.
 ```
-[Solution](dailyCodingProblem819.cpp)
+[Solution](data/dailyCodingProblem819.cpp)
 
 ---
 
@@ -14230,7 +14230,7 @@ The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
 ```
-[Solution](dailyCodingProblem820.cpp)
+[Solution](data/dailyCodingProblem820.cpp)
 
 ---
 
@@ -14245,7 +14245,7 @@ Otherwise, return False.
 For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8],
 you should return False.
 ```
-[Solution](dailyCodingProblem821.cpp)
+[Solution](data/dailyCodingProblem821.cpp)
 
 ---
 
@@ -14261,7 +14261,7 @@ The input list is not necessarily ordered in any way.
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)],
 you should return [(1, 3), (4, 10), (20, 25)].
 ```
-[Solution](dailyCodingProblem822.cpp)
+[Solution](data/dailyCodingProblem822.cpp)
 
 ---
 
@@ -14277,7 +14277,7 @@ init(size): initialize the array with size
 set(i, val): updates index at i with val where val is either 1 or 0.
 get(i): gets the value at index i.
 ```
-[Solution](dailyCodingProblem823.cpp)
+[Solution](data/dailyCodingProblem823.cpp)
 
 ---
 
@@ -14292,7 +14292,7 @@ values of the corresponding nodes of the input trees.
 If only one input tree has a node in a given position,
 the corresponding node in the new tree should match that input node.
 ```
-[Solution](dailyCodingProblem824.cpp)
+[Solution](data/dailyCodingProblem824.cpp)
 
 ---
 
@@ -14306,7 +14306,7 @@ elements and give the output in sorted order.
 For example, given [-9, -2, 0, 2, 3],
 return [0, 4, 4, 9, 81].
 ```
-[Solution](dailyCodingProblem825.cpp)
+[Solution](data/dailyCodingProblem825.cpp)
 
 ---
 
@@ -14329,7 +14329,7 @@ towers = [4, 8, 15]. In this case the minimum range would be 5,
 since that would be required for the tower at position 15 to
 reach the listener at position 20.
 ```
-[Solution](dailyCodingProblem827.cpp)
+[Solution](data/dailyCodingProblem827.cpp)
 
 ---
 
@@ -14346,7 +14346,7 @@ For example, if N = 3, and our integers are [1, 2, 3], there are two ways, shown
  / \    / \
 1   2  2   1
 ```
-[Solution](dailyCodingProblem828.cpp)
+[Solution](data/dailyCodingProblem828.cpp)
 
 ---
 
@@ -14361,7 +14361,7 @@ minus: Decrement the value of a key. If the key's value is currently 1, remove i
 get_max: Return a key with the highest value.
 get_min: Return a key with the lowest value.
 ```
-[Solution](dailyCodingProblem829.cpp)
+[Solution](data/dailyCodingProblem829.cpp)
 
 ---
 
@@ -14373,7 +14373,7 @@ Given a list of numbers, create an algorithm that arranges
 them in order to form the largest possible integer.
 For example, given [10, 7, 76, 415], you should return 77641510.
 ```
-[Solution](dailyCodingProblem830.cpp)
+[Solution](data/dailyCodingProblem830.cpp)
 
 ---
 
@@ -14393,7 +14393,7 @@ return [] since there are no substrings composed of "dog" and "cat" in s.
 
 The order of the indices does not matter.
 ```
-[Solution](dailyCodingProblem831.cpp)
+[Solution](data/dailyCodingProblem831.cpp)
 
 ---
 
@@ -14407,7 +14407,7 @@ longest subarray where all its elements are distinct.
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1],
 return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 ```
-[Solution](dailyCodingProblem832.cpp)
+[Solution](data/dailyCodingProblem832.cpp)
 
 ---
 
@@ -14424,7 +14424,7 @@ knows person b, else False.
 Given a list of N people and the above operation,
 find a way to identify the celebrity in O(N) time.
 ```
-[Solution](dailyCodingProblem833.cpp)
+[Solution](data/dailyCodingProblem833.cpp)
 
 ---
 
@@ -14440,7 +14440,7 @@ can sit side by side.
 What is the minimum number of swaps necessary
 for this to happen?
 ```
-[Solution](dailyCodingProblem834.cpp)
+[Solution](data/dailyCodingProblem834.cpp)
 
 ---
 
@@ -14452,7 +14452,7 @@ Given a string and a set of characters, return the shortest substring containing
 For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 If there is no substring containing all the characters in the set, return null.
 ```
-[Solution](dailyCodingProblem835.cpp)
+[Solution](data/dailyCodingProblem835.cpp)
 
 ---
 
@@ -14469,7 +14469,7 @@ It should run in O(N) time.
 Hint: Make sure each one of the 52! permutations
 of the deck is equally likely.
 ```
-[Solution](dailyCodingProblem836.cpp)
+[Solution](data/dailyCodingProblem836.cpp)
 
 ---
 
@@ -14487,7 +14487,7 @@ All other characters must be lowercase letters, separators (,,;,:) or terminal m
 There must be a single space between each word.
 The sentence must end with a terminal mark immediately following a word.
 ```
-[Solution](dailyCodingProblem837.cpp)
+[Solution](data/dailyCodingProblem837.cpp)
 
 ---
 
@@ -14507,7 +14507,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 ```
-[Solution](dailyCodingProblem838.cpp)
+[Solution](data/dailyCodingProblem838.cpp)
 
 ---
 
@@ -14526,7 +14526,7 @@ t     a     g
   i i   i z
    s     g
 ```
-[Solution](dailyCodingProblem840.cpp)
+[Solution](data/dailyCodingProblem840.cpp)
 
 ---
 
@@ -14541,7 +14541,7 @@ satisfy the following conditions:
 a + b = M
 a XOR b = N
 ```
-[Solution](dailyCodingProblem841.cpp)
+[Solution](data/dailyCodingProblem841.cpp)
 
 ---
 
@@ -14566,7 +14566,7 @@ should become:
  \  / \
   f e  d
 ```
-[Solution](dailyCodingProblem842.cpp)
+[Solution](data/dailyCodingProblem842.cpp)
 
 ---
 
@@ -14577,7 +14577,7 @@ should become:
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string.
 For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
 ```
-[Solution](dailyCodingProblem843.cpp)
+[Solution](data/dailyCodingProblem843.cpp)
 
 ---
 
@@ -14604,7 +14604,7 @@ Given a 2-CNF formula, find a way to assign
 truth values to satisfy it, or return False
 if this is impossible.
 ```
-[Solution](dailyCodingProblem844.cpp)
+[Solution](data/dailyCodingProblem844.cpp)
 
 ---
 
@@ -14616,7 +14616,7 @@ Write a function that rotates a list by k elements.
 For example, [1, 2, 3, 4, 5, 6] rotated by two becomes
 [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list.
 ```
-[Solution](dailyCodingProblem845.cpp)
+[Solution](data/dailyCodingProblem845.cpp)
 
 ---
 
@@ -14635,7 +14635,7 @@ def cons(a, b):
     return pair
 Implement car and cdr.
 ```
-[Solution](dailyCodingProblem846.py)
+[Solution](data/dailyCodingProblem846.py)
 
 ---
 
@@ -14648,7 +14648,7 @@ determine whether you can reach to the last index starting at index 0.
 
 For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 ```
-[Solution](dailyCodingProblem847.cpp)
+[Solution](data/dailyCodingProblem847.cpp)
 
 ---
 
@@ -14667,7 +14667,7 @@ remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 ```
-[Solution](dailyCodingProblem848.cpp)
+[Solution](data/dailyCodingProblem848.cpp)
 
 ---
 
@@ -14683,7 +14683,7 @@ It is conjectured that every such sequence eventually reaches the number 1. Test
 
 Bonus: What input n <= 1000000 gives the longest sequence?
 ```
-[Solution](dailyCodingProblem849.cpp)
+[Solution](data/dailyCodingProblem849.cpp)
 
 ---
 
@@ -14700,7 +14700,7 @@ and one possible solution would be 00010111.
 
 Create an algorithm that finds a De Bruijn sequence.
 ```
-[Solution](dailyCodingProblem850.cpp)
+[Solution](data/dailyCodingProblem850.cpp)
 
 ---
 
@@ -14714,7 +14714,7 @@ still leaving the graph connected. For example, any binary tree is minimally-con
 Given an undirected graph, check if the graph is minimally-connected.
 You can choose to represent the graph as either an adjacency matrix or adjacency list.
 ```
-[Solution](dailyCodingProblem851.cpp)
+[Solution](data/dailyCodingProblem851.cpp)
 
 ---
 
@@ -14729,6 +14729,6 @@ the numbers 3, 4, and 8 where the 8 is obtained from wrapping around.
 
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 ```
-[Solution](dailyCodingProblem852.cpp)
+[Solution](data/dailyCodingProblem852.cpp)
 
 ---
