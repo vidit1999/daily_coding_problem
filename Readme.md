@@ -14766,3 +14766,121 @@ No string in the list has a length of more than 10.
 [Solution](data/dailyCodingProblem854.cpp)
 
 ---
+
+
+#### Problem No. 855
+
+```
+You have an N by N board. Write a function that, given N,
+returns the number of possible arrangements of the board where
+N queens can be placed on the board without threatening each other,
+i.e. no two queens share the same row, column, or diagonal.
+```
+[Solution](data/dailyCodingProblem855.cpp)
+
+---
+
+
+#### Problem No. 856
+
+```
+You are given a list of (website, user) pairs that represent users visiting websites.
+Come up with a program that identifies the top k pairs of websites with the greatest similarity.
+
+For example, suppose k = 1, and the list of tuples is:
+
+[('a', 1), ('a', 3), ('a', 5),
+ ('b', 2), ('b', 6),
+ ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5)
+ ('d', 4), ('d', 5), ('d', 6), ('d', 7),
+ ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
+
+Then a reasonable similarity metric would most likely conclude that a and e are
+the most similar, so your program should return [('a', 'e')].
+```
+[Solution](data/dailyCodingProblem856.cpp)
+
+---
+
+
+#### Problem No. 857
+
+```
+You are given a binary tree in a peculiar string representation.
+Each node is written in the form (lr), where l corresponds to the
+left child and r corresponds to the right child.
+
+If either l or r is null, it will be represented as a zero.
+Otherwise, it will be represented by a new (lr) pair.
+
+Here are a few examples:
+
+A root node with no children: (00)
+A root node with two children: ((00)(00))
+An unbalanced tree with three consecutive left children: ((((00)0)0)0)
+
+Given this representation, determine the depth of the tree.
+```
+[Solution](data/dailyCodingProblem857.cpp)
+
+---
+
+
+#### Problem No. 858
+
+```
+Compute the running median of a sequence of numbers.
+That is, given a stream of numbers, print out the median
+of the list so far on each new element.
+
+Recall that the median of an even-numbered list is the
+average of the two middle numbers.
+
+For example, given the sequence [2, 1, 5, 7, 2, 0, 5],
+your algorithm should print out:
+
+2
+1.5
+2
+3.5
+2
+2
+2
+```
+[Solution](data/dailyCodingProblem858.cpp)
+
+---
+
+
+#### Problem No. 859
+
+```
+The horizontal distance of a binary tree node describes
+how far left or right the node will be when the tree is printed out.
+
+More rigorously, we can define it as follows:
+
+The horizontal distance of the root is 0.
+The horizontal distance of a left child is hd(parent) - 1.
+The horizontal distance of a right child is hd(parent) + 1.
+For example, for the following tree, hd(1) = -2, and hd(6) = 0.
+
+             5
+          /     \
+        3         7
+      /  \      /   \
+    1     4    6     9
+   /                /
+  0                8
+
+The bottom view of a tree, then, consists of the lowest node
+at each horizontal distance. If there are two nodes at the
+same depth and horizontal distance, either is acceptable.
+
+For this tree, for example, the bottom view could be [0, 1, 3, 6, 8, 9].
+
+Given the root to a binary tree, return its bottom view.
+```
+[Solution](data/dailyCodingProblem859.cpp)
+
+---
