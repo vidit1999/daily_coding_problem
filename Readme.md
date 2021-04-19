@@ -14884,3 +14884,41 @@ Given the root to a binary tree, return its bottom view.
 [Solution](data/dailyCodingProblem859.cpp)
 
 ---
+
+
+#### Problem No. 860
+
+```
+Implement regular expression matching with the following special characters:
+
+. (period) which matches any single character
+* (asterisk) which matches zero or more of the preceding element
+That is, implement a function that takes in a string and a valid regular expression
+and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray",
+your function should return true. The same regular expression on the
+string "raymond" should return false.
+
+Given the regular expression ".*at" and the string "chat",
+your function should return true. The same regular expression
+on the string "chats" should return false.
+```
+[Solution](data/dailyCodingProblem860.cpp)
+
+---
+
+
+#### Problem No. 861
+
+```
+A knight is placed on a given square on an 8 x 8 chessboard.
+It is then moved randomly several times, where each move is a
+standard knight move. If the knight jumps off the board at any
+point, however, it is not allowed to jump back on.
+
+After k moves, what is the probability that the knight remains on the board?
+```
+[Solution](data/dailyCodingProblem861.cpp)
+
+---
