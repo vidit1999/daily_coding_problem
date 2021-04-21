@@ -14922,3 +14922,27 @@ After k moves, what is the probability that the knight remains on the board?
 [Solution](data/dailyCodingProblem861.cpp)
 
 ---
+
+
+#### Problem No. 862
+
+```
+A bridge in a connected (undirected) graph is an edge that,
+if removed, causes the graph to become disconnected.
+Find all the bridges in a graph.
+```
+[Solution](data/dailyCodingProblem862.cpp)
+
+---
+
+
+#### Problem No. 863
+
+```
+Generate a finite, but an arbitrarily large binary tree quickly in O(1).
+
+That is, generate() should return a tree whose size is unbounded but finite.
+```
+[Solution](data/dailyCodingProblem863.cpp)
+
+---
