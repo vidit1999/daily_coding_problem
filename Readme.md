@@ -15028,3 +15028,17 @@ Write a program that returns the weight of the maximum weight path.
 [Solution](data/dailyCodingProblem867.cpp)
 
 ---
+
+
+#### Problem No. 868
+
+```
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, carrace should return true, since it can be rearranged to
+form racecar, which is a palindrome. daily should return false, since
+there's no rearrangement that can form a palindrome.
+```
+[Solution](data/dailyCodingProblem868.cpp)
+
+---
