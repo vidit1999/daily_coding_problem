@@ -15075,3 +15075,37 @@ Return 4.
 [Solution](data/dailyCodingProblem870.cpp)
 
 ---
+
+
+#### Problem No. 872
+
+```
+Create an algorithm to efficiently compute
+the approximate median of a list of numbers.
+
+More precisely, given an unordered list of N numbers,
+find an element whose rank is between N / 4 and 3 * N / 4,
+with a high level of certainty, in less than O(N) time.
+```
+[Solution](data/dailyCodingProblem872.cpp)
+
+---
+
+
+#### Problem No. 873
+
+```
+Given an arithmetic expression in Reverse Polish Notation,
+write a program to evaluate it.
+
+The expression is given as a list of numbers and operands.
+For example: [5, 3, '+'] should return 5 + 3 = 8.
+
+For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']
+should return 5, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
+
+You can assume the given expression is always valid.
+```
+[Solution](data/dailyCodingProblem873.cpp)
+
+---
