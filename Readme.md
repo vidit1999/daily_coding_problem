@@ -15184,3 +15184,18 @@ Come up with an algorithm that sorts this list in O(N log k) time.
 [Solution](data/dailyCodingProblem876.cpp)
 
 ---
+
+
+#### Problem No. 877
+
+```
+Given two non-empty binary trees s and t,
+check whether tree t has exactly the same
+structure and node values with a subtree of s.
+A subtree of s is a tree consists of a node in
+s and all of this node's descendants. The tree
+s could also be considered as a subtree of itself.
+```
+[Solution](data/dailyCodingProblem877.cpp)
+
+---
