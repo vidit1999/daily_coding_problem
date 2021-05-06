@@ -15199,3 +15199,15 @@ s could also be considered as a subtree of itself.
 [Solution](data/dailyCodingProblem877.cpp)
 
 ---
+
+
+#### Problem No. 878
+
+```
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+```
+[Solution](data/dailyCodingProblem878.cpp)
+
+---
