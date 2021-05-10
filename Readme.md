@@ -15227,3 +15227,55 @@ Bonus: Can you do this in one pass?
 [Solution](data/dailyCodingProblem879.cpp)
 
 ---
+
+
+#### Problem No. 880
+
+```
+Given a string, split it into as few strings as possible
+such that each string is a palindrome.
+
+For example, given the input string racecarannakayak,
+return ["racecar", "anna", "kayak"].
+
+Given the input string abc, return ["a", "b", "c"].
+```
+[Solution](data/dailyCodingProblem880.cpp)
+
+---
+
+
+#### Problem No. 881
+
+```
+Implement a 2D iterator class. It will be initialized with an array of arrays,
+and should implement the following methods:
+
+next(): returns the next element in the array of arrays. If there are no more elements,
+raise an exception.
+has_next(): returns whether or not the iterator still has elements left.
+For example, given the input [[1, 2], [3], [], [4, 5, 6]],
+calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
+
+Do not use flatten or otherwise clone the arrays.
+Some of the arrays can be empty.
+```
+[Solution](data/dailyCodingProblem881.cpp)
+
+---
+
+
+#### Problem No. 882
+
+```
+An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing.
+The remaining tiles are labeled 1 through 8 but shuffled randomly.
+Tiles may slide horizontally or vertically into an empty space,
+but may not be removed from the board.
+
+Design a class to represent the board, and find a series of
+steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
+```
+[Solution](data/dailyCodingProblem882.cpp)
+
+---
