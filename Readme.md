@@ -15327,3 +15327,34 @@ it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 [Solution](data/dailyCodingProblem885.cpp)
 
 ---
+
+
+#### Problem No. 886
+
+```
+The edit distance between two strings refers to the minimum
+number of character insertions, deletions, and substitutions
+required to change one string to the other. For example, the
+edit distance between “kitten” and “sitting” is three:
+substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
+```
+[Solution](data/dailyCodingProblem886.cpp)
+
+---
+
+
+#### Problem No. 887
+
+```
+The ancient Egyptians used to express fractions as a sum of several
+terms where each numerator is one. For example, 4 / 13 can be
+represented as 1 / 4 + 1 / 18 + 1 / 468.
+
+Create an algorithm to turn an ordinary fraction a / b, where a < b,
+into an Egyptian fraction.
+```
+[Solution](data/dailyCodingProblem887.cpp)
+
+---
