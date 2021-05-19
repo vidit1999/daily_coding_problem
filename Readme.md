@@ -15409,3 +15409,22 @@ Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 [Solution](data/dailyCodingProblem890.cpp)
 
 ---
+
+
+#### Problem No. 891
+
+```
+You are given a 2-d matrix where each cell consists of either /, \, or an empty space.
+Write an algorithm that determines into how many regions the slashes divide the space.
+
+For example, suppose the input for a three-by-six grid is the following:
+
+\    /
+ \  /
+  \/
+Considering the edges of the matrix as boundaries, this divides the grid
+into three triangles, so you should return 3.
+```
+[Solution](data/dailyCodingProblem891.cpp)
+
+---
