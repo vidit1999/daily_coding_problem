@@ -15459,3 +15459,61 @@ build the nth house with kth color, return the minimum cost which achieves this 
 [Solution](data/dailyCodingProblem893.cpp)
 
 ---
+
+
+#### Problem No. 894
+
+```
+Design and implement a HitCounter class that keeps track of requests (or hits).
+It should support the following operations:
+
+record(timestamp): records a hit that happened at timestamp
+total(): returns the total number of hits recorded
+range(lower, upper): returns the number of hits that occurred between timestamps
+lower and upper (inclusive)
+
+Follow-up: What if our system has limited memory?
+```
+[Solution](data/dailyCodingProblem894.cpp)
+
+---
+
+
+#### Problem No. 895
+
+```
+Given a string which we can delete at most k,
+return whether you can make a palindrome.
+
+For example, given 'waterrfetawx' and a k of 2,
+you could delete f and x to get 'waterretaw'.
+```
+[Solution](data/dailyCodingProblem895.cpp)
+
+---
+
+
+#### Problem No. 896
+
+```
+Implement division of two positive integers without using the division,
+multiplication, or modulus operators. Return the quotient as an integer,
+ignoring the remainder.
+```
+[Solution](data/dailyCodingProblem896.cpp)
+
+---
+
+
+#### Problem No. 897
+
+```
+Implement a queue using two stacks.
+
+Recall that a queue is a FIFO (first-in, first-out) data structure with
+the following methods: enqueue, which inserts an element into the queue,
+and dequeue, which removes it.
+```
+[Solution](data/dailyCodingProblem897.cpp)
+
+---
