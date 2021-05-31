@@ -15575,7 +15575,7 @@ Do this in O(N) time.
 ---
 
 
-#### Problem No. 901
+#### Problem No. 902
 
 ```
 Given a collection of intervals, find the minimum number of intervals you
@@ -15589,6 +15589,38 @@ return 1 as the last interval can be removed and the first two won't overlap.
 
 The intervals are not necessarily sorted in any order.
 ```
-[Solution](data/dailyCodingProblem901.cpp)
+[Solution](data/dailyCodingProblem902.cpp)
+
+---
+
+
+#### Problem No. 903
+
+```
+Given an array of numbers and a number k,
+determine if there are three entries in the array
+which add up to the specified number k. For example,
+given [20, 303, 3, 4, 25] and k = 49,
+return true as 20 + 4 + 25 = 49.
+```
+[Solution](data/dailyCodingProblem903.cpp)
+
+---
+
+
+#### Problem No. 904
+
+```
+Given the root of a binary tree,
+return a deepest node.
+For example, in the following tree, return d.
+
+    a
+   / \
+  b   c
+ /
+d
+```
+[Solution](data/dailyCodingProblem904.cpp)
 
 ---
