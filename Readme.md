@@ -15624,3 +15624,30 @@ d
 [Solution](data/dailyCodingProblem904.cpp)
 
 ---
+
+
+#### Problem No. 905
+
+```
+Given a list of words, determine whether the words can be chained to form a circle.
+A word X can be placed in front of another word Y in a circle if the last character
+of X is same as the first character of Y.
+
+For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can
+form the following circle: chair --> racket --> touch --> height --> tunic --> chair.
+```
+[Solution](data/dailyCodingProblem905.cpp)
+
+---
+
+
+#### Problem No. 906
+
+```
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points.
+For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)],
+return [(-1, -1), (1, 1)].
+```
+[Solution](data/dailyCodingProblem906.cpp)
+
+---
