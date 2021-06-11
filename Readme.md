@@ -1,6 +1,12 @@
 # Daily Coing Problem Solutions
 
-Solutions of *daily coding problems*. Most of the files contain corresponding questions in it.
+Solutions of *daily coding problems*.
+Most of the files contain corresponding questions in it.
+
+Solutions are licensed under [MIT License](License.md).
+
+Questions(and/or problem statements) are taken from [dailycodingproblem.com](https://www.dailycodingproblem.com/).
+So, if anyone wants to use the questions(and/or problem statements), they may go through their [Terms and Conditions](https://www.dailycodingproblem.com/terms-of-service).
 
 ---
 
