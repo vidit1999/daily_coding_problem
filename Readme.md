@@ -15674,3 +15674,113 @@ For example, for n = 2, one gray code would be [00, 01, 11, 10].
 [Solution](data/dailyCodingProblem907.cpp)
 
 ---
+
+
+#### Problem No. 908
+
+```
+You are given an N by M 2D matrix of lowercase letters.
+Determine the minimum number of columns that can be
+removed to ensure that each row is ordered from top
+to bottom lexicographically. That is, the letter at
+each column is lexicographically later as you go down
+each row. It does not matter whether each row itself
+is ordered lexicographically.
+
+For example, given the following table:
+
+cba
+daf
+ghi
+
+This is not ordered because of the a in the center.
+We can remove the second column to make it ordered:
+
+ca
+df
+gi
+
+So your function should return 1,
+since we only needed to remove 1 column.
+
+As another example, given the following table:
+
+abcdef
+
+Your function should return 0,
+since the rows are already ordered (there's only one row).
+
+As another example, given the following table:
+
+zyx
+wvu
+tsr
+
+Your function should return 3,
+since we would need to remove all the columns to order it.
+```
+[Solution](data/dailyCodingProblem908.cpp)
+
+---
+
+
+#### Problem No. 909
+
+```
+Given a set of closed intervals, find the smallest set of numbers that
+covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9],
+one set of numbers that covers all these intervals is {3, 6}.
+```
+[Solution](data/dailyCodingProblem909.cpp)
+
+---
+
+
+#### Problem No. 910
+
+```
+You are given an array of integers, where each element represents
+the maximum number of steps that can be jumped going forward from
+that element. Write a function to return the minimum number of
+jumps you must take in order to get from the start to the end of the array.
+
+For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2,
+as the optimal solution involves jumping from 6 to 5, and then from 5 to 9.
+```
+[Solution](data/dailyCodingProblem910.cpp)
+
+---
+
+
+#### Problem No. 911
+
+```
+Given a stream of elements too large to store in memory,
+pick a random element from the stream with uniform probability.
+```
+[Solution](data/dailyCodingProblem911.cpp)
+
+---
+
+
+#### Problem No. 912
+
+```
+Two nodes in a binary tree can be called cousins if
+they are on the same level of the tree but have different parents.
+For example, in the following diagram 4 and 6 are cousins.
+
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+
+Given a binary tree and a particular node,
+find all cousins of that node.
+```
+[Solution](data/dailyCodingProblem912.cpp)
+
+---
