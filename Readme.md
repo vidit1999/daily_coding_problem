@@ -15826,3 +15826,13 @@ which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
 [Solution](data/dailyCodingProblem915.cpp)
 
 ---
+
+
+#### Problem No. 916
+
+```
+Given the head of a singly linked list, reverse it in-place.
+```
+[Solution](data/dailyCodingProblem916.cpp)
+
+---
