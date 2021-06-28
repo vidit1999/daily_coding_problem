@@ -15946,3 +15946,15 @@ where h is the height of the tree.
 [Solution](data/dailyCodingProblem922.cpp)
 
 ---
+
+
+#### Problem No. 923
+
+```
+Given a 32-bit positive integer N,
+determine whether it is a power
+of four in faster than O(log N) time.
+```
+[Solution](data/dailyCodingProblem923.cpp)
+
+---
