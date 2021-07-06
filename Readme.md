@@ -16056,3 +16056,17 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 [Solution](data/dailyCodingProblem928.cpp)
 
 ---
+
+
+#### Problem No. 930
+
+```
+Given a linked list, sort it in O(n log n) time and constant space.
+
+For example, the linked list
+4 -> 1 -> -3 -> 99 should
+become -3 -> 1 -> 4 -> 99.
+```
+[Solution](data/dailyCodingProblem930.cpp)
+
+---
