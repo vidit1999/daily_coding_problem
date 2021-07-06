@@ -16070,3 +16070,15 @@ become -3 -> 1 -> 4 -> 99.
 [Solution](data/dailyCodingProblem930.cpp)
 
 ---
+
+
+#### Problem No. 931
+
+```
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers [42, 56, 14], return 14.
+```
+[Solution](data/dailyCodingProblem931.cpp)
+
+---
