@@ -16097,3 +16097,17 @@ For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4].
 [Solution](data/dailyCodingProblem933.cpp)
 
 ---
+
+
+#### Problem No. 934
+
+```
+Given a string, return the first recurring character in it,
+or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b".
+Given the string "abcdef", return null.
+```
+[Solution](data/dailyCodingProblem934.cpp)
+
+---
