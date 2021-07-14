@@ -16144,3 +16144,17 @@ and the range [4, 9], return 23 (5 + 4 + 6 + 8).
 [Solution](data/dailyCodingProblem936.cpp)
 
 ---
+
+
+#### Problem No. 937
+
+```
+You're given a string consisting solely of (, ), and *. *
+can represent either a (, ), or an empty string.
+Determine whether the parentheses are balanced.
+
+For example, (()* and (*) are balanced. )*( is not balanced.
+```
+[Solution](data/dailyCodingProblem937.cpp)
+
+---

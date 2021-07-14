@@ -41,8 +41,8 @@ int bstRangeSum(node* root, pair<int, int>& range){
 
     int sum = (root->data>=range.first && root->data<=range.second) ? root->data : 0;
 
-    if(root->data >= range.first) sum += bstRangeSum(root->left, range);
-    if(root->data <= range.second) sum += bstRangeSum(root->right, range);
+    if(root->data > range.first) sum += bstRangeSum(root->left, range);
+    if(root->data < range.second) sum += bstRangeSum(root->right, range);
 
     return sum;
 }
