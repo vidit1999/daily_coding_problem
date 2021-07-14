@@ -16123,3 +16123,24 @@ of the two subtrees of any node never differ by more than one.
 [Solution](data/dailyCodingProblem935.cpp)
 
 ---
+
+
+#### Problem No. 936
+
+```
+Given a binary search tree and a range [a, b] (inclusive),
+return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+
+and the range [4, 9], return 23 (5 + 4 + 6 + 8).
+```
+[Solution](data/dailyCodingProblem936.cpp)
+
+---
