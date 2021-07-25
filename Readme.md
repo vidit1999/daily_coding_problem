@@ -16413,3 +16413,19 @@ Move 1 to 3
 [Solution](data/dailyCodingProblem948.cpp)
 
 ---
+
+
+#### Problem No. 949
+
+```
+Implement an autocomplete system. That is, given a query string s and
+a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+For example, given the query string de and the set of strings
+[dog, deer, deal], return [deer, deal].
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+```
+[Solution](data/dailyCodingProblem949.cpp)
+
+---
