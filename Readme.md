@@ -16527,3 +16527,88 @@ For example, the following tree has 5 unival subtrees:
 [Solution](data/dailyCodingProblem954.cpp)
 
 ---
+
+
+#### Problem No. 955
+
+```
+Suppose an arithmetic expression is given as a binary tree.
+Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+
+You should return 45, as it is (3 + 2) * (4 + 5).
+```
+[Solution](data/dailyCodingProblem955.cpp)
+
+---
+
+
+#### Problem No. 956
+
+```
+Given k sorted singly linked lists, write a function to merge
+all the lists into one sorted singly linked list.
+```
+[Solution](data/dailyCodingProblem956.cpp)
+
+---
+
+
+#### Problem No. 957
+
+```
+The skyline of a city is composed of several buildings of various widths and heights,
+possibly overlapping one another when viewed from a distance. We can represent the
+buildings using an array of (left, right, height) tuples, which tell us where on an
+imaginary x-axis a building begins and ends, and how tall it is. The skyline itself
+can be described by a list of (x, height) tuples, giving the locations at which the
+height visible to a distant observer changes, and each new height.
+
+Given an array of buildings as described above, create a function that returns the skyline.
+
+For example, suppose the input consists of the buildings [(0, 15, 3), (4, 11, 5), (19, 23, 4)].
+In aggregate, these buildings would create a skyline that looks like the one below.
+
+     ______  
+    |      |        ___
+ ___|      |___    |   | 
+|   |   B  |   |   | C |
+| A |      | A |   |   |
+|   |      |   |   |   |
+------------------------
+As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
+```
+[Solution](data/dailyCodingProblem957.cpp)
+
+---
+
+
+#### Problem No. 958
+
+```
+Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs,
+and a starting airport, compute the person's itinerary. If no such itinerary exists, return null.
+If there are multiple possible itineraries, return the lexicographically smallest one.
+All flights must be used in the itinerary.
+
+For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')]
+and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
+
+Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
+
+Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A',
+you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C']
+is also a valid itinerary. However, the first one is lexicographically smaller.
+```
+[Solution](data/dailyCodingProblem958.cpp)
+
+---
