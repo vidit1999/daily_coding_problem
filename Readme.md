@@ -16732,3 +16732,99 @@ and returns whether it is a valid UTF-8 encoding.
 [Solution](data/dailyCodingProblem965.cpp)
 
 ---
+
+
+#### Problem No. 966
+
+```
+Given the head to a singly linked list, where each node also has a “random” pointer
+that points to anywhere in the linked list, deep clone the list.
+```
+[Solution](data/dailyCodingProblem966.cpp)
+
+---
+
+
+#### Problem No. 967
+
+```
+You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}.
+By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+```
+[Solution](data/dailyCodingProblem967.cpp)
+
+---
+
+
+#### Problem No. 968
+
+```
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
+
+On the ith jump, you may move exactly i places to the left or right.
+
+Find a path with the fewest number of jumps required to get from 0 to N.
+```
+[Solution](data/dailyCodingProblem968.cpp)
+
+---
+
+
+#### Problem No. 969
+
+```
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix.
+A 1 represents land and 0 represents water, so an island is a group of
+1s that are neighboring whose perimeter is surrounded by water.
+
+For example, this matrix has 4 islands.
+
+1 0 0 0 0
+0 0 1 1 0
+0 1 1 0 0
+0 0 0 0 0
+1 1 0 0 1
+1 1 0 0 1
+```
+[Solution](data/dailyCodingProblem969.cpp)
+
+---
+
+
+#### Problem No. 970
+
+```
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+
+init(arr, size): initialize with the original large array and size.
+set(i, val): updates index at i with val.
+get(i): gets the value at index i.
+```
+[Solution](data/dailyCodingProblem970.cpp)
+
+---
+
+
+#### Problem No. 971
+
+```
+Given an N by N matrix, rotate it by 90 degrees clockwise.
+
+For example, given the following matrix:
+
+[[1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]]
+you should return:
+
+[[7, 4, 1],
+ [8, 5, 2],
+ [9, 6, 3]]
+
+Follow-up: What if you couldn't use any extra space?
+```
+[Solution](data/dailyCodingProblem971.cpp)
+
+---
