@@ -16828,3 +16828,125 @@ Follow-up: What if you couldn't use any extra space?
 [Solution](data/dailyCodingProblem971.cpp)
 
 ---
+
+
+#### Problem No. 972
+
+```
+Given a string with repeated characters, rearrange the string so that no two adjacent
+characters are the same. If this is not possible, return None.
+
+For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
+```
+[Solution](data/dailyCodingProblem972.cpp)
+
+---
+
+
+#### Problem No. 972
+
+```
+Given a string with repeated characters, rearrange the string so that no two adjacent
+characters are the same. If this is not possible, return None.
+
+For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
+```
+[Solution](data/dailyCodingProblem972.cpp)
+
+---
+
+
+#### Problem No. 973
+
+```
+Given the mapping a = 1, b = 2, ... z = 26, and an encoded message,
+count the number of ways it can be decoded.
+
+For example, the message '111' would give 3, since it could be
+decoded as 'aaa', 'ka', and 'ak'.
+
+You can assume that the messages are decodable.
+For example, '001' is not allowed.
+```
+[Solution](data/dailyCodingProblem973.cpp)
+
+---
+
+
+#### Problem No. 975
+
+```
+You are going on a road trip, and would like to create a suitable music playlist.
+The trip will require N songs, though you only have M songs downloaded, where M < N.
+A valid playlist should select each song at least once, and guarantee a buffer of B songs between repeats.
+
+Given N, M, and B, determine the number of valid playlists.
+```
+[Solution](data/dailyCodingProblem975.cpp)
+
+---
+
+
+#### Problem No. 976
+
+```
+A cryptarithmetic puzzle is a mathematical game where the digits of some numbers
+are represented by letters. Each letter represents a unique digit.
+
+For example, a puzzle of the form:
+
+  SEND
++ MORE
+--------
+ MONEY
+
+may have the solution:
+{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+
+Given a three-word puzzle like the one above,
+create an algorithm that finds a solution.
+```
+[Solution](data/dailyCodingProblem976.cpp)
+
+---
+
+
+#### Problem No. 977
+
+```
+Implement a URL shortener with the following methods:
+
+shorten(url), which shortens the url into a six-character alphanumeric string,
+such as zLg6wl.
+
+restore(short), which expands the shortened string into the original url.
+If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+```
+[Solution](data/dailyCodingProblem977.cpp)
+
+---
+
+
+#### Problem No. 978
+
+```
+Given a string, return whether it represents a number.
+Here are the different kinds of numbers:
+
+"10", a positive integer
+"-10", a negative integer
+"10.1", a positive real number
+"-10.1", a negative real number
+"1e5", a number in scientific notation
+And here are examples of non-numbers:
+
+"a"
+"x 1"
+"a -2"
+"-"
+```
+[Solution](data/dailyCodingProblem978.cpp)
+
+---
