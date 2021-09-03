@@ -16950,3 +16950,134 @@ And here are examples of non-numbers:
 [Solution](data/dailyCodingProblem978.cpp)
 
 ---
+
+
+#### Problem No. 979
+
+```
+Conway's Game of Life takes place on an infinite two-dimensional board of square cells.
+Each cell is either dead or alive, and at each tick, the following rules apply:
+
+Any live cell with less than two live neighbours dies.
+Any live cell with two or three live neighbours remains living.
+Any live cell with more than three live neighbours dies.
+Any dead cell with exactly three live neighbours becomes a live cell.
+A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
+
+Implement Conway's Game of Life. It should be able to be initialized with a starting
+list of live cell coordinates and the number of steps it should run for.
+Once initialized, it should print out the board state at each step.
+Since it's an infinite board, print out only the relevant coordinates,
+i.e. from the top-leftmost live cell to bottom-rightmost live cell.
+
+You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
+```
+[Solution](data/dailyCodingProblem979.cpp)
+
+---
+
+
+#### Problem No. 980
+
+```
+On our special chessboard, two bishops attack each other if they share the same diagonal.
+This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
+
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard.
+Write a function to count the number of pairs of bishops that attack each other.
+The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+For example, given M = 5 and the list of bishops:
+
+(0, 0)
+(1, 2)
+(2, 2)
+(4, 0)
+The board would look like this:
+
+[b 0 0 0 0]
+[0 0 b 0 0]
+[0 0 b 0 0]
+[0 0 0 0 0]
+[b 0 0 0 0]
+You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+```
+[Solution](data/dailyCodingProblem980.cpp)
+
+---
+
+
+#### Problem No. 981
+
+```
+Describe an algorithm to compute the longest
+increasing subsequence of an array of numbers in O(n log n) time.
+```
+[Solution](data/dailyCodingProblem981.cpp)
+
+---
+
+
+#### Problem No. 982
+
+```
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees.
+For example, 16891 is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with N digits.
+```
+[Solution](data/dailyCodingProblem982.cpp)
+
+---
+
+
+#### Problem No. 983
+
+```
+Given a binary tree,
+return all paths from the root to leaves.
+
+For example, given the tree:
+
+   1
+  / \
+ 2   3
+    / \
+   4   5
+
+Return [[1, 2], [1, 3, 4], [1, 3, 5]].
+```
+[Solution](data/dailyCodingProblem983.cpp)
+
+---
+
+
+#### Problem No. 984
+
+```
+Given a string of parentheses, find the balanced string that can be produced from it
+using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+```
+[Solution](data/dailyCodingProblem984.cpp)
+
+---
+
+
+#### Problem No. 985
+
+```
+One way to unlock an Android phone is through a pattern of swipes across a 1-9 keypad.
+
+For a pattern to be valid, it must satisfy the following:
+
+All of its keys must be distinct.
+It must not connect two keys by jumping over a third key, unless that key has already been used.
+For example, 4 - 2 - 1 - 7 is a valid pattern, whereas 2 - 1 - 7 is not.
+
+Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
+```
+[Solution](data/dailyCodingProblem985.cpp)
+
+---
