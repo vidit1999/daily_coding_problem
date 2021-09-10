@@ -17081,3 +17081,73 @@ Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 [Solution](data/dailyCodingProblem985.cpp)
 
 ---
+
+
+#### Problem No. 986
+
+```
+Given an integer n, return the length of the
+longest consecutive run of 1s in its binary representation.
+
+For example, given 156, you should return 3.
+```
+[Solution](data/dailyCodingProblem986.cpp)
+
+---
+
+
+#### Problem No. 987
+
+```
+Given an array of numbers and an index i, return the index of
+the nearest larger number of the number at index i, where distance is measured in array indices.
+
+For example, given [4, 1, 3, 5, 6] and index 0, you should return 3.
+
+If two distances to larger numbers are the equal, then return
+any one of them. If the array at i doesn't have a nearest larger integer, then return null.
+
+Follow-up: If you can preprocess the array, can you do this in constant time?
+```
+[Solution](data/dailyCodingProblem987.cpp)
+
+---
+
+
+#### Problem No. 988
+
+```
+Given a positive integer n, find the smallest
+number of squared integers which sum to n.
+
+For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4.
+
+Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
+```
+[Solution](data/dailyCodingProblem988.cpp)
+
+---
+
+
+#### Problem No. 990
+
+```
+There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time.
+Given N, write a function that returns the number of unique ways you can climb the staircase.
+The order of the steps matters.
+
+For example, if N is 4, then there are 5 unique ways:
+
+1, 1, 1, 1
+2, 1, 1
+1, 2, 1
+1, 1, 2
+2, 2
+
+What if, instead of being able to climb 1 or 2 steps at a time,
+you could climb any number from a set of positive integers X? For example,
+if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
+```
+[Solution](data/dailyCodingProblem990.cpp)
+
+---
