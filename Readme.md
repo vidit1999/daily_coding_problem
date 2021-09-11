@@ -17151,3 +17151,13 @@ if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 [Solution](data/dailyCodingProblem990.cpp)
 
 ---
+
+
+#### Problem No. 992
+
+```
+Given the root to a binary search tree, find the second largest node in the tree.
+```
+[Solution](data/dailyCodingProblem992.cpp)
+
+---
