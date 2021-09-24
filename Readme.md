@@ -17161,3 +17161,143 @@ Given the root to a binary search tree, find the second largest node in the tree
 [Solution](data/dailyCodingProblem992.cpp)
 
 ---
+
+
+#### Problem No. 993
+
+```
+Given a list of elements, find the majority element,
+which appears more than half the time (> floor(len(lst) / 2.0)).
+
+You can assume that such element exists.
+
+For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
+```
+[Solution](data/dailyCodingProblem993.cpp)
+
+---
+
+
+#### Problem No. 994
+
+```
+Print the nodes in a binary tree level-wise.
+For example, the following should print 1, 2, 3, 4, 5.
+
+  1
+ / \
+2   3
+   / \
+  4   5
+```
+[Solution](data/dailyCodingProblem994.cpp)
+
+---
+
+
+#### Problem No. 995
+
+```
+Given an array of integers, return a new array such that each element
+at index i of the new array is the product of all the numbers in the original array except the one at i.
+
+For example, if our input was [1, 2, 3, 4, 5], the expected output would be
+[120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+
+Follow-up: what if you can't use division?
+```
+[Solution](data/dailyCodingProblem995.cpp)
+
+---
+
+
+#### Problem No. 996
+
+```
+Recall that the minimum spanning tree is the subset of edges of a tree that
+connect all its vertices with the smallest possible total edge weight.
+Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
+```
+[Solution](data/dailyCodingProblem996.cpp)
+
+---
+
+
+#### Problem No. 997
+
+```
+Given the root to a binary tree, implement serialize(root),
+which serializes the tree into a string, and deserialize(s),
+which deserializes the string back into the tree.
+
+For example, given the following Node class
+
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+The following test should pass:
+
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
+[Solution](data/dailyCodingProblem997.cpp)
+
+---
+
+
+#### Problem No. 998
+
+```
+Given an undirected graph represented as an adjacency matrix and an integer k,
+write a function to determine whether each vertex in the graph can be colored
+such that no two adjacent vertices share the same color using at most k colors
+```
+[Solution](data/dailyCodingProblem998.cpp)
+
+---
+
+
+#### Problem No. 999
+
+```
+Suppose you have a multiplication table that is N by N. That is, a 2D array where the value
+at the i-th row and j-th column is (i + 1) * (j + 1) (if 0-indexed) or i * j (if 1-indexed).
+
+Given integers N and X, write a function that returns the number of times X appears as a
+value in an N by N multiplication table.
+
+For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
+
+| 1 | 2 | 3 | 4 | 5 | 6 |
+
+| 2 | 4 | 6 | 8 | 10 | 12 |
+
+| 3 | 6 | 9 | 12 | 15 | 18 |
+
+| 4 | 8 | 12 | 16 | 20 | 24 |
+
+| 5 | 10 | 15 | 20 | 25 | 30 |
+
+| 6 | 12 | 18 | 24 | 30 | 36 |
+
+And there are 4 12's in the table
+```
+[Solution](data/dailyCodingProblem999.cpp)
+
+---
+
+
+#### Problem No. 1000
+
+```
+Suppose an array sorted in ascending order is rotated at some pivot
+unknown to you beforehand. Find the minimum element in O(log N) time.
+You may assume the array does not contain duplicates.
+
+For example, given [5, 7, 10, 3, 4], return 3.
+```
+[Solution](data/dailyCodingProblem1000.cpp)
+
+---
