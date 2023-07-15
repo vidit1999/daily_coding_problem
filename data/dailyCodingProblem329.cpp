@@ -24,8 +24,8 @@ way that no two people of opposite sex would both rather be with each
 other than with their current partners.
 */
 
-// gal => women behind this mess
-// guy1 => already hooked with her, guy2 => trying hard to get her
+// gal is already paired with guy1
+// guy2 => trying to match with her
 bool galPreferMore(
 	unordered_map<string, vector<string>> gal_preferences,
 	string gal, string guy1, string guy2

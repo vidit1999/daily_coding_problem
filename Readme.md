@@ -1,6 +1,6 @@
 # Daily Coing Problem Solutions
 
-Solutions of *daily coding problems*.
+Solutions of *daily coding problems*. This is for educational purpose only.
 Most of the files contain corresponding questions in it.
 
 Solutions are licensed under [MIT License](License.md).
